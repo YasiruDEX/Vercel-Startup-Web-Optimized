@@ -200,7 +200,6 @@ export function MainScreenLanding() {
             muted
             loop
             preload="metadata"
-            }}
           />
         </div>
 
