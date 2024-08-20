@@ -77,7 +77,7 @@ export function MainScreenLanding() {
               </div>
             </div>
   
-            <img
+            <Image
               src="/banner_main.jpg"
               width="1270"
               height="600"
@@ -220,7 +220,7 @@ export function MainScreenLanding() {
         <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
           <span className="sr-only">View</span>
         </Link>
-        <img
+        <Image
           src="/product.png"
           alt="TechBot"
           width={400}
@@ -238,7 +238,7 @@ export function MainScreenLanding() {
         <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
           <span className="sr-only">View</span>
         </Link>
-        <img
+        <Image
           src="/product.png"
           alt="Cosmo Robot"
           width={400}
@@ -256,7 +256,7 @@ export function MainScreenLanding() {
         <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
           <span className="sr-only">View</span>
         </Link>
-        <img
+        <Image
           src="/product.png"
           alt="Criminal Face Generation"
           width={400}
@@ -274,7 +274,7 @@ export function MainScreenLanding() {
         <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
           <span className="sr-only">View</span>
         </Link>
-        <img
+        <Image
           src="/product.png"
           alt="Vision-Language Navigation"
           width={400}
@@ -292,7 +292,7 @@ export function MainScreenLanding() {
         <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
           <span className="sr-only">View</span>
         </Link>
-        <img
+        <Image
           src="/product.png"
           alt="Ratatouille Micromouse"
           width={400}
@@ -326,7 +326,7 @@ export function MainScreenLanding() {
             </Link>
             <div className="flex flex-col items-center justify-center gap-2 p-4 transition-all duration-300 group-hover:bg-muted">
               <div className="relative h-24 w-24 overflow-hidden rounded-full">
-                <img
+                <Image
                   src="/user_icon.jpeg"
                   alt="Avatar"
                   width={96}
@@ -347,7 +347,7 @@ export function MainScreenLanding() {
             </Link>
             <div className="flex flex-col items-center justify-center gap-2 p-4 transition-all duration-300 group-hover:bg-muted">
               <div className="relative h-24 w-24 overflow-hidden rounded-full">
-                <img
+                <Image
                   src="/user_icon.jpeg"
                   alt="Avatar"
                   width={96}
@@ -368,7 +368,7 @@ export function MainScreenLanding() {
             </Link>
             <div className="flex flex-col items-center justify-center gap-2 p-4 transition-all duration-300 group-hover:bg-muted">
               <div className="relative h-24 w-24 overflow-hidden rounded-full">
-                <img
+                <Image
                   src="/user_icon.jpeg"
                   alt="Avatar"
                   width={96}
@@ -389,7 +389,7 @@ export function MainScreenLanding() {
             </Link>
             <div className="flex flex-col items-center justify-center gap-2 p-4 transition-all duration-300 group-hover:bg-muted">
               <div className="relative h-24 w-24 overflow-hidden rounded-full">
-                <img
+                <Image
                   src="/user_icon.jpeg"
                   alt="Avatar"
                   width={96}
@@ -410,7 +410,7 @@ export function MainScreenLanding() {
             </Link>
             <div className="flex flex-col items-center justify-center gap-2 p-4 transition-all duration-300 group-hover:bg-muted">
               <div className="relative h-24 w-24 overflow-hidden rounded-full">
-                <img
+                <Image
                   src="/user_icon.jpeg"
                   alt="Avatar"
                   width={96}
@@ -431,7 +431,7 @@ export function MainScreenLanding() {
             </Link>
             <div className="flex flex-col items-center justify-center gap-2 p-4 transition-all duration-300 group-hover:bg-muted">
               <div className="relative h-24 w-24 overflow-hidden rounded-full">
-                <img
+                <Image
                   src="/user_icon.jpeg"
                   alt="Avatar"
                   width={96}
@@ -452,7 +452,7 @@ export function MainScreenLanding() {
             </Link>
             <div className="flex flex-col items-center justify-center gap-2 p-4 transition-all duration-300 group-hover:bg-muted">
               <div className="relative h-24 w-24 overflow-hidden rounded-full">
-                <img
+                <Image
                   src="/user_icon.jpeg"
                   alt="Avatar"
                   width={96}
@@ -473,7 +473,7 @@ export function MainScreenLanding() {
             </Link>
             <div className="flex flex-col items-center justify-center gap-2 p-4 transition-all duration-300 group-hover:bg-muted">
               <div className="relative h-24 w-24 overflow-hidden rounded-full">
-                <img
+                <Image
                   src="/user_icon.jpeg"
                   alt="Avatar"
                   width={96}
