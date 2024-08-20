@@ -590,9 +590,10 @@ export function MainScreenLanding() {
   )
 }
 
-function CloudIcon(any: props) {
+function CloudIcon() {
   return (
     <svg
+      
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
@@ -609,9 +610,10 @@ function CloudIcon(any: props) {
 }
 
 
-function CodeIcon(any: props) {
+function CodeIcon() {
   return (
     <svg
+      
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
@@ -629,9 +631,10 @@ function CodeIcon(any: props) {
 }
 
 
-function DatabaseIcon(any: props) {
+function DatabaseIcon() {
   return (
     <svg
+      
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
@@ -650,9 +653,10 @@ function DatabaseIcon(any: props) {
 }
 
 
-function MailIcon(any: props) {
+function MailIcon() {
   return (
     <svg
+      
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
@@ -670,9 +674,10 @@ function MailIcon(any: props) {
 }
 
 
-function MapPinIcon(any: props) {
+function MapPinIcon() {
   return (
     <svg
+      
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
@@ -690,9 +695,10 @@ function MapPinIcon(any: props) {
 }
 
 
-function MountainIcon(any: props) {
+function MountainIcon() {
   return (
     <svg
+      
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
@@ -709,10 +715,10 @@ function MountainIcon(any: props) {
 }
 
 
-function PhoneIcon(any: props) {
+function PhoneIcon() {
   return (
     <svg
-
+      
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
@@ -729,9 +735,10 @@ function PhoneIcon(any: props) {
 }
 
 
-function PowerIcon(any: props) {
+function PowerIcon() {
   return (
     <svg
+      
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
@@ -749,9 +756,10 @@ function PowerIcon(any: props) {
 }
 
 
-function RocketIcon(any: props) {
+function RocketIcon() {
   return (
     <svg
+      
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
@@ -771,9 +779,10 @@ function RocketIcon(any: props) {
 }
 
 
-function SmartphoneIcon(any: props) {
+function SmartphoneIcon() {
   return (
     <svg
+      
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
@@ -790,9 +799,10 @@ function SmartphoneIcon(any: props) {
   )
 }
 
-function ComputerIcon(any: props) {
+function ComputerIcon() {
   return (
     <svg
+      
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
@@ -812,9 +822,10 @@ function ComputerIcon(any: props) {
 }
 
 
-function InfoIcon(any: props) {
+function InfoIcon() {
   return (
     <svg
+      
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
@@ -832,9 +843,10 @@ function InfoIcon(any: props) {
   )
 }
 
-function ArrowUpIcon(any: props) {
+function ArrowUpIcon() {
   return (
     <svg
+      
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
@@ -851,9 +863,10 @@ function ArrowUpIcon(any: props) {
   )
 }
 
-function ArrowRightIcon(any: props) {
+function ArrowRightIcon() {
   return (
     <svg
+      
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
