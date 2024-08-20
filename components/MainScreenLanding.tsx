@@ -105,7 +105,7 @@ export function MainScreenLanding() {
             <div className="grid gap-1">
               <h3 className="text-lg font-bold">Our Mission</h3>
               <p className="text-sm text-muted-foreground">
-                To be the trusted partner in our clients' digital transformation journey, enabling them to stay ahead of the
+                To be the trusted partner in our clients&apos; digital transformation journey, enabling them to stay ahead of the
                 curve and achieve their business goals.
               </p>
             </div>
@@ -498,7 +498,7 @@ export function MainScreenLanding() {
           <div className="space-y-3">
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Get in Touch</h2>
             <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Have a project in mind or need our expertise? Fill out the form below and we'll get back to you as soon as
+              Have a project in mind or need our expertise? Fill out the form below and we&apos;ll get back to you as soon as
               possible.
             </p>
           </div>
