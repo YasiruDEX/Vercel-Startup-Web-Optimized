@@ -200,11 +200,6 @@ export function MainScreenLanding() {
             muted
             loop
             preload="metadata"
-            onLoadedMetadata={(e) => e.target.play()}
-            onMouseEnter={(e) => e.target.play()}
-            onMouseLeave={(e) => {
-              e.target.pause();
-              e.target.currentTime = 0;
             }}
           />
         </div>
