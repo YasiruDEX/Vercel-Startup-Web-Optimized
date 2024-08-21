@@ -153,7 +153,7 @@ export function MainScreenLanding() {
             <div className="grid gap-1">
               <h3 className="text-lg font-bold">Our Mission</h3>
               <p className="text-sm text-muted-foreground">
-                To be the trusted partner in our clients' digital transformation
+                To be the trusted partner in our clients&apos; digital transformation
                 journey, enabling them to stay ahead of the curve and achieve
                 their business goals.
               </p>
@@ -815,7 +815,7 @@ export function MainScreenLanding() {
             </h2>
             <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               Have a project in mind or need our expertise? Fill out the form
-              below and we'll get back to you as soon as possible.
+              below and we&apos;ll get back to you as soon as possible.
             </p>
           </div>
           <div className="mx-auto w-full max-w-sm space-y-4">
@@ -926,7 +926,7 @@ export function MainScreenLanding() {
   );
 }
 
-function CloudIcon(props) {
+function CloudIcon(props: any) {
   return (
     <svg
       {...props}
@@ -945,7 +945,7 @@ function CloudIcon(props) {
   );
 }
 
-function CodeIcon(props) {
+function CodeIcon(props: any) {
   return (
     <svg
       {...props}
@@ -965,7 +965,7 @@ function CodeIcon(props) {
   );
 }
 
-function DatabaseIcon(props) {
+function DatabaseIcon(props: any) {
   return (
     <svg
       {...props}
@@ -986,7 +986,7 @@ function DatabaseIcon(props) {
   );
 }
 
-function MailIcon(props) {
+function MailIcon(props: any) {
   return (
     <svg
       {...props}
@@ -1006,7 +1006,7 @@ function MailIcon(props) {
   );
 }
 
-function MapPinIcon(props) {
+function MapPinIcon(props: any) {
   return (
     <svg
       {...props}
@@ -1026,7 +1026,7 @@ function MapPinIcon(props) {
   );
 }
 
-function MountainIcon(props) {
+function MountainIcon(props: any) {
   return (
     <svg
       {...props}
@@ -1045,7 +1045,7 @@ function MountainIcon(props) {
   );
 }
 
-function PhoneIcon(props) {
+function PhoneIcon(props: any) {
   return (
     <svg
       {...props}
@@ -1064,7 +1064,7 @@ function PhoneIcon(props) {
   );
 }
 
-function PowerIcon(props) {
+function PowerIcon(props: any) {
   return (
     <svg
       {...props}
@@ -1084,7 +1084,7 @@ function PowerIcon(props) {
   );
 }
 
-function RocketIcon(props) {
+function RocketIcon(props: any) {
   return (
     <svg
       {...props}
@@ -1106,7 +1106,7 @@ function RocketIcon(props) {
   );
 }
 
-function SmartphoneIcon(props) {
+function SmartphoneIcon(props: any) {
   return (
     <svg
       {...props}
@@ -1126,7 +1126,7 @@ function SmartphoneIcon(props) {
   );
 }
 
-function ComputerIcon(props) {
+function ComputerIcon(props: any) {
   return (
     <svg
       {...props}
@@ -1148,7 +1148,7 @@ function ComputerIcon(props) {
   );
 }
 
-function InfoIcon(props) {
+function InfoIcon(props: any) {
   return (
     <svg
       {...props}
@@ -1169,7 +1169,7 @@ function InfoIcon(props) {
   );
 }
 
-function ArrowUpIcon(props) {
+function ArrowUpIcon(props: any) {
   return (
     <svg
       {...props}
@@ -1189,7 +1189,7 @@ function ArrowUpIcon(props) {
   );
 }
 
-function ArrowRightIcon(props) {
+function ArrowRightIcon(props: any) {
   return (
     <svg
       {...props}
