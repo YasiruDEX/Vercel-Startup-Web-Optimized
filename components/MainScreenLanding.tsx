@@ -71,12 +71,19 @@ export function MainScreenLanding() {
             Contact
           </Link>
         </nav>
-        <Button
-          className="hidden md:flex h-8 px-4 rounded-lg bg-primary/30 text-primary-foreground font-medium transition-colors hover:bg-primary/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-          style={{ borderRadius: "30px", overflow: "hidden" }}
+        <a
+          href="https://api.whatsapp.com/send/?phone=94714745349"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          Get Started
-        </Button>
+          <Button
+            className="hidden md:flex h-8 px-4 rounded-lg bg-primary/30 text-primary-foreground font-medium transition-colors hover:bg-primary/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+            style={{ borderRadius: "30px", overflow: "hidden" }}
+          >
+            Get Started
+          </Button>
+        </a>
+
         <div className="md:hidden flex items-center ml-4">
           <button
             id="menu-toggle"
@@ -144,12 +151,18 @@ export function MainScreenLanding() {
           >
             Contact
           </Link>
-          <Button
-            className="w-full h-10 rounded-lg bg-primary/30 text-primary-foreground font-medium transition-colors hover:bg-primary/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-            style={{ borderRadius: "30px", overflow: "hidden" }}
+          <a
+            href="https://api.whatsapp.com/send/?phone=94714745349"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Get Started
-          </Button>
+            <Button
+              className="hidden md:flex h-8 px-4 rounded-lg bg-primary/30 text-primary-foreground font-medium transition-colors hover:bg-primary/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+              style={{ borderRadius: "30px", overflow: "hidden" }}
+            >
+              Get Started
+            </Button>
+          </a>
         </div>
       </header>
 
@@ -179,12 +192,18 @@ export function MainScreenLanding() {
                     className="flex-1 h-12 px-4 border border-input focus:ring-1 focus:ring-primary focus:border-primary"
                     style={{ borderRadius: "30px", overflow: "hidden" }}
                   />
-                  <Button
-                    className="h-12 px-5 bg-primary text-primary-foreground font-medium transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
-                    style={{ borderRadius: "30px", overflow: "hidden" }}
+                  <a
+                    href="https://api.whatsapp.com/send/?phone=94714745349"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    Get Started
-                  </Button>
+                    <Button
+                      className="h-12 px-5 bg-primary text-primary-foreground font-medium transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
+                      style={{ borderRadius: "30px", overflow: "hidden" }}
+                    >
+                      Get Started
+                    </Button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -460,7 +479,7 @@ export function MainScreenLanding() {
           </div>
           <div className="grid gap-8">
             {/* Award 1 */}
-            <div className="relative grid grid-cols-1 md:grid-cols-[100px_1fr_1fr] gap-4 p-5 bg-white shadow-lg rounded-lg bg-background transition-transform duration-300 ease-in-out hover:scale-105 hover:invert-colors">
+            <div className="relative grid grid-cols-1 md:grid-cols-[100px_1fr_1fr] gap-4 p-5 bg-white shadow-lg rounded-lg bg-background transition-transform duration-300 ease-in-out hover:scale-105">
               <img
                 src="/thropy.jpg"
                 alt="Award Trophy"
@@ -478,7 +497,7 @@ export function MainScreenLanding() {
             </div>
 
             {/* Award 2 */}
-            <div className="relative grid grid-cols-1 md:grid-cols-[100px_1fr_1fr] gap-4 p-5 bg-white shadow-lg rounded-lg bg-background transition-transform duration-300 ease-in-out hover:scale-105 hover:invert-colors">
+            <div className="relative grid grid-cols-1 md:grid-cols-[100px_1fr_1fr] gap-4 p-5 bg-white shadow-lg rounded-lg bg-background transition-transform duration-300 ease-in-out hover:scale-105">
               <img
                 src="/thropy.jpg"
                 alt="Award Trophy"
@@ -496,7 +515,7 @@ export function MainScreenLanding() {
             </div>
 
             {/* Award 3 */}
-            <div className="relative grid grid-cols-1 md:grid-cols-[100px_1fr_1fr] gap-4 p-5 bg-white shadow-lg rounded-lg bg-background transition-transform duration-300 ease-in-out hover:scale-105 hover:invert-colors">
+            <div className="relative grid grid-cols-1 md:grid-cols-[100px_1fr_1fr] gap-4 p-5 bg-white shadow-lg rounded-lg bg-background transition-transform duration-300 ease-in-out hover:scale-105">
               <img
                 src="/thropy.jpg"
                 alt="Award Trophy"
@@ -514,7 +533,7 @@ export function MainScreenLanding() {
             </div>
 
             {/* Award 4 */}
-            <div className="relative grid grid-cols-1 md:grid-cols-[100px_1fr_1fr] gap-4 p-5 bg-white shadow-lg rounded-lg bg-background transition-transform duration-300 ease-in-out hover:scale-105 hover:invert-colors">
+            <div className="relative grid grid-cols-1 md:grid-cols-[100px_1fr_1fr] gap-4 p-5 bg-white shadow-lg rounded-lg bg-background transition-transform duration-300 ease-in-out hover:scale-105">
               <img
                 src="/thropy.jpg"
                 alt="Award Trophy"

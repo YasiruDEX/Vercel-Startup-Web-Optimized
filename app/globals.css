@@ -149,9 +149,9 @@ body::after {
 
 /* globals.css or component-specific CSS module */
 .hover\:invert-colors {
-  transition: filter 0.5s ease;
+  transition: filter 0.s ease;
 }
 
 .hover\:invert-colors:hover {
-  filter: invert(1) sepia(2) saturate(20) hue-rotate(180deg);
+  filter: invert(1) sepia(1) saturate(20) hue-rotate(180deg);
 }
