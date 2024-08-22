@@ -207,3 +207,7 @@ body::after {
 .image-container:hover img {
   opacity: 0;
 }
+
+html {
+  scroll-behavior: smooth;
+}
