@@ -21,6 +21,9 @@ export function MainScreenLanding() {
   const sendEmail = (e: any) => {
     e.preventDefault();
 
+    if (!form.current) {
+      return;
+    }
     emailjs
       .sendForm('service_2kuohha', 'template_13tl8ne', form.current, 'T6okvmv1rncTmho2P')
       .then(
