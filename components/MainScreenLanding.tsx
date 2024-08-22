@@ -350,9 +350,9 @@ export function MainScreenLanding() {
                 "Analog Filter, Radio Frequncy Communication, High Speed PCB Design, Raspberrypi, wearable biomedical device design, Machine learning(Classification) "
               }
               // source={"/hydrolink.mp4"}
-              image1={"/product.png"}
-              image2={"/product.png"}
-              image3={"/product.png"}
+              image1={"/Steersafe1.png"}
+              image2={"/Steersafe2.png"}
+              image3={"/Steersafe3.png"}
             />
 
             <Projects
