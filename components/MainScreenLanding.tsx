@@ -16,7 +16,9 @@ import {
 import Projects from "@/components/Projects/Projects";
 
 export function MainScreenLanding() {
-  const form = useRef();
+  // const form = useRef();
+  const form = useRef<HTMLFormElement>(null);
+
 
   const sendEmail = (e: any) => {
     e.preventDefault();
