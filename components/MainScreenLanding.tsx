@@ -236,15 +236,9 @@ export function MainScreenLanding() {
                 </div>
               </div>
             </div>
-            <div className="flex items-center justify-center">
-              <img
-                src="/banner_main.jpg"
-                width="1270"
-                height="600"
-                alt="Hero"
-                style={{ borderRadius: "10px", overflow: "hidden" }}
-                className="mx-auto aspect-[16/10] overflow-hidden object-cover transition-transform transition-filter duration-1000 ease-in-out hover:scale-105 hover:brightness-105"
-              />
+            <div className="image-container">
+              <img src="/banner_main.jpg" alt="Hero" />
+              <div className="overlay"></div>
             </div>
           </div>
         </div>
