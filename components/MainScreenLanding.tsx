@@ -388,8 +388,8 @@ export function MainScreenLanding() {
               }
               // source={"/hydrolink.mp4"}
               image1={"/hydrolink2.png"}
-              image2={"/hydrolink4.png"}
-              image3={"/hydrolink3.png"}
+              image2={"/hydrolink3.png"}
+              image3={"/hydrolink4.png"}
             />
 
             <Projects
