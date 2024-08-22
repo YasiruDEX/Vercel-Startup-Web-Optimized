@@ -200,7 +200,7 @@ export function MainScreenLanding() {
           <div className="grid max-w-[1300px] mx-auto gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-2 md:gap-16 mt-10">
             <div>
               <div
-                className="h-6 px-3 bg-primary/10 text-black font-extralight mb-3 inline-block"
+                className="h-6 px-3 bg-primary/10 text-black font-light mb-3 inline-block"
                 style={{ borderRadius: "30px", overflow: "hidden" }}
               >
                 We transform your dreams
