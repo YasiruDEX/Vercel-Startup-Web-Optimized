@@ -155,3 +155,4 @@ body::after {
 .hover\:invert-colors:hover {
   filter: invert(1) sepia(1) saturate(20) hue-rotate(180deg);
 }
+

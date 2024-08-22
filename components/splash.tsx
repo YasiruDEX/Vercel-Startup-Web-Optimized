@@ -1,7 +1,7 @@
 
 export function SplashScreen() {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-background">
+    <div className="flex items-center justify-center min-h-screen">
       <div className="space-y-4 text-center">
         <h1 className="text-4xl font-bold tracking-tighter text-foreground sm:text-5xl md:text-6xl">
           Aura Digital Labs
