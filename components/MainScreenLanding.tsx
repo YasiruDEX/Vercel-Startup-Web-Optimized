@@ -266,7 +266,8 @@ export function MainScreenLanding() {
             </p>
           </div>
           <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-            <div className="flex flex-col items-center justify-center gap-4 rounded-lg bg-background p-6 shadow-sm transition-all hover:bg-accent hover:text-accent-foreground">
+            {/* Service 1 */}
+            <div className="flex flex-col items-center justify-center gap-4 rounded-lg bg-background p-6 shadow-sm transition-all duration-300 ease-in-out hover:invert">
               <FaRobot className="h-10 w-10" />
               <h3 className="text-lg font-bold">Robotics</h3>
               <p className="text-sm text-muted-foreground">
@@ -274,7 +275,8 @@ export function MainScreenLanding() {
                 productivity.
               </p>
             </div>
-            <div className="flex flex-col items-center justify-center gap-4 rounded-lg bg-background p-6 shadow-sm transition-all hover:bg-accent hover:text-accent-foreground">
+            {/* Service 2 */}
+            <div className="flex flex-col items-center justify-center gap-4 rounded-lg bg-background p-6 shadow-sm transition-all duration-300 ease-in-out hover:invert">
               <FaCamera className="h-10 w-10" />
               <h3 className="text-lg font-bold">Machine Vision</h3>
               <p className="text-sm text-muted-foreground">
@@ -282,7 +284,8 @@ export function MainScreenLanding() {
                 identification, and control.
               </p>
             </div>
-            <div className="flex flex-col items-center justify-center gap-4 rounded-lg bg-background p-6 shadow-sm transition-all hover:bg-accent hover:text-accent-foreground">
+            {/* Service 3 */}
+            <div className="flex flex-col items-center justify-center gap-4 rounded-lg bg-background p-6 shadow-sm transition-all duration-300 ease-in-out hover:invert">
               <FaCode className="h-10 w-10" />
               <h3 className="text-lg font-bold">Software Development</h3>
               <p className="text-sm text-muted-foreground">
@@ -290,7 +293,8 @@ export function MainScreenLanding() {
                 scalability.
               </p>
             </div>
-            <div className="flex flex-col items-center justify-center gap-4 rounded-lg bg-background p-6 shadow-sm transition-all hover:bg-accent hover:text-accent-foreground">
+            {/* Service 4 */}
+            <div className="flex flex-col items-center justify-center gap-4 rounded-lg bg-background p-6 shadow-sm transition-all duration-300 ease-in-out hover:invert">
               <FaWifi className="h-10 w-10" />
               <h3 className="text-lg font-bold">IoT Solutions</h3>
               <p className="text-sm text-muted-foreground">
@@ -298,14 +302,16 @@ export function MainScreenLanding() {
                 enhance user experiences.
               </p>
             </div>
-            <div className="flex flex-col items-center justify-center gap-4 rounded-lg bg-background p-6 shadow-sm transition-all hover:bg-accent hover:text-accent-foreground">
+            {/* Service 5 */}
+            <div className="flex flex-col items-center justify-center gap-4 rounded-lg bg-background p-6 shadow-sm transition-all duration-300 ease-in-out hover:invert">
               <FaBrush className="h-10 w-10" />
               <h3 className="text-lg font-bold">Digital Design</h3>
               <p className="text-sm text-muted-foreground">
                 Innovative digital designs that captivate and engage audiences.
               </p>
             </div>
-            <div className="flex flex-col items-center justify-center gap-4 rounded-lg bg-background p-6 shadow-sm transition-all hover:bg-accent hover:text-accent-foreground">
+            {/* Service 6 */}
+            <div className="flex flex-col items-center justify-center gap-4 rounded-lg bg-background p-6 shadow-sm transition-all duration-300 ease-in-out hover:invert">
               <FaMicrochip className="h-10 w-10" />
               <h3 className="text-lg font-bold">Machine Learning & AI</h3>
               <p className="text-sm text-muted-foreground">
@@ -541,7 +547,8 @@ export function MainScreenLanding() {
             </p>
           </div>
           <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-4 md:px-6">
-            <div className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
+            {/* Team Member 1 */}
+            <div className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:border-2 hover:border-black">
               <Avatar className="h-20 w-20">
                 <AvatarImage
                   src="/yasiru.jpg"
@@ -557,7 +564,9 @@ export function MainScreenLanding() {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
+
+            {/* Team Member 2 */}
+            <div className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:border-2 hover:border-black">
               <Avatar className="h-20 w-20">
                 <AvatarImage
                   src="/prabath.jpg"
@@ -573,7 +582,9 @@ export function MainScreenLanding() {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
+
+            {/* Team Member 3 */}
+            <div className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:border-2 hover:border-black">
               <Avatar className="h-20 w-20">
                 <AvatarImage
                   src="/Anushka.jpg"
@@ -589,7 +600,9 @@ export function MainScreenLanding() {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
+
+            {/* Team Member 4 */}
+            <div className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:border-2 hover:border-black">
               <Avatar className="h-20 w-20">
                 <AvatarImage
                   src="/Lasith.jpg"
@@ -606,8 +619,10 @@ export function MainScreenLanding() {
               </div>
             </div>
           </div>
+
           <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-4 md:px-6 mt-8">
-            <div className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
+            {/* Team Member 5 */}
+            <div className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:border-2 hover:border-black">
               <Avatar className="h-20 w-20">
                 <AvatarImage
                   src="/tashin.jpg"
@@ -623,7 +638,9 @@ export function MainScreenLanding() {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
+
+            {/* Team Member 6 */}
+            <div className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:border-2 hover:border-black">
               <Avatar className="h-20 w-20">
                 <AvatarImage
                   src="/wimukthi.jpg"
@@ -635,11 +652,13 @@ export function MainScreenLanding() {
               <div className="grid gap-1 text-center">
                 <h3 className="text-xl font-bold">Wimukthi Bandara</h3>
                 <p className="text-muted-foreground">
-                  Computer Sceince Engineering Undergraduate
+                  Computer Science Engineering Undergraduate
                 </p>
               </div>
             </div>
-            <div className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
+
+            {/* Team Member 7 */}
+            <div className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:border-2 hover:border-black">
               <Avatar className="h-20 w-20">
                 <AvatarImage
                   src="/sajitha.jpg"
@@ -655,7 +674,9 @@ export function MainScreenLanding() {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
+
+            {/* Team Member 8 */}
+            <div className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:border-2 hover:border-black">
               <Avatar className="h-20 w-20">
                 <AvatarImage
                   src="/Dinujaya.jpg"
