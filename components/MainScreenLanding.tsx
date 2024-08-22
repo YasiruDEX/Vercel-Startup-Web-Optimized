@@ -843,7 +843,7 @@ export function MainScreenLanding() {
           <img
             src="/Bottom banner.png"
             alt="Banner"
-            className="brightness-115"
+            className="brightness-115 hidden md:block"
           />
         </div>
       </section>
