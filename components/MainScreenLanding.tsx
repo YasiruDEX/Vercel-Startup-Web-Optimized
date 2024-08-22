@@ -358,88 +358,90 @@ export function MainScreenLanding() {
       </section>
 
       <section id="awards" className="pt-20 pb-10 bg-muted flex justify-center">
-        <div className="container grid gap-8 px-4 md:px-6 mx-auto max-w-7xl">
-          <div className="space-y-6 text-center">
-            <h2 className="text-4xl font-bold mb-12">Honors & Awards</h2>
-            <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Recognizing excellence in our contributions. Our team has been honored with numerous awards that highlight our commitment.
-            </p>
-          </div>
-          <div className="space-y-8">
-            {/* Award 1 */}
-            <div className="grid grid-cols-[100px_600px_1fr] gap-4 p-5 bg-white shadow-lg rounded-lg bg-background">
-              <img
-                src="/thropy.jpg"
-                alt="Award Trophy"
-                className="w-16 h-16 justify-self-center"
-              />
-              <div className="self-center border-r-4 border-black px-4">
-                <h3 className="text-xl font-semibold text-center">
-                  Championship - SLIoT Challenge
-                </h3>
-              </div>
-              <ul className="list-disc text-muted-foreground pl-4 flex flex-col justify-center border-black bg-background">
-                <li>Project Name: Project Hydrolink</li>
-                <li>All island Internet of Things competition</li>
-              </ul>
-            </div>
-
-            {/* Award 2 */}
-            <div className="grid grid-cols-[100px_600px_1fr] gap-4 p-5 bg-white shadow-lg rounded-lg bg-background">
-              <img
-                src="/thropy.jpg"
-                alt="Award Trophy"
-                className="w-16 h-16 justify-self-center"
-              />
-              <div className="self-center border-r-4 border-black px-4">
-                <h3 className="text-xl font-semibold text-center">
-                  Championship - Sri Lanka Arduino Challenge
-                </h3>
-              </div>
-              <ul className="list-disc text-muted-foreground pl-4 flex flex-col justify-center border-black bg-background">
-                <li>Project Name: Project Replace</li>
-                <li>IEEE Challenge sphere</li>
-              </ul>
-            </div>
-
-            {/* Award 3 */}
-            <div className="grid grid-cols-[100px_600px_1fr] gap-4 p-5 bg-white shadow-lg rounded-lg bg-background">
-              <img
-                src="/thropy.jpg"
-                alt="Award Trophy"
-                className="w-16 h-16 justify-self-center"
-              />
-              <div className="self-center border-r-4 border-black px-4">
-                <h3 className="text-xl font-semibold text-center">
-                  1st Runnersup - Brainstorm
-                </h3>
-              </div>
-              <ul className="list-disc text-muted-foreground pl-4 flex flex-col justify-center border-black">
-                <li>Project Name: Project Steer-Safe</li>
-                <li>Healthcare Innovation Competition</li>
-              </ul>
-            </div>
-
-            {/* Award 4 */}
-            <div className="grid grid-cols-[100px_600px_1fr] gap-4 p-5 bg-white shadow-lg rounded-lg bg-background">
-              <img
-                src="/thropy.jpg"
-                alt="Award Trophy"
-                className="w-16 h-16 justify-self-center"
-              />
-              <div className="self-center border-r-4 border-black px-4">
-                <h3 className="text-xl font-semibold text-center">
-                  1st Runnersup - Aurora
-                </h3>
-              </div>
-              <ul className="list-disc text-muted-foreground pl-4 flex flex-col justify-center border-black">
-                <li>Project Name: Project Face Canvas</li>
-                <li>AI Ideathlon</li>
-              </ul>
-            </div>
-          </div>
+  <div className="container px-4 md:px-6 mx-auto max-w-7xl">
+    <div className="space-y-6 text-center pb-5">
+      <h2 className="text-4xl font-bold mb-12">Honors & Awards</h2>
+      <p className="mx-auto max-w-2xl text-muted-foreground md:text-xl lg:text-base">
+        Recognizing excellence in our contributions. Our team has been honored with numerous awards that highlight our commitment.
+      </p>
+    </div>
+    <div className="grid gap-8">
+      {/* Award 1 */}
+      <div className="grid grid-cols-1 md:grid-cols-[100px_1fr_1fr] gap-4 p-5 bg-white shadow-lg rounded-lg bg-background">
+        <img
+          src="/thropy.jpg"
+          alt="Award Trophy"
+          className="w-16 h-16 justify-self-center"
+        />
+        <div className="border-r-4 border-black px-4 flex flex-col justify-center">
+          <h3 className="text-xl font-semibold text-center">
+            Championship - SLIoT Challenge
+          </h3>
         </div>
-      </section>
+        <ul className="list-disc text-muted-foreground pl-4 flex flex-col justify-center">
+          <li>Project Name: Project Hydrolink</li>
+          <li>All island Internet of Things competition</li>
+        </ul>
+      </div>
+
+      {/* Award 2 */}
+      <div className="grid grid-cols-1 md:grid-cols-[100px_1fr_1fr] gap-4 p-5 bg-white shadow-lg rounded-lg bg-background">
+        <img
+          src="/thropy.jpg"
+          alt="Award Trophy"
+          className="w-16 h-16 justify-self-center"
+        />
+        <div className="border-r-4 border-black px-4 flex flex-col justify-center">
+          <h3 className="text-xl font-semibold text-center">
+            Championship - Sri Lanka Arduino Challenge
+          </h3>
+        </div>
+        <ul className="list-disc text-muted-foreground pl-4 flex flex-col justify-center">
+          <li>Project Name: Project Replace</li>
+          <li>IEEE Challenge sphere</li>
+        </ul>
+      </div>
+
+      {/* Award 3 */}
+      <div className="grid grid-cols-1 md:grid-cols-[100px_1fr_1fr] gap-4 p-5 bg-white shadow-lg rounded-lg bg-background">
+        <img
+          src="/thropy.jpg"
+          alt="Award Trophy"
+          className="w-16 h-16 justify-self-center"
+        />
+        <div className="border-r-4 border-black px-4 flex flex-col justify-center">
+          <h3 className="text-xl font-semibold text-center">
+            1st Runnersup - Brainstorm
+          </h3>
+        </div>
+        <ul className="list-disc text-muted-foreground pl-4 flex flex-col justify-center">
+          <li>Project Name: Project Steer-Safe</li>
+          <li>Healthcare Innovation Competition</li>
+        </ul>
+      </div>
+
+      {/* Award 4 */}
+      <div className="grid grid-cols-1 md:grid-cols-[100px_1fr_1fr] gap-4 p-5 bg-white shadow-lg rounded-lg bg-background">
+        <img
+          src="/thropy.jpg"
+          alt="Award Trophy"
+          className="w-16 h-16 justify-self-center"
+        />
+        <div className="border-r-4 border-black px-4 flex flex-col justify-center">
+          <h3 className="text-xl font-semibold text-center">
+            1st Runnersup - Aurora
+          </h3>
+        </div>
+        <ul className="list-disc text-muted-foreground pl-4 flex flex-col justify-center">
+          <li>Project Name: Project Face Canvas</li>
+          <li>AI Ideathlon</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
       <section id="team" className="w-full py-12 md:py-24 lg:py-32">
         <div className="container grid gap-8 px-4 md:px-6 mx-auto">
@@ -475,7 +477,7 @@ export function MainScreenLanding() {
         </div>
         <div className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
           <Avatar className="h-20 w-20">
-            <AvatarImage src="/anushka.jpg" alt="Anushka Samaranayake" className="rounded-md" />
+            <AvatarImage src="/Anushka.jpg" alt="Anushka Samaranayake" className="rounded-md" />
             <AvatarFallback>KR</AvatarFallback>
           </Avatar>
           <div className="grid gap-1 text-center">
@@ -485,7 +487,7 @@ export function MainScreenLanding() {
         </div>
         <div className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
           <Avatar className="h-20 w-20">
-            <AvatarImage src="/lasith.jpg" alt="Lasith Haputhantri" className="rounded-md" />
+            <AvatarImage src="/Lasith.jpg" alt="Lasith Haputhantri" className="rounded-md" />
             <AvatarFallback>TJ</AvatarFallback>
           </Avatar>
           <div className="grid gap-1 text-center">
@@ -527,7 +529,7 @@ export function MainScreenLanding() {
         </div>
         <div className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
           <Avatar className="h-20 w-20">
-            <AvatarImage src="/dinujaya.jpg" alt="Dinujaya Wijewickrama" className="rounded-md" />
+            <AvatarImage src="/Dinujaya.jpg" alt="Dinujaya Wijewickrama" className="rounded-md" />
             <AvatarFallback>SJ</AvatarFallback>
           </Avatar>
           <div className="grid gap-1 text-center">
