@@ -159,9 +159,8 @@ body::after {
 .image-container {
   position: relative;
   display: inline-block;
-  text-align: center; /* Center the contents inside the container */
-  /* center */
-  padding-top: 50px;
+  text-align: center;
+  padding-top: 50px; /* Default padding for larger screens */
 }
 
 .image-container img {
@@ -177,7 +176,7 @@ body::after {
   top: 50px;
   left: 0;
   width: 100%;
-  height: 73%;
+  height: 72%;
   border-radius: 10px;
   background-image: url('/banner_main2.png');
   background-size: cover;
@@ -186,6 +185,19 @@ body::after {
   transition: opacity 1s ease-in-out;
   z-index: 1;
   pointer-events: none;
+}
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .image-container {
+    padding-top: 10px; /* Reduced padding for smaller screens */
+  }
+  .image-container .overlay {
+    top: 10px;
+    height: 100%;
+  }
+  
 }
 
 .image-container:hover .overlay {
