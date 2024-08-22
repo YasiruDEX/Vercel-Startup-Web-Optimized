@@ -484,7 +484,7 @@ export function MainScreenLanding() {
         </div>
       </section>
 
-      <section id="awards" className="pt-20 pb-10 bg-muted flex justify-center">
+      <section id="awards" className="pt-20 pb-10 bg-muted flex justify-center mb-10">
         <div className="container px-4 px-3 sm:px-3 md:px-6 mx-auto max-w-7xl">
           <div className="space-y-6 text-center pb-5">
             <h2 className="text-4xl font-bold mb-12">Honors & Awards</h2>
