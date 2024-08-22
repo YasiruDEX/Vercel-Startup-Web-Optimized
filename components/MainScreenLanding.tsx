@@ -694,7 +694,7 @@ export function MainScreenLanding() {
               <div className="grid gap-1 text-center">
                 <h3 className="text-xl font-bold">Tashin Kavishan</h3>
                 <p className="text-muted-foreground">
-                  Electronic and Telecommunications Engineering Undergraduate
+                  Bio Medical Engineering Undergraduate
                 </p>
               </div>
             </a>
