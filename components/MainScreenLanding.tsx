@@ -18,7 +18,7 @@ import Projects from "@/components/Projects/Projects";
 export function MainScreenLanding() {
   const form = useRef();
 
-  const sendEmail = (e) => {
+  const sendEmail = (e: any) => {
     e.preventDefault();
 
     emailjs
