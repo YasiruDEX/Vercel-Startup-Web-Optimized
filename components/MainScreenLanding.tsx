@@ -454,11 +454,11 @@ export function MainScreenLanding() {
           </div>
           <div className="grid gap-8">
             {/* Award 1 */}
-            <div className="grid grid-cols-1 md:grid-cols-[100px_1fr_1fr] gap-4 p-5 bg-white shadow-lg rounded-lg bg-background">
+            <div className="relative grid grid-cols-1 md:grid-cols-[100px_1fr_1fr] gap-4 p-5 bg-white shadow-lg rounded-lg bg-background transition-transform duration-300 ease-in-out hover:scale-105 hover:invert-colors">
               <img
                 src="/thropy.jpg"
                 alt="Award Trophy"
-                className="w-16 h-16 justify-self-center"
+                className="w-16 h-16 justify-self-center relative z-10"
               />
               <div className="border-r-4 border-black px-4 flex flex-col justify-center">
                 <h3 className="text-xl font-semibold text-center">
@@ -472,11 +472,11 @@ export function MainScreenLanding() {
             </div>
 
             {/* Award 2 */}
-            <div className="grid grid-cols-1 md:grid-cols-[100px_1fr_1fr] gap-4 p-5 bg-white shadow-lg rounded-lg bg-background">
+            <div className="relative grid grid-cols-1 md:grid-cols-[100px_1fr_1fr] gap-4 p-5 bg-white shadow-lg rounded-lg bg-background transition-transform duration-300 ease-in-out hover:scale-105 hover:invert-colors">
               <img
                 src="/thropy.jpg"
                 alt="Award Trophy"
-                className="w-16 h-16 justify-self-center"
+                className="w-16 h-16 justify-self-center relative z-10"
               />
               <div className="border-r-4 border-black px-4 flex flex-col justify-center">
                 <h3 className="text-xl font-semibold text-center">
@@ -490,11 +490,11 @@ export function MainScreenLanding() {
             </div>
 
             {/* Award 3 */}
-            <div className="grid grid-cols-1 md:grid-cols-[100px_1fr_1fr] gap-4 p-5 bg-white shadow-lg rounded-lg bg-background">
+            <div className="relative grid grid-cols-1 md:grid-cols-[100px_1fr_1fr] gap-4 p-5 bg-white shadow-lg rounded-lg bg-background transition-transform duration-300 ease-in-out hover:scale-105 hover:invert-colors">
               <img
                 src="/thropy.jpg"
                 alt="Award Trophy"
-                className="w-16 h-16 justify-self-center"
+                className="w-16 h-16 justify-self-center relative z-10"
               />
               <div className="border-r-4 border-black px-4 flex flex-col justify-center">
                 <h3 className="text-xl font-semibold text-center">
@@ -508,11 +508,11 @@ export function MainScreenLanding() {
             </div>
 
             {/* Award 4 */}
-            <div className="grid grid-cols-1 md:grid-cols-[100px_1fr_1fr] gap-4 p-5 bg-white shadow-lg rounded-lg bg-background">
+            <div className="relative grid grid-cols-1 md:grid-cols-[100px_1fr_1fr] gap-4 p-5 bg-white shadow-lg rounded-lg bg-background transition-transform duration-300 ease-in-out hover:scale-105 hover:invert-colors">
               <img
                 src="/thropy.jpg"
                 alt="Award Trophy"
-                className="w-16 h-16 justify-self-center"
+                className="w-16 h-16 justify-self-center relative z-10"
               />
               <div className="border-r-4 border-black px-4 flex flex-col justify-center">
                 <h3 className="text-xl font-semibold text-center">
