@@ -75,16 +75,16 @@
   --secondary-glow: conic-gradient(
     from 10deg at 50% 50%,
     #535353 0deg,
-    #8d978d 90deg,
+    #b8ffb8 90deg,
     #ffffff 180deg,
-    #818881 270deg,
+    #313e31 270deg,
     transparent 360deg
   );
 
   --third-glow: conic-gradient(
     from 90deg at 50% 50%,
     #ffffff 0deg,
-    #869186 90deg,
+    #29bc29 90deg,
     #ffffff 180deg,
     #91b09f 270deg,
     transparent 360deg
