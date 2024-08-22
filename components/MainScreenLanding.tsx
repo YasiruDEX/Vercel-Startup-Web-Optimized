@@ -3,8 +3,8 @@ import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
-import emailjs from '@emailjs/browser';
-import React, { useRef } from 'react';
+import emailjs from "@emailjs/browser";
+import React, { useRef } from "react";
 import {
   FaRobot,
   FaCamera,
@@ -19,7 +19,6 @@ export function MainScreenLanding() {
   // const form = useRef();
   const form = useRef<HTMLFormElement>(null);
 
-
   const sendEmail = (e: any) => {
     e.preventDefault();
 
@@ -27,16 +26,21 @@ export function MainScreenLanding() {
       return;
     }
     emailjs
-      .sendForm('service_2kuohha', 'template_13tl8ne', form.current, 'T6okvmv1rncTmho2P')
+      .sendForm(
+        "service_2kuohha",
+        "template_13tl8ne",
+        form.current,
+        "T6okvmv1rncTmho2P"
+      )
       .then(
         (result) => {
-          console.log('SUCCESS!', result.text);
-          alert('Message sent successfully');
+          console.log("SUCCESS!", result.text);
+          alert("Message sent successfully");
         },
         (error) => {
-          console.log('FAILED...', error.text);
-          alert('Failed to send message');
-        },
+          console.log("FAILED...", error.text);
+          alert("Failed to send message");
+        }
       );
   };
   return (
@@ -592,7 +596,12 @@ export function MainScreenLanding() {
           </div>
           <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-4 md:px-6">
             {/* Team Member 1 */}
-            <div className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:border-2 hover:border-black">
+            <a
+              href="https://www.linkedin.com/in/yasirubasnayake"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:border-2 hover:border-black"
+            >
               <Avatar className="h-20 w-20">
                 <AvatarImage
                   src="/yasiru.jpg"
@@ -607,10 +616,15 @@ export function MainScreenLanding() {
                   Electronic and Telecommunications Engineering Undergraduate
                 </p>
               </div>
-            </div>
+            </a>
 
             {/* Team Member 2 */}
-            <div className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:border-2 hover:border-black">
+            <a
+              href="https://www.linkedin.com/in/prabath-wijethilaka-4950b220b/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:border-2 hover:border-black"
+            >
               <Avatar className="h-20 w-20">
                 <AvatarImage
                   src="/prabath.jpg"
@@ -625,10 +639,15 @@ export function MainScreenLanding() {
                   Electronic and Telecommunications Engineering Undergraduate
                 </p>
               </div>
-            </div>
+            </a>
 
             {/* Team Member 3 */}
-            <div className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:border-2 hover:border-black">
+            <a
+              href="https://www.linkedin.com/in/anushka-sandeepa-samaranayake-70536a227/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:border-2 hover:border-black"
+            >
               <Avatar className="h-20 w-20">
                 <AvatarImage
                   src="/Anushka.jpg"
@@ -643,10 +662,15 @@ export function MainScreenLanding() {
                   Electronic and Telecommunications Engineering Undergraduate
                 </p>
               </div>
-            </div>
+            </a>
 
             {/* Team Member 4 */}
-            <div className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:border-2 hover:border-black">
+            <a
+              href="https://www.linkedin.com/in/lasith-haputhanthri-b2919a265/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:border-2 hover:border-black"
+            >
               <Avatar className="h-20 w-20">
                 <AvatarImage
                   src="/Lasith.jpg"
@@ -661,12 +685,17 @@ export function MainScreenLanding() {
                   Electronic and Telecommunications Engineering Undergraduate
                 </p>
               </div>
-            </div>
+            </a>
           </div>
 
           <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-4 md:px-6 mt-8">
             {/* Team Member 5 */}
-            <div className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:border-2 hover:border-black">
+            <a
+              href="https://www.linkedin.com/in/tashin-kavishan-09908126a/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:border-2 hover:border-black"
+            >
               <Avatar className="h-20 w-20">
                 <AvatarImage
                   src="/tashin.jpg"
@@ -681,10 +710,15 @@ export function MainScreenLanding() {
                   Electronic and Telecommunications Engineering Undergraduate
                 </p>
               </div>
-            </div>
+            </a>
 
             {/* Team Member 6 */}
-            <div className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:border-2 hover:border-black">
+            <a
+              href="https://www.linkedin.com/in/wimukthi-madushan-bandara/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:border-2 hover:border-black"
+            >
               <Avatar className="h-20 w-20">
                 <AvatarImage
                   src="/wimukthi.jpg"
@@ -699,10 +733,15 @@ export function MainScreenLanding() {
                   Computer Science Engineering Undergraduate
                 </p>
               </div>
-            </div>
+            </a>
 
             {/* Team Member 7 */}
-            <div className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:border-2 hover:border-black">
+            <a
+              href="https://www.linkedin.com/in/sajitha-madugalle-2a2172241/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:border-2 hover:border-black"
+            >
               <Avatar className="h-20 w-20">
                 <AvatarImage
                   src="/sajitha.jpg"
@@ -717,10 +756,15 @@ export function MainScreenLanding() {
                   Electronic and Telecommunications Engineering Undergraduate
                 </p>
               </div>
-            </div>
+            </a>
 
             {/* Team Member 8 */}
-            <div className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:border-2 hover:border-black">
+            <a
+              href="https://www.linkedin.com/in/dinujaya3d/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:border-2 hover:border-black"
+            >
               <Avatar className="h-20 w-20">
                 <AvatarImage
                   src="/Dinujaya.jpg"
@@ -735,76 +779,74 @@ export function MainScreenLanding() {
                   Electronic and Telecommunications Engineering Undergraduate
                 </p>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </section>
 
       <section id="contact" className="w-full py-12 md:py-24 lg:py-32 bg-muted">
-      <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6 mx-auto">
-        <div className="space-y-3">
-          <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-            Get in Touch
-          </h2>
-          <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Have a project in mind or need our expertise? Fill out the form
-            below and we&apos;ll get back to you as soon as possible.
-          </p>
-        </div>
-        <div className="mx-auto w-full max-w-sm space-y-4">
-          <form ref={form} onSubmit={sendEmail} className="grid gap-4">
-            <input
-              type="text"
-              name="user_name"
-              placeholder="Name"
-              className="max-w-lg flex-1 p-2 rounded-sm border-3 shadow-sm"
-              required
-            />
-            <input
-              type="email"
-              name="user_email"
-              placeholder="Email"
-              className="max-w-lg flex-1 p-2 rounded-sm border-3 shadow-sm"
-              required
-            />
-            <textarea
-              name="message"
-              placeholder="Message"
-              className="max-w-lg flex-1 p-2 rounded-sm border-3 shadow-sm"
-              required
-            />
-            <input
-              type="submit"
-              value="Send"
-              className="h-12 px-5 bg-primary text-primary-foreground font-medium transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
-              style={{ borderRadius: '30px', overflow: 'hidden' }}
-            />
-          </form>
-          <div className="grid gap-2">
-            <div className="flex items-center gap-2">
-              <PhoneIcon className="h-5 w-5 text-muted-foreground" />
-              <p className="text-sm text-muted-foreground">
-                +94 (070) ###-####
-              </p>
-            </div>
-            <div className="flex items-center gap-2">
-              <MailIcon className="h-5 w-5 text-muted-foreground" />
-              <p className="text-sm text-muted-foreground">
-                info@auradigitallabs.com
-              </p>
-            </div>
-            <div className="flex items-center gap-2">
-              <MapPinIcon className="h-5 w-5 text-muted-foreground" />
-              <p className="text-sm text-muted-foreground">
-                1st Lane, Moratuwa, Sri Lanka
-              </p>
+        <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6 mx-auto">
+          <div className="space-y-3">
+            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
+              Get in Touch
+            </h2>
+            <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+              Have a project in mind or need our expertise? Fill out the form
+              below and we&apos;ll get back to you as soon as possible.
+            </p>
+          </div>
+          <div className="mx-auto w-full max-w-sm space-y-4">
+            <form ref={form} onSubmit={sendEmail} className="grid gap-4">
+              <input
+                type="text"
+                name="user_name"
+                placeholder="Name"
+                className="max-w-lg flex-1 p-2 rounded-sm border-3 shadow-sm"
+                required
+              />
+              <input
+                type="email"
+                name="user_email"
+                placeholder="Email"
+                className="max-w-lg flex-1 p-2 rounded-sm border-3 shadow-sm"
+                required
+              />
+              <textarea
+                name="message"
+                placeholder="Message"
+                className="max-w-lg flex-1 p-2 rounded-sm border-3 shadow-sm"
+                required
+              />
+              <input
+                type="submit"
+                value="Send"
+                className="h-12 px-5 bg-primary text-primary-foreground font-medium transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
+                style={{ borderRadius: "30px", overflow: "hidden" }}
+              />
+            </form>
+            <div className="grid gap-2">
+              <div className="flex items-center gap-2">
+                <PhoneIcon className="h-5 w-5 text-muted-foreground" />
+                <p className="text-sm text-muted-foreground">
+                  +94 (070) ###-####
+                </p>
+              </div>
+              <div className="flex items-center gap-2">
+                <MailIcon className="h-5 w-5 text-muted-foreground" />
+                <p className="text-sm text-muted-foreground">
+                  info@auradigitallabs.com
+                </p>
+              </div>
+              <div className="flex items-center gap-2">
+                <MapPinIcon className="h-5 w-5 text-muted-foreground" />
+                <p className="text-sm text-muted-foreground">
+                  1st Lane, Moratuwa, Sri Lanka
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-
-
+      </section>
 
       <div className="fixed bottom-4 right-4">
         <Button
