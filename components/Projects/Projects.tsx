@@ -83,7 +83,7 @@ export default function Projects({
             />
           </div>
 
-          <div className="absolute bottom-0 left-0 right-0 bg-black/70 p-4 text-white opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
+          <div className="absolute bottom-0 left-0 right-0 bg-black/70 p-4 text-white opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100 bg-background">
             <h3 className="text-lg font-semibold">{title}</h3>
             <p className="text-sm">{description}</p>
           </div>
