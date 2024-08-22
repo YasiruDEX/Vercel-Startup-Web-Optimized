@@ -17,7 +17,6 @@ export default function Home() {
 
   return (
     <main className="min-h-screen">
-      <title>Aura Digital Labs</title>
       {showSplash ? <SplashScreen /> : <MainScreenLanding />}
     </main>
   );
