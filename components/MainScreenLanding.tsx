@@ -421,9 +421,9 @@ export function MainScreenLanding() {
                 "ROS (Noetic, Iron), Kinect 2 depth camera, Rtabmap, Turtlebot, Kalman, Ubuntu 22.04 LTS, Atmel Microchip Studio, CMake, libfreenect2, Localization, PID, PCB Design, SLAM, Python, SolidWorks"
               }
               // source={"/hydrolink.mp4"}
-              image1={"/product.png"}
-              image2={"/product.png"}
-              image3={"/product.png"}
+              image1={"/placeholder.svg"}
+              image2={"/placeholder.svg"}
+              image3={"/placeholder.svg"}
             />
 
             <Projects
@@ -438,9 +438,9 @@ export function MainScreenLanding() {
                 "Django, React Native, Firebase, Analog Circuit Design, Altium Designer, LTspice, NI Multisim ,Autoencoders (Machine Learning)"
               }
               // source={"/hydrolink.mp4"}
-              image1={"/product.png"}
-              image2={"/product.png"}
-              image3={"/product.png"}
+              image1={"/placeholder.svg"}
+              image2={"/placeholder.svg"}
+              image3={"/placeholder.svg"}
             />
 
             <Projects
@@ -455,9 +455,9 @@ export function MainScreenLanding() {
                 "Equatorial Mount Design, MEMS, PID, Mathematical Models, Celestial Databases, Mobile/Web App Development, PCB Design"
               }
               // source={"/hydrolink.mp4"}
-              image1={"/product.png"}
-              image2={"/product.png"}
-              image3={"/product.png"}
+              image1={"/placeholder.svg"}
+              image2={"/placeholder.svg"}
+              image3={"/placeholder.svg"}
             />
 
             <Projects
@@ -472,9 +472,9 @@ export function MainScreenLanding() {
                 "LLMs, PyTorch, Stable Diffusion models, Hugging Face Transformers, ONNX"
               }
               // source={"/hydrolink.mp4"}
-              image1={"/product.png"}
-              image2={"/product.png"}
-              image3={"/product.png"}
+              image1={"/placeholder.svg"}
+              image2={"/placeholder.svg"}
+              image3={"/placeholder.svg"}
             />
 
             <Projects
@@ -489,9 +489,9 @@ export function MainScreenLanding() {
                 "Sensor Technology, PCB Design with test points, Mouldable Enclousure Design, Google Firebase, Flutter"
               }
               // source={"/hydrolink.mp4"}
-              image1={"/product.png"}
-              image2={"/product.png"}
-              image3={"/product.png"}
+              image1={"/placeholder.svg"}
+              image2={"/placeholder.svg"}
+              image3={"/placeholder.svg"}
             />
           </div>
         </div>
