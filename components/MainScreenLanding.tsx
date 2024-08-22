@@ -374,7 +374,7 @@ export function MainScreenLanding() {
       <section id="projects" className="pb-20 pt-20 bg-background">
         <div className="container mx-auto max-w-5xl">
           <h2 className="text-4xl font-bold mb-12 text-center">Our Projects</h2>
-          <div className="container grid gap-6 px-4 md:grid-cols-2 lg:grid-cols-3 md:gap-8 md:px-6">
+          <div className="container grid gap-6 px-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 md:gap-8 md:px-6">
             <Projects
               description={
                 "HydroLink is an IoT device that transforms any domestic water tank into a smart one."
@@ -386,7 +386,6 @@ export function MainScreenLanding() {
               technologies={
                 "Google Firebase, ESP Microcontroller, Altium Designer, Arduino, SolidWorks, Flutter"
               }
-              // source={"/hydrolink.mp4"}
               image1={"/hydrolink2.png"}
               image2={"/hydrolink3.png"}
               image3={"/hydrolink4.png"}
@@ -403,7 +402,6 @@ export function MainScreenLanding() {
               technologies={
                 "Analog Filter, Radio Frequncy Communication, High Speed PCB Design, Raspberrypi, wearable biomedical device design, Machine learning(Classification) "
               }
-              // source={"/hydrolink.mp4"}
               image1={"/Steersafe1.png"}
               image2={"/Steersafe2.png"}
               image3={"/Steersafe3.png"}
@@ -420,7 +418,6 @@ export function MainScreenLanding() {
               technologies={
                 "ROS (Noetic, Iron), Kinect 2 depth camera, Rtabmap, Turtlebot, Kalman, Ubuntu 22.04 LTS, Atmel Microchip Studio, CMake, libfreenect2, Localization, PID, PCB Design, SLAM, Python, SolidWorks"
               }
-              // source={"/hydrolink.mp4"}
               image1={"/placeholder.svg"}
               image2={"/placeholder.svg"}
               image3={"/placeholder.svg"}
@@ -435,9 +432,8 @@ export function MainScreenLanding() {
                 "Replace is an innovative system designed to interface with existing domestic electrical systems in Sri Lanka. It monitors the power usage of individual outlets, allowing for real-time tracking and management of energy consumption. By integrating the outlets with a home automation system, users can remotely control and optimize their energy usage, enhancing both convenience and efficiency. Additionally, Replace utilizes machine learning with autoencoders to detect anomalies in current and voltage waveforms, enabling early identification of potential issues and protecting devices from potential damage"
               }
               technologies={
-                "Django, React Native, Firebase, Analog Circuit Design, Altium Designer, LTspice, NI Multisim ,Autoencoders (Machine Learning)"
+                "Django, React Native, Firebase, Analog Circuit Design, Altium Designer, LTspice, NI Multisim ,Autoencoders (Machine Learning)"
               }
-              // source={"/hydrolink.mp4"}
               image1={"/placeholder.svg"}
               image2={"/placeholder.svg"}
               image3={"/placeholder.svg"}
@@ -454,7 +450,6 @@ export function MainScreenLanding() {
               technologies={
                 "Equatorial Mount Design, MEMS, PID, Mathematical Models, Celestial Databases, Mobile/Web App Development, PCB Design"
               }
-              // source={"/hydrolink.mp4"}
               image1={"/placeholder.svg"}
               image2={"/placeholder.svg"}
               image3={"/placeholder.svg"}
@@ -464,14 +459,13 @@ export function MainScreenLanding() {
               description={
                 "The Stable Diffusion Based Criminal Face Generation Platform is an AI-driven tool that automates the creation of realistic criminal facial images from forensic data, improving law enforcement's accuracy and efficiency in suspect identification."
               }
-              title={"Project face canvas"}
+              title={"Project Face Canvas"}
               more_details={
                 "The Stable Diffusion Based Criminal Face Generation Platform is an advanced AI-driven solution that leverages stable diffusion models to generate accurate and realistic criminal facial images from forensic data. This platform automates the facial synthesis process, reducing reliance on manual sketching and minimizing subjective bias. By enhancing law enforcement's ability to accurately identify suspects, the platform contributes to more efficient and reliable forensic investigations."
               }
               technologies={
                 "LLMs, PyTorch, Stable Diffusion models, Hugging Face Transformers, ONNX"
               }
-              // source={"/hydrolink.mp4"}
               image1={"/placeholder.svg"}
               image2={"/placeholder.svg"}
               image3={"/placeholder.svg"}
@@ -481,14 +475,13 @@ export function MainScreenLanding() {
               description={
                 "This device measures key water quality parameters and provides feedback on water suitability based on standard benchmarks."
               }
-              title={"Industrial Portable Water Quality measuring Device"}
+              title={"Industrial Portable Water Quality Measuring Device"}
               more_details={
                 "This device measures water quality parameters such as pH, conductivity, temperature, and turbidity. It analyzes these values against standard benchmarks and provides user feedback on whether the water is suitable for use."
               }
               technologies={
-                "Sensor Technology, PCB Design with test points, Mouldable Enclousure Design, Google Firebase, Flutter"
+                "Sensor Technology, PCB Design with test points, Mouldable Enclosure Design, Google Firebase, Flutter"
               }
-              // source={"/hydrolink.mp4"}
               image1={"/placeholder.svg"}
               image2={"/placeholder.svg"}
               image3={"/placeholder.svg"}
@@ -498,7 +491,7 @@ export function MainScreenLanding() {
       </section>
 
       <section id="awards" className="pt-20 pb-10 bg-muted flex justify-center">
-        <div className="container px-4 md:px-6 mx-auto max-w-7xl">
+        <div className="container px-4 px-3 sm:px-3 md:px-6 mx-auto max-w-7xl">
           <div className="space-y-6 text-center pb-5">
             <h2 className="text-4xl font-bold mb-12">Honors & Awards</h2>
             <p className="mx-auto max-w-2xl text-muted-foreground md:text-xl lg:text-base">
