@@ -1,27 +1,19 @@
-import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import SmoothScroll from "@/components/smooth-scroll";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], weight: ["400", "700"] });
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Aura Digital Labs",
   description: "Unleash the Power of Digital Transformation",
-  icons: [
-    {
-      rel: "icon",
-      url: "images/favicon.ico",
-      href: "images/favicon.ico",
-    },
-  ],
+  icons: {
+    rel: "icon",
+    href: "/images/favicon.ico",
+  },
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <SmoothScroll />
