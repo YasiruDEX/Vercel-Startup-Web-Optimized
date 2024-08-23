@@ -44,10 +44,21 @@ export default function LandingIntro() {
               </div>
             </div>
           </div>
-          <div className="image-container">
-            <img src="/banner_main.jpg" alt="Hero" />
-            <div className="overlay"></div>
-          </div>
+          <div className="relative w-full h-64 flex items-center justify-center">
+  <div className="relative w-full h-full bg-black flex items-center justify-center">
+    <img
+      src="/banner_main.jpg"
+      alt="Hero"
+      className="absolute lg:top-10  md:top-20 inset-2 w-full h-full lg:h-100 md:h-100 sm:h-auto rounded-md object-cover transition-opacity duration-500 ease-in-out hover:opacity-0"
+    />
+    <img
+      src="/banner_main2.png"
+      alt="Hero Hover"
+      className="absolute lg:top-10 md:top-20 inset-2 w-full h-full lg:h-100 md:h-100 sm:h-auto rounded-md object-cover transition-opacity opacity-0 duration-500 ease-in-out hover:opacity-100"
+    />
+  </div>
+</div>
+
         </div>
       </div>
     </section>
