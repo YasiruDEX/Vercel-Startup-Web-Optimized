@@ -49,9 +49,9 @@ export default function ProjectsSection() {
             technologies={
               "ROS (Noetic, Iron), Kinect 2 depth camera, Rtabmap, Turtlebot, Kalman, Ubuntu 22.04 LTS, Atmel Microchip Studio, CMake, libfreenect2, Localization, PID, PCB Design, SLAM, Python, SolidWorks"
             }
-            image1={"/LUNA.png"}
-            image2={"/LUNA.png"}
-            image3={"/LUNA.png"}
+            image1={"/13.png"}
+            image2={"/14.png"}
+            image3={"/15.png"}
           />
 
           <Projects
@@ -65,9 +65,9 @@ export default function ProjectsSection() {
             technologies={
               "Django, React Native, Firebase, Analog Circuit Design, Altium Designer, LTspice, NI Multisim ,Autoencoders (Machine Learning)"
             }
-            image1={"/REPLACE.png"}
-            image2={"/REPLACE.png"}
-            image3={"/REPLACE.png"}
+            image1={"/7.png"}
+            image2={"/8.png"}
+            image3={"/9.png"}
           />
 
           <Projects
@@ -81,9 +81,9 @@ export default function ProjectsSection() {
             technologies={
               "Equatorial Mount Design, MEMS, PID, Mathematical Models, Celestial Databases, Mobile/Web App Development, PCB Design"
             }
-            image1={"/EARENDEL.png"}
-            image2={"/EARENDEL.png"}
-            image3={"/EARENDEL.png"}
+            image1={"/10.png"}
+            image2={"/11.png"}
+            image3={"/12.png"}
           />
 
           <Projects
@@ -97,9 +97,9 @@ export default function ProjectsSection() {
             technologies={
               "LLMs, PyTorch, Stable Diffusion models, Hugging Face Transformers, ONNX"
             }
-            image1={"/FACE CANVAS.png"}
-            image2={"/FACE CANVAS.png"}
-            image3={"/FACE CANVAS.png"}
+            image1={"/13.png"}
+            image2={"/13.png"}
+            image3={"/13.png"}
           />
 
           <Projects
@@ -113,9 +113,9 @@ export default function ProjectsSection() {
             technologies={
               "Sensor Technology, PCB Design with test points, Mouldable Enclosure Design, Google Firebase, Flutter"
             }
-            image1={"/WATER.png"}
-            image2={"/WATER.png"}
-            image3={"/WATER.png"}
+            image1={"/13.png"}
+            image2={"/13.png"}
+            image3={"/13.png"}
           />
         </div>
       </div>
