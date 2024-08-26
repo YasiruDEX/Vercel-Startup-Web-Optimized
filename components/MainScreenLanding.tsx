@@ -1,3 +1,5 @@
+"use client";
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import AboutSection from "@/components/aboutSection";
 import HeaderSection from "@/components/header";
@@ -8,45 +10,43 @@ import ProjectsSection from "./projectsSection";
 import AwardsSection from "./awardsSection";
 import TeamSection from "./teamSection";
 import FooterSection from "./footerSection";
-import { ArrowUpIcon } from "@/components/Icons/icons"
-import { Inter } from 'next/font/google';
+import { ArrowUpIcon } from "@/components/Icons/icons";
+import { Inter } from "next/font/google";
+import { useEffect } from "react";
 
 export function MainScreenLanding() {
+  
+
   return (
-    <div className="flex flex-col min-h-dvh">
-
+    <div className={`flex flex-col min-h-dvh`}>
       <HeaderSection />
-
       <LandingIntro />
-
       <AboutSection />
-
       <ServicesSection />
-
       <ProjectsSection />
-
       <AwardsSection />
-
       <TeamSection />
-
       <EmailingSection />
-
       <BottomBanner />
-
       <ScrollToTop />
-
       <FooterSection />
-      
     </div>
   );
 }
 
 function BottomBanner() {
+  const [darkMode, setDarkMode] = useState(false);
+
+  useEffect(() => {
+    const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    setDarkMode(prefersDarkScheme);
+  }, []);
+
   return (
     <section id="Banner" className="w-full bg-background">
       <div>
         <img
-          src="/Bottom banner.png"
+          src={darkMode ? "/Bottom banner.png" : "/Bottom banner light.png"}
           alt="Banner"
           className="brightness-115 hidden md:block"
         />
@@ -55,6 +55,7 @@ function BottomBanner() {
   );
 }
 
+
 function ScrollToTop() {
   return (
     <div className="fixed bottom-4 right-4">
@@ -62,7 +63,7 @@ function ScrollToTop() {
         variant="ghost"
         size="icon"
         className="bg-primary/30 text-primary-foreground hover:bg-primary/30 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring backdrop-blur-lg"
-        // onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
       >
         <ArrowUpIcon className="w-6 h-6" />
         <span className="sr-only">Scroll to top</span>
