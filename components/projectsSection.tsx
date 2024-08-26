@@ -49,7 +49,7 @@ export default function ProjectsSection() {
             technologies={
               "ROS (Noetic, Iron), Kinect 2 depth camera, Rtabmap, Turtlebot, Kalman, Ubuntu 22.04 LTS, Atmel Microchip Studio, CMake, libfreenect2, Localization, PID, PCB Design, SLAM, Python, SolidWorks"
             }
-            image1={"/13.png"}
+            image1={"/19.png"}
             image2={"/14.png"}
             image3={"/15.png"}
           />
@@ -97,9 +97,9 @@ export default function ProjectsSection() {
             technologies={
               "LLMs, PyTorch, Stable Diffusion models, Hugging Face Transformers, ONNX"
             }
-            image1={"/13.png"}
-            image2={"/13.png"}
-            image3={"/13.png"}
+            image1={"/face.png"}
+            image2={"/27.png"}
+            image3={"/28.png"}
           />
 
           <Projects
@@ -113,9 +113,9 @@ export default function ProjectsSection() {
             technologies={
               "Sensor Technology, PCB Design with test points, Mouldable Enclosure Design, Google Firebase, Flutter"
             }
-            image1={"/13.png"}
-            image2={"/13.png"}
-            image3={"/13.png"}
+            image1={"/23.png"}
+            image2={"/w.png"}
+            image3={"/24.png"}
           />
         </div>
       </div>
