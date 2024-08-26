@@ -16,7 +16,7 @@ export default function AwardsSection() {
           {/* Award 1 */}
           <div className="relative grid grid-cols-1 md:grid-cols-[100px_1fr_1fr] gap-4 p-5 bg-white shadow-lg rounded-lg bg-background transition-transform duration-300 ease-in-out hover:scale-105">
             <img
-              src="/thropy.jpg"
+              src="/thropy.png"
               alt="Award Trophy"
               className="w-16 h-16 justify-self-center relative z-10"
             />
@@ -34,7 +34,7 @@ export default function AwardsSection() {
           {/* Award 2 */}
           <div className="relative grid grid-cols-1 md:grid-cols-[100px_1fr_1fr] gap-4 p-5 bg-white shadow-lg rounded-lg bg-background transition-transform duration-300 ease-in-out hover:scale-105">
             <img
-              src="/thropy.jpg"
+              src="/thropy.png"
               alt="Award Trophy"
               className="w-16 h-16 justify-self-center relative z-10"
             />
@@ -52,7 +52,7 @@ export default function AwardsSection() {
           {/* Award 3 */}
           <div className="relative grid grid-cols-1 md:grid-cols-[100px_1fr_1fr] gap-4 p-5 bg-white shadow-lg rounded-lg bg-background transition-transform duration-300 ease-in-out hover:scale-105">
             <img
-              src="/thropy.jpg"
+              src="/thropy.png"
               alt="Award Trophy"
               className="w-16 h-16 justify-self-center relative z-10"
             />
@@ -70,7 +70,7 @@ export default function AwardsSection() {
           {/* Award 4 */}
           <div className="relative grid grid-cols-1 md:grid-cols-[100px_1fr_1fr] gap-4 p-5 bg-white shadow-lg rounded-lg bg-background transition-transform duration-300 ease-in-out hover:scale-105">
             <img
-              src="/thropy.jpg"
+              src="/thropy.png"
               alt="Award Trophy"
               className="w-16 h-16 justify-self-center relative z-10"
             />
