@@ -13,10 +13,9 @@ import FooterSection from "./footerSection";
 import { ArrowUpIcon } from "@/components/Icons/icons";
 import { Inter } from "next/font/google";
 import { useEffect } from "react";
+import { useDarkMode } from "@/components/darkModeProvider"; // Adjust path as necessary
 
 export function MainScreenLanding() {
-  
-
   return (
     <div className={`flex flex-col min-h-dvh`}>
       <HeaderSection />
@@ -35,18 +34,12 @@ export function MainScreenLanding() {
 }
 
 function BottomBanner() {
-  const [darkMode, setDarkMode] = useState(false);
-
-  useEffect(() => {
-    const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    setDarkMode(prefersDarkScheme);
-  }, []);
-
+  const { darkMode, setDarkMode } = useDarkMode();
   return (
     <section id="Banner" className="w-full bg-background">
       <div>
         <img
-          src={darkMode ? "/Bottom banner.png" : "/Bottom banner light.png"}
+          src={darkMode ? "/Bottom banner light.png" : "/Bottom banner.png"}
           alt="Banner"
           className="brightness-115 hidden md:block"
         />
@@ -54,7 +47,6 @@ function BottomBanner() {
     </section>
   );
 }
-
 
 function ScrollToTop() {
   return (

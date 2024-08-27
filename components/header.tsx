@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { styled } from "@mui/material/styles";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Switch from "@mui/material/Switch";
+import { useDarkMode } from "@/components/darkModeProvider"; // Adjust path as necessary
 
 // Define the customized switch
 const MaterialUISwitch = styled(Switch)(({ theme }) => ({
@@ -54,7 +55,7 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
 }));
 
 export default function HeaderSection() {
-  const [darkMode, setDarkMode] = useState(false);
+  const { darkMode, setDarkMode } = useDarkMode();
 
   useEffect(() => {
     document.documentElement.classList.toggle("dark", darkMode);
@@ -119,7 +120,7 @@ export default function HeaderSection() {
 
       <div className="fixed top-4 right-4 z-10 flex items-center space-x-4">
         <a
-          href="https://api.whatsapp.com/send/?phone=94714745349"
+          href="https://api.whatsapp.com/send?phone=94754745359&text=Hi!%20I%27d%20like%20to%20connect%20with%20the%20Aura%20Digital%20Labs%20team%20for%20a%20discussion."
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -210,7 +211,7 @@ export default function HeaderSection() {
           Contact
         </Link>
         <a
-          href="https://api.whatsapp.com/send/?phone=94714745349"
+          href="https://api.whatsapp.com/send?phone=94754745359&text=Hi!%20I%27d%20like%20to%20connect%20with%20the%20Aura%20Digital%20Labs%20team%20for%20a%20discussion."
           target="_blank"
           rel="noopener noreferrer"
         >
