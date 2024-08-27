@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useDarkMode } from "@/components/darkModeProvider";
 
 export default function FooterSection() {
-  const { darkMode, setDarkMode } = useDarkMode();
+  const { darkMode } = useDarkMode();
 
   return (
     <footer className={`${darkMode ? "" : "bg-muted"} py-12`}>
@@ -26,7 +26,7 @@ export default function FooterSection() {
             Learn more about our company and our mission.
           </p>
           <Link
-            href="#"
+            href="https://www.auradigitallabs.com"
             className="text-sm text-muted-foreground hover:underline underline-offset-4"
             prefetch={false}
           >
@@ -63,36 +63,52 @@ export default function FooterSection() {
       <div className="container mt-12 flex flex-col items-center justify-center px-10 text-center md:px-10 mx-auto gap-4 md:flex-row md:justify-between">
         <div className="flex items-center gap-4">
           <Link
-            href="#"
+            href="https://www.facebook.com/reel/1159289995132371"
             className="text-muted-foreground hover:text-muted"
             prefetch={false}
           >
             <FacebookIcon className="h-5 w-5" />
             <span className="sr-only">Facebook</span>
           </Link>
-          <Link
-            href="#"
+          {/* <Link
+            href="https://twitter.com/auradigitallabs"
             className="text-muted-foreground hover:text-muted"
             prefetch={false}
           >
             <TwitterIcon className="h-5 w-5" />
             <span className="sr-only">Twitter</span>
-          </Link>
+          </Link> */}
           <Link
-            href="#"
+            href="https://www.linkedin.com/feed/update/urn:li:activity:7233808706751053824"
             className="text-muted-foreground hover:text-muted"
             prefetch={false}
           >
             <LinkedinIcon className="h-5 w-5" />
             <span className="sr-only">LinkedIn</span>
           </Link>
-          <Link
-            href="#"
+          {/* <Link
+            href="https://www.instagram.com/auradigitallabs"
             className="text-muted-foreground hover:text-muted"
             prefetch={false}
           >
             <InstagramIcon className="h-5 w-5" />
             <span className="sr-only">Instagram</span>
+          </Link> */}
+          <Link
+            href="https://youtube.com/shorts/WaVciSVUl00?si=3n80yKFPBPBeTFdy"
+            className="text-muted-foreground hover:text-muted"
+            prefetch={false}
+          >
+            <YouTubeIcon className="h-5 w-5" />
+            <span className="sr-only">YouTube</span>
+          </Link>
+          <Link
+            href="https://vt.tiktok.com/ZS2rKYWTV/"
+            className="text-muted-foreground hover:text-muted"
+            prefetch={false}
+          >
+            <TikTokIcon className="h-5 w-5" />
+            <span className="sr-only">TikTok</span>
           </Link>
         </div>
         <p className="text-xs text-muted-foreground">
@@ -179,6 +195,46 @@ function TwitterIcon(props: any) {
       strokeLinejoin="round"
     >
       <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
+    </svg>
+  );
+}
+
+function YouTubeIcon(props: any) {
+  return (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M22.54 6.42A2.78 2.78 0 0 0 20.8 4.7C18.87 4 12 4 12 4s-6.87 0-8.8.7A2.78 2.78 0 0 0 1.46 6.42a29.94 29.94 0 0 0-.46 5.58 29.94 29.94 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.74 1.72c1.93.7 8.8.7 8.8.7s6.87 0 8.8-.7a2.78 2.78 0 0 0 1.74-1.72 29.94 29.94 0 0 0 .46-5.58 29.94 29.94 0 0 0-.46-5.58z" />
+      <polygon points="9.75 15.02 15.56 12 9.75 8.98 9.75 15.02" />
+    </svg>
+  );
+}
+
+function TikTokIcon(props: any) {
+  return (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M9 8h1.8a5.4 5.4 0 0 0 2.7-5H9z" />
+      <path d="M18.7 5.5A6.6 6.6 0 0 1 13.5 3V15a4.5 4.5 0 1 1-3.5-4.4" />
     </svg>
   );
 }
