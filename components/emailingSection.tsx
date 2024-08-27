@@ -75,7 +75,7 @@ export default function EmailingSection() {
               <div className="flex items-center gap-2">
                 <PhoneIcon className="h-5 w-5 text-muted-foreground" />
                 <p className="text-sm text-muted-foreground">
-                  +94 (070) ###-####
+                  +94 (075) 474-5359
                 </p>
               </div>
               <div className="flex items-center gap-2">
