@@ -31,6 +31,7 @@ export default function TeamSection() {
             </Avatar>
             <div className="grid gap-1 text-center">
               <h3 className="text-xl font-bold">Yasiru Basnayake</h3>
+              <p className="font-medium">Chief Operating Officer</p>
               <p className="text-muted-foreground">
                 Electronic and Telecommunications Engineering Undergraduate
               </p>
@@ -54,6 +55,7 @@ export default function TeamSection() {
             </Avatar>
             <div className="grid gap-1 text-center">
               <h3 className="text-xl font-bold">Prabath Wijethilaka</h3>
+              <p className="font-medium">Chief Operating Officer</p>
               <p className="text-muted-foreground">
                 Electronic and Telecommunications Engineering Undergraduate
               </p>
@@ -77,6 +79,7 @@ export default function TeamSection() {
             </Avatar>
             <div className="grid gap-1 text-center">
               <h3 className="text-xl font-bold">Anushka Samaranayake</h3>
+              <p className="font-medium">Marketing Manager</p>
               <p className="text-muted-foreground">
                 Electronic and Telecommunications Engineering Undergraduate
               </p>
@@ -100,6 +103,7 @@ export default function TeamSection() {
             </Avatar>
             <div className="grid gap-1 text-center">
               <h3 className="text-xl font-bold">Lasith Haputhantri</h3>
+              <p className="font-medium">Project Manager</p>
               <p className="text-muted-foreground">
                 Electronic and Telecommunications Engineering Undergraduate
               </p>
@@ -125,6 +129,7 @@ export default function TeamSection() {
             </Avatar>
             <div className="grid gap-1 text-center">
               <h3 className="text-xl font-bold">Tashin Kavishan</h3>
+              <p className="font-medium">HR Manager</p>
               <p className="text-muted-foreground">
                 Bio Medical Engineering Undergraduate
               </p>
@@ -148,6 +153,7 @@ export default function TeamSection() {
             </Avatar>
             <div className="grid gap-1 text-center">
               <h3 className="text-xl font-bold">Wimukthi Bandara</h3>
+              <p className="font-medium">Marketing Coordinator</p>
               <p className="text-muted-foreground">
                 Computer Science Engineering Undergraduate
               </p>
@@ -163,7 +169,7 @@ export default function TeamSection() {
           >
             <Avatar className="h-20 w-20">
               <AvatarImage
-                src="/sajitha.jpg"
+                src="/sajitha2.jpg"
                 alt="Sajitha Madugalle"
                 className="rounded-md"
               />
@@ -171,6 +177,7 @@ export default function TeamSection() {
             </Avatar>
             <div className="grid gap-1 text-center">
               <h3 className="text-xl font-bold">Sajitha Madugalle</h3>
+              <p className="font-medium">Chief Financial Manager</p>
               <p className="text-muted-foreground">
                 Bio Medical Engineering Undergraduate
               </p>
@@ -194,6 +201,7 @@ export default function TeamSection() {
             </Avatar>
             <div className="grid gap-1 text-center">
               <h3 className="text-xl font-bold">Dinujaya Wijewickrama</h3>
+              <p className="font-medium">Project Manager</p>
               <p className="text-muted-foreground">
                 Electronic and Telecommunications Engineering Undergraduate
               </p>
