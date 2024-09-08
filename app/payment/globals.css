@@ -1,0 +1,213 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 224 71.4% 4.1%;
+    --card: 0 0% 100%;
+    --card-foreground: 224 71.4% 4.1%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 224 71.4% 4.1%;
+    --primary: 220.9 39.3% 11%;
+    --primary-foreground: 210 20% 98%;
+    --secondary: 220 14.3% 95.9%;
+    --secondary-foreground: 220.9 39.3% 11%;
+    --muted: 220 14.3% 95.9%;
+    --muted-foreground: 220 8.9% 46.1%;
+    --accent: 220 14.3% 95.9%;
+    --accent-foreground: 220.9 39.3% 11%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 20% 98%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 224 71.4% 4.1%;
+    --radius: 0.5rem;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+  }
+
+  .dark {
+    --background: 224 71.4% 4.1%;
+    --foreground: 210 20% 98%;
+    --card: 224 71.4% 4.1%;
+    --card-foreground: 210 20% 98%;
+    --popover: 224 71.4% 4.1%;
+    --popover-foreground: 210 20% 98%;
+    --primary: 210 20% 98%;
+    --primary-foreground: 220.9 39.3% 11%;
+    --secondary: 215 27.9% 16.9%;
+    --secondary-foreground: 210 20% 98%;
+    --muted: 215 27.9% 16.9%;
+    --muted-foreground: 217.9 10.6% 64.9%;
+    --accent: 215 27.9% 16.9%;
+    --accent-foreground: 210 20% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 20% 98%;
+    --border: 215 27.9% 16.9%;
+    --input: 215 27.9% 16.9%;
+    --ring: 216 12.2% 83.9%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* styles/globals.css */
+@import url('https://fonts.googleapis.com/css2?family=Prospect:wght@700&display=swap');
+
+:root {
+  --secondary-glow: conic-gradient(
+    from 10deg at 50% 50%,
+    #535353 0deg,
+    #b8ffb8 90deg,
+    #ffffff 180deg,
+    #313e31 270deg,
+    transparent 360deg
+  );
+
+  --third-glow: conic-gradient(
+    from 90deg at 50% 50%,
+    #ffffff 0deg,
+    #29bc29 90deg,
+    #ffffff 180deg,
+    #91b09f 270deg,
+    transparent 360deg
+  );
+}
+
+body::before,
+body::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+body::before {
+  background: var(--third-glow);
+  border-radius: 50%;
+  width: 40vw;
+  height: 40vw;
+  margin-left: -150px;
+  filter: blur(60px);
+  top: calc(100vh - 40vw / 2);
+  left: calc(30vw);
+  animation: animateBefore 4s cubic-bezier(0.47, 0, 0.745, 0.715) infinite;
+}
+
+body::after {
+  background: var(--secondary-glow);
+  border-radius: 50%;
+  width: 400px;
+  height: 500px;
+  filter: blur(60px);
+  top: calc(50vh - 500px / 2);
+  left: calc(50vw - 400px / 2);
+  animation: animateAfter 4s cubic-bezier(0.47, 0, 0.745, 0.715) infinite;
+}
+
+@keyframes animateBefore {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(150px) scale(0.9);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes animateAfter {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-200px) scale(1.1);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+/* globals.css or component-specific CSS module */
+.hover\:invert-colors {
+  transition: filter 0.s ease;
+}
+
+.hover\:invert-colors:hover {
+  filter: invert(1) sepia(1) saturate(20) hue-rotate(180deg);
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  padding-top: 50px; /* Default padding for larger screens */
+}
+
+.image-container img {
+  border-radius: 10px;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: opacity 1s ease-in-out;
+}
+
+.image-container .overlay {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: 72%;
+  border-radius: 10px;
+  background-image: url('/banner_main2.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  z-index: 1;
+  pointer-events: none;
+}
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .image-container {
+    padding-top: 10px; /* Reduced padding for smaller screens */
+  }
+  .image-container .overlay {
+    top: 10px;
+    height: 100%;
+  }
+  
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+.image-container:hover img {
+  opacity: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
