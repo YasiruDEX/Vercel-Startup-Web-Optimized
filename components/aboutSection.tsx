@@ -2,7 +2,7 @@ export default function AboutSection() {
   return (
     <section
       id="about"
-      className="w-full pb-12 pt-10 md:pb-24 lg:pb-32 md:pt-20 lg:pt-26 flex justify-center"
+      className="w-full pb-12 pt-40 md:pb-24 lg:pb-32 md:pt-20 lg:pt-24 flex justify-center"
     >
       <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">

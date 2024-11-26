@@ -18,13 +18,28 @@ import { BannerSlideshow } from "./bannerShow";
 
 
 export function MainScreenLanding() {
-  
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // Function to check screen size
+    const checkScreenSize = () => {
+      setIsMobile(window.matchMedia('(max-width: 768px)').matches);
+    };
+
+    // Initial check
+    checkScreenSize();
+
+    // Add resize event listener
+    window.addEventListener('resize', checkScreenSize);
+
+    // Cleanup event listener on component unmount
+    return () => window.removeEventListener('resize', checkScreenSize);
+  }, []);
 
   return (
     <div className={`flex flex-col min-h-dvh`}>
       <HeaderSection />
-      <BannerSlideshow />
-      {/* <LandingIntro /> */}
+      {isMobile ? <LandingIntro /> : <BannerSlideshow />}
       <AboutSection />
       <ServicesSection />
       <ProjectsSection />
