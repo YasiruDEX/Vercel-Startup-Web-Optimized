@@ -14,12 +14,17 @@ import { ArrowUpIcon } from "@/components/Icons/icons";
 import { Inter } from "next/font/google";
 import { useEffect } from "react";
 import { useDarkMode } from "@/components/darkModeProvider"; // Adjust path as necessary
+import { BannerSlideshow } from "./bannerShow";
+
 
 export function MainScreenLanding() {
+  
+
   return (
     <div className={`flex flex-col min-h-dvh`}>
       <HeaderSection />
-      <LandingIntro />
+      <BannerSlideshow />
+      {/* <LandingIntro /> */}
       <AboutSection />
       <ServicesSection />
       <ProjectsSection />

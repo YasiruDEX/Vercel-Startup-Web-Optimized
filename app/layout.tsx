@@ -9,7 +9,7 @@ export const metadata = {
   description: "Unleash the Power of Digital Transformation",
   icons: {
     rel: "icon",
-    href: "/images/favicon.ico",
+    href: "/images/icon.ico",
   },
 };
 
