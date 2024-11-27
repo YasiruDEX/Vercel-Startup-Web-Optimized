@@ -39,18 +39,25 @@ export function BannerSlideshow() {
 
   return (
     <div className="relative w-full pt-16 pb-3 px-0 shadow-md">
-      <div className="relative aspect-[16/7] overflow-hidden">
+      <div
+        className="flex transition-transform duration-500"
+        style={{
+          transform: `translateX(-${currentSlide * 100}vw)`,
+        }}
+      >
         {images.map((src, index) => (
-          <Image
+          <div
             key={index}
-            src={src}
-            alt={`Slide ${index + 1}`}
-            fill
-            className={`absolute top-0 left-0 object-cover transition-opacity duration-500 ${
-              index === currentSlide ? 'opacity-100' : 'opacity-0'
-            }`}
-            priority={index === 0}
-          />
+            className="flex-none w-screen h-auto relative aspect-[16/7]"
+          >
+            <Image
+              src={src}
+              alt={`Slide ${index + 1}`}
+              fill
+              className="object-cover"
+              priority={index === 0}
+            />
+          </div>
         ))}
       </div>
 
@@ -60,30 +67,15 @@ export function BannerSlideshow() {
         className="absolute left-4 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full hover:bg-black/75 transition-colors"
         aria-label="Previous slide"
       >
-        <ChevronLeft className="w-6 h-6" />
+        <ChevronLeft className="w-12 h-12" />
       </button>
       <button
         onClick={goToNextSlide}
         className="absolute right-4 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full hover:bg-black/75 transition-colors"
         aria-label="Next slide"
       >
-        <ChevronRight className="w-6 h-6" />
+        <ChevronRight className="w-12 h-12" />
       </button>
-
-      {/* Progress Bar */}
-      <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-2">
-        {images.map((_, index) => (
-          <button
-            key={index}
-            onClick={() => goToSlide(index)}
-            className={`w-2 h-2 rounded-full transition-all ${
-              index === currentSlide ? 'bg-white w-4' : 'bg-white/50'
-            }`}
-            aria-label={`Go to slide ${index + 1}`}
-            aria-current={index === currentSlide ? 'true' : 'false'}
-          />
-        ))}
-      </div>
     </div>
   )
 }
