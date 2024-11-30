@@ -31,6 +31,24 @@ export default function AwardsSection() {
             </ul>
           </div>
 
+          {/* Award 1 */}
+          <div className="relative grid grid-cols-1 md:grid-cols-[100px_1fr_1fr] gap-4 p-5 bg-white shadow-lg rounded-lg bg-background transition-transform duration-300 ease-in-out hover:scale-105">
+            <img
+              src="/thropy.png"
+              alt="Award Trophy"
+              className="w-16 h-16 justify-self-center relative z-10"
+            />
+            <div className="border-r-4 border-black px-4 flex flex-col justify-center">
+              <h3 className="text-xl font-semibold text-center">
+                Championship - Sri Lanka Circuit Challenge
+              </h3>
+            </div>
+            <ul className="list-disc text-muted-foreground pl-4 flex flex-col justify-center">
+              <li>Project Name: Project Steer-Safe</li>
+              <li>IEEE Challenge Sphere</li>
+            </ul>
+          </div>
+
           {/* Award 2 */}
           <div className="relative grid grid-cols-1 md:grid-cols-[100px_1fr_1fr] gap-4 p-5 bg-white shadow-lg rounded-lg bg-background transition-transform duration-300 ease-in-out hover:scale-105">
             <img
@@ -64,6 +82,42 @@ export default function AwardsSection() {
             <ul className="list-disc text-muted-foreground pl-4 flex flex-col justify-center">
               <li>Project Name: Project Steer-Safe</li>
               <li>Healthcare Innovation Competition</li>
+            </ul>
+          </div>
+
+          {/* Award 1 */}
+          <div className="relative grid grid-cols-1 md:grid-cols-[100px_1fr_1fr] gap-4 p-5 bg-white shadow-lg rounded-lg bg-background transition-transform duration-300 ease-in-out hover:scale-105">
+            <img
+              src="/thropy.png"
+              alt="Award Trophy"
+              className="w-16 h-16 justify-self-center relative z-10"
+            />
+            <div className="border-r-4 border-black px-4 flex flex-col justify-center">
+              <h3 className="text-xl font-semibold text-center">
+                1sr Runnersup - Sri Lanka Circuit Challenge
+              </h3>
+            </div>
+            <ul className="list-disc text-muted-foreground pl-4 flex flex-col justify-center">
+              <li>Project Name: Project BlindGuide</li>
+              <li>IEEE Challenge Sphere</li>
+            </ul>
+          </div>
+
+          {/* Award 1 */}
+          <div className="relative grid grid-cols-1 md:grid-cols-[100px_1fr_1fr] gap-4 p-5 bg-white shadow-lg rounded-lg bg-background transition-transform duration-300 ease-in-out hover:scale-105">
+            <img
+              src="/thropy.png"
+              alt="Award Trophy"
+              className="w-16 h-16 justify-self-center relative z-10"
+            />
+            <div className="border-r-4 border-black px-4 flex flex-col justify-center">
+              <h3 className="text-xl font-semibold text-center">
+                1sr Runnersup - Sri Lanka AI Challenge
+              </h3>
+            </div>
+            <ul className="list-disc text-muted-foreground pl-4 flex flex-col justify-center">
+              <li>Project Name: Project ElectoBot</li>
+              <li>IEEE Challenge Sphere</li>
             </ul>
           </div>
 
