@@ -1,15 +1,15 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import SmoothScroll from "@/components/smooth-scroll";
+import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/app/blog/lib/constants";
 
 const inter = Inter({ subsets: ["latin"], weight: ["400", "700"] });
 
 export const metadata = {
   title: "Aura Digital Labs",
   description: "Unleash the Power of Digital Transformation",
-  icons: {
-    rel: "icon",
-    href: "/assets/blog/authors/aura.png",
+  openGraph: {
+    images: [HOME_OG_IMAGE_URL],
   },
 };
 
