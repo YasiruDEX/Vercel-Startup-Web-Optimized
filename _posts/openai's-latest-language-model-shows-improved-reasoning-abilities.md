@@ -1,13 +1,13 @@
 ---
 title: "OpenAI's Latest Language Model Shows Improved Reasoning Abilities"
 excerpt: "# OpenAI's Latest Language Model Shows Improved Reasoning Abilities: A Giant Leap for AI?  OpenAI, the leading artificial intelligence research compan"
-coverImage: "/assets/blog/openai's-latest-language-model-shows-improved-reasoning-abilities.jpg"
+coverImage: "/assets/blog/openais-latest-language-model-shows-improved-reasoning-abilities.jpg"
 date: "2024-12-24T11:32:24.937815"
 author:
   name: AURA Digital Labs
   picture: /assets/blog/authors/aura.png
 ogImage:
-  url: "/assets/blog/openai's-latest-language-model-shows-improved-reasoning-abilities.jpg"
+  url: "/assets/blog/openais-latest-language-model-shows-improved-reasoning-abilities.jpg"
 ---
 
 # OpenAI's Latest Language Model Shows Improved Reasoning Abilities: A Giant Leap for AI?
