@@ -9,7 +9,7 @@ export const metadata = {
   description: "Unleash the Power of Digital Transformation",
   icons: {
     rel: "icon",
-    href: "/images/icon.ico",
+    href: "/assets/blog/authors/aura.png",
   },
 };
 
@@ -18,6 +18,38 @@ import React, { ReactNode } from "react";
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        <link
+          rel="aura"
+          href="/assets/blog/authors/aura.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/assets/blog/authors/aura.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/assets/blog/authors/aura.png"
+        />
+        <link rel="manifest" href="/favicon/site.webmanifest" />
+        <link
+          rel="mask-icon"
+          href="/assets/blog/authors/aura.png"
+          color="#000000"
+        />
+        <link rel="shortcut icon" href="/assets/blog/authors/aura.png" />
+        <meta name="msapplication-TileColor" content="#000000" />
+        <meta
+          name="msapplication-config"
+          content="/favicon/browserconfig.xml"
+        />
+        <meta name="theme-color" content="#000" />
+        <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
+      </head>
       <SmoothScroll />
       
       <body className={inter.className}>{children}</body>
