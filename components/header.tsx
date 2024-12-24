@@ -110,6 +110,13 @@ export default function HeaderSection() {
           Team
         </Link>
         <Link
+          href="/blog"
+          className="text-sm font-semibold hover:underline underline-offset-4"
+          prefetch={false}
+        >
+          Blog
+        </Link>
+        <Link
           href="#contact"
           className="text-sm font-semibold hover:underline underline-offset-4"
           prefetch={false}
