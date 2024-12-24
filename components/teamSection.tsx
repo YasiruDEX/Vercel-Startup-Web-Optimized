@@ -18,7 +18,7 @@ export default function TeamSection() {
           <a
             href="https://www.linkedin.com/in/yasirubasnayake"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer" 
             className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:border-2 hover:border-black"
           >
             <Avatar className="h-20 w-20">
