@@ -1,7 +1,7 @@
 ---
 title: "Haliey Welch's Hawkcoin Crashes from 490 Million to 264 Million"
 excerpt: "Cryptocurrency Hacks Surge 21% Reaching $22 Billion in 2024: A Growing Concern for the Crypto Industry  The cryptocurrency world,"
-coverImage: "/assets/blog/haliey-welch's-hawkcoin-crashes-from-490-million-to-264-million.jpg"
+coverImage: "/assets/blog/haliey-welchs-hawkcoin-crashes-from-490-million-to-264-million.jpg"
 date: "2024-12-24T07:37:54.127231"
 author:
   name: AURA Digital Labs

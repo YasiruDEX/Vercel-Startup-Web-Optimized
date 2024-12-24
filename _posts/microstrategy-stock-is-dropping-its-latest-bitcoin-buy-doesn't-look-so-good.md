@@ -1,7 +1,7 @@
 ---
 title: "MicroStrategy Stock Is Dropping Its Latest Bitcoin Buy Doesn't Look So Good"
 excerpt: "MicroStrategy Paid Well Over $100,000 Per Coin in Its Latest Bitcoin Purchases  MicroStrategy, the **business intelligence** comp"
-coverImage: "/assets/blog/microstrategy-stock-is-dropping-its-latest-bitcoin-buy-doesn't-look-so-good.jpg"
+coverImage: "/assets/blog/microstrategy-stock-is-dropping-its-latest-bitcoin-buy-doesnt-look-so-good.jpg"
 date: "2024-12-24T07:44:32.143161"
 author:
   name: AURA Digital Labs

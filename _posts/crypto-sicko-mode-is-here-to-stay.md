@@ -1,6 +1,6 @@
 ---
 title: "Crypto Sicko Mode Is Here to Stay"
-excerpt: "markdown Copy code # MicroStrategy Paid Well Over $100,000 Per Coin in Its Latest Bitcoin Purchases  MicroStrategy, the **business intelligence** comp"
+excerpt: "MicroStrategy Paid Well Over $100,000 Per Coin in Its Latest Bitcoin Purchases  MicroStrategy, the **business intelligence** comp"
 coverImage: "/assets/blog/crypto-sicko-mode-is-here-to-stay.jpg"
 date: "2024-12-24T07:45:01.455440"
 author:
@@ -10,8 +10,6 @@ ogImage:
   url: "/assets/blog/crypto-sicko-mode-is-here-to-stay.jpg"
 ---
 
-markdown
-Copy code
 # MicroStrategy Paid Well Over $100,000 Per Coin in Its Latest Bitcoin Purchases
 
 MicroStrategy, the **business intelligence** company that has become a key player in the world of cryptocurrency, continues to make bold moves in its **Bitcoin investment strategy**. In its most recent **Bitcoin purchase**, the company paid well over **$100,000 per coin**, a significant premium compared to earlier acquisitions. This latest purchase has raised eyebrows in both the **traditional finance world** and the **crypto community**. With Bitcoin’s price fluctuating and the market facing new challenges, the question arises: why is MicroStrategy doubling down on Bitcoin at such high prices?
