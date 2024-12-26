@@ -1,10 +1,15 @@
 import Projects from "@/components/Projects/Projects";
+import { Button } from "@/components/ui/button"
 
 export default function ProjectsSection() {
   return (
     <section id="projects" className="pb-20 pt-20 bg-background">
       <div className="container mx-auto max-w-5xl">
-        <h2 className="text-4xl font-bold mb-12 text-center">Our Projects</h2>
+        <h2 className="text-4xl font-bold text-center mb-3">Our Work</h2>
+        <p className="mx-auto max-w-2xl text-muted-foreground md:text-xl lg:text-base text-center mb-12">
+          Explore our diverse portfolio of innovative projects that showcase our
+          expertise in cutting-edge technology solutions.
+        </p>
         <div className="container grid gap-6 px-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 md:gap-8 md:px-6">
           <Projects
             description={
@@ -119,6 +124,25 @@ export default function ProjectsSection() {
           />
         </div>
       </div>
+      {/* center the button
+      <div className="flex justify-center">
+      <a
+          href="https://api.whatsapp.com/send?phone=94754745359&text=Hi!%20I%27d%20like%20to%20connect%20with%20the%20Aura%20Digital%20Labs%20team%20for%20a%20discussion."
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+        <Button 
+          size="lg"
+          className="bg-gradient-to-r from-gray-600 to-black hover:from-gray-500 hover:to-gray-800 text-white text-md font-semibold px-8 mt-10 mb-10 rounded-lg tracking-wide"          
+          style={{
+              objectFit: "cover",
+              borderRadius: "30px",
+          }}
+        >
+          Book a Free Call
+        </Button>
+        </a>
+        </div> */}
     </section>
   );
 }

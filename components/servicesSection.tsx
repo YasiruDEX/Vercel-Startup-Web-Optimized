@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Button } from "@/components/ui/button"
 import {
   FaAccusoft,
   FaRobot,
@@ -142,6 +143,22 @@ export default function ServicesSection() {
             />
           ))}
         </div>
+        <a
+          href="https://api.whatsapp.com/send?phone=94754745359&text=Hi!%20I%27d%20like%20to%20connect%20with%20the%20Aura%20Digital%20Labs%20team%20for%20a%20discussion."
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+        <Button 
+          size="lg"
+          className="bg-gradient-to-r from-gray-600 to-black hover:from-gray-500 hover:to-gray-800 text-white text-md font-semibold px-8 mt-10 mb-10 rounded-lg tracking-wide"          
+          style={{
+              objectFit: "cover",
+              borderRadius: "30px",
+          }}
+        >
+          Book a Free Call
+        </Button>
+        </a>
       </div>
     </section>
   );
