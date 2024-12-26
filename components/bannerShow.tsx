@@ -10,8 +10,8 @@ const images = [
   '/Banner/Banner 8.jpg',
   '/Banner/Banner 9.jpg',
   '/Banner/Banner 7.jpg',
-  '/Banner/banner 5 n.jpg',
-  '/Banner/banner 6.jpg',
+  '/Banner/banner 6 n.jpg',
+  '/Banner/banner 5 nn.jpg',
   '/Banner/banner 1.jpg',
 ]
 
