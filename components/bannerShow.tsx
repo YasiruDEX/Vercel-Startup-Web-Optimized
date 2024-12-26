@@ -5,8 +5,6 @@ import Image from 'next/image'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 
 const images = [
-  // '/Banner/banner 0 n.jpg',
-  // '/Banner/banner 2.jpg',
   '/Banner/banner 3 n.jpg',
   '/Banner/banner 4.jpg',
   '/Banner/banner 8.jpg',
@@ -41,7 +39,7 @@ export function BannerSlideshow() {
   }
 
   return (
-    <div className="relative w-full px-0 shadow-md">
+    <div className="relative w-full overflow-hidden px-0 shadow-md">
       <div
         className="flex transition-transform duration-500"
         style={{
@@ -82,4 +80,3 @@ export function BannerSlideshow() {
     </div>
   )
 }
-
