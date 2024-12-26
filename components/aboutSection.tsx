@@ -91,7 +91,7 @@ export default function AboutSection() {
               borderRadius: "20px",
           }}
         >
-          Let's Discuss
+          Let&apos;s Discuss
         </Button>
         </a>
       </div>
