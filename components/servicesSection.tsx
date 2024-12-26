@@ -9,7 +9,16 @@ import {
   FaProjectDiagram,
 } from "react-icons/fa";
 
-const ServiceCard = ({ icon: Icon, title, description, technologies }) => {
+import { IconType } from "react-icons";
+
+interface ServiceCardProps {
+  icon: IconType;
+  title: string;
+  description: string;
+  technologies: string[];
+}
+
+const ServiceCard = ({ icon: Icon, title, description, technologies }: ServiceCardProps) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
