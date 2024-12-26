@@ -7,7 +7,7 @@ export default function LandingIntro() {
   return (
     <section id="home" className="w-full pt-12 md:pt-16 lg:pt-20 border-y">
       <div className="px-4 md:px-6 space-y-10 xl:space-y-16">
-        <div className="grid max-w-[1300px] mx-auto gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-2 md:gap-16 mt-10">
+        <div className="grid max-w-[1300px] mx-auto gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-2 md:gap-16 mt-10 py-5">
           <div>
             <div
               className="h-6 px-3 bg-primary/10 text-black font-light mb-3 inline-block"
@@ -46,7 +46,8 @@ export default function LandingIntro() {
               </div>
             </div>
           </div>
-          <div className="relative w-full h-64 flex items-center justify-center">
+          <div className="my-5"></div>
+          {/* <div className="relative w-full h-64 flex items-center justify-center">
             <div className="relative w-full h-full bg-black flex items-center justify-center">
               <img
                 src={darkMode ? "/main2_black.jpg" : "/banner_main.jpg"}
@@ -59,7 +60,7 @@ export default function LandingIntro() {
                 className="absolute lg:top-10 md:top-20 inset-2 w-full h-full lg:h-100 md:h-100 sm:h-auto rounded-md object-cover transition-opacity opacity-0 duration-500 ease-in-out hover:opacity-100"
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

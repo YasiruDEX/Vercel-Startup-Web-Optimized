@@ -40,7 +40,7 @@ export function MainScreenLanding() {
     <div className={`flex flex-col min-h-dvh`}>
       <HeaderSection />
       {isMobile ? <LandingIntro /> : <BannerSlideshow />}
-      <AboutSection />
+      {isMobile ? <></> : <AboutSection />}
       <ServicesSection />
       <ProjectsSection />
       <AwardsSection />
