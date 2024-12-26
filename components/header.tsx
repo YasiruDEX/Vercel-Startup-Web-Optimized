@@ -139,7 +139,7 @@ export default function HeaderSection() {
           </Button>
         </a>
 
-        <FormControlLabel
+        {/* <FormControlLabel
           control={
             <MaterialUISwitch
               checked={darkMode}
@@ -147,7 +147,7 @@ export default function HeaderSection() {
             />
           }
           label={darkMode ? "" : ""}
-        />
+        /> */}
       </div>
 
       <div className="md:hidden flex items-center ml-4">
