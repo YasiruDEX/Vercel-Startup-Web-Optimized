@@ -129,7 +129,7 @@ export default function TeamSection() {
             </Avatar>
             <div className="grid gap-1 text-center">
               <h3 className="text-xl font-bold">Tashin Kavishan</h3>
-              <p className="font-medium">HR Manager</p>
+              <p className="font-medium">Project Manager</p>
               <p className="text-muted-foreground">
                 Bio Medical Engineering Undergraduate
               </p>
@@ -153,7 +153,7 @@ export default function TeamSection() {
             </Avatar>
             <div className="grid gap-1 text-center">
               <h3 className="text-xl font-bold">Wimukthi Bandara</h3>
-              <p className="font-medium">Marketing Coordinator</p>
+              <p className="font-medium">HR Manager</p>
               <p className="text-muted-foreground">
                 Computer Science Engineering Undergraduate
               </p>
@@ -208,6 +208,9 @@ export default function TeamSection() {
             </div>
           </a>
         </div>
+      </div>
+      <div className="text-center mt-8 text-muted-foreground font-medium">
+      and 10+ more professionals...
       </div>
     </section>
   );

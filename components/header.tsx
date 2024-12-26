@@ -62,7 +62,7 @@ export default function HeaderSection() {
   }, [darkMode]);
 
   return (
-    <header className="fixed top-0 left-0 right-0 px-4 lg:px-6 h-16 flex items-center justify-between backdrop-blur-md bg-white/20 shadow-sm z-50">
+    <header className="fixed top-0 left-0 right-0 px-4 lg:px-6 h-16 flex items-center justify-between backdrop-blur-lg bg-white/5 shadow-sm z-50">
       <Link href="#" className="flex items-center justify-start">
         <span className="sr-only">Aura Digital Labs</span>
         <img

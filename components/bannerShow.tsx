@@ -6,12 +6,15 @@ import { ChevronLeft, ChevronRight } from 'lucide-react'
 
 const images = [
   // '/Banner/banner 0 n.jpg',
-  '/Banner/banner 1.jpg',
   // '/Banner/banner 2.jpg',
-  '/Banner/banner 3.jpg',
+  '/Banner/banner 3 n.jpg',
   '/Banner/banner 4.jpg',
+  '/Banner/banner 8.jpg',
+  '/Banner/banner 9.jpg',
+  '/Banner/banner 7.jpg',
   '/Banner/banner 5 n.jpg',
   '/Banner/banner 6.jpg',
+  '/Banner/banner 1.jpg',
 ]
 
 export function BannerSlideshow() {
@@ -38,7 +41,7 @@ export function BannerSlideshow() {
   }
 
   return (
-    <div className="relative w-full pt-16 pb-3 px-0 shadow-md">
+    <div className="relative w-full px-0 shadow-md">
       <div
         className="flex transition-transform duration-500"
         style={{
@@ -48,7 +51,7 @@ export function BannerSlideshow() {
         {images.map((src, index) => (
           <div
             key={index}
-            className="flex-none w-screen h-auto relative aspect-[16/7]"
+            className="flex-none w-screen h-auto relative aspect-[16/8]"
           >
             <Image
               src={src}
