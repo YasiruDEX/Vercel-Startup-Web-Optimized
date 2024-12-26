@@ -75,7 +75,7 @@ export default function HeaderSection() {
       </Link>
       <nav className="hidden md:flex gap-4 sm:gap-6 flex-1 justify-center">
         <Link
-          href="#home"
+          href="/"
           className="text-sm font-semibold hover:underline underline-offset-4"
           prefetch={false}
         >

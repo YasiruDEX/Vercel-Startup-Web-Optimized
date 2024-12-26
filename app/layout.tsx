@@ -52,7 +52,13 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       </head>
       <SmoothScroll />
       
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+
+        <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+        <script src="https://files.bpcontent.cloud/2024/12/26/07/20241226071135-Q1L2LKIY.js"></script>
+    
+        {children}
+        </body>
     </html>
   );
 }

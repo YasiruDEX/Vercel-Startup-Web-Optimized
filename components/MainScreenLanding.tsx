@@ -70,7 +70,7 @@ function BottomBanner() {
 
 function ScrollToTop() {
   return (
-    <div className="fixed bottom-4 right-4">
+    <div className="fixed bottom-4 left-4">
       <Button
         variant="ghost"
         size="icon"
