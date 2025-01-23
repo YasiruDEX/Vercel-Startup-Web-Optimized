@@ -66,9 +66,9 @@ export default function HeaderSection() {
       <Link href="#" className="flex items-center justify-start">
         <span className="sr-only">Aura Digital Labs</span>
         <img
-          src={darkMode ? "/logo_light.png" : "/logo.png"}
-          width="60"
-          height="40"
+          src={darkMode ? "/Aura Logo-01.png" : "/Aura Logo-01.png"}
+          width="150"
+          height="60"
           alt="Hero"
           className="overflow-hidden rounded-t-xl object-cover"
         />
