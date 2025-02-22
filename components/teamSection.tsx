@@ -103,7 +103,7 @@ export default function TeamSection() {
             </Avatar>
             <div className="grid gap-1 text-center">
               <h3 className="text-xl font-bold">Lasith Haputhantri</h3>
-              <p className="font-medium">Chief Financial Officer</p>
+              <p className="font-medium">Chief Technology Officer</p>
               <p className="text-muted-foreground">
                 Electronic and Telecommunications Engineering Undergraduate
               </p>
