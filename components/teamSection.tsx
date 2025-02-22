@@ -62,30 +62,6 @@ export default function TeamSection() {
             </div>
           </a>
 
-          {/* Team Member 3 */}
-          <a
-            href="https://www.linkedin.com/in/anushka-sandeepa-samaranayake-70536a227/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:border-2 hover:border-black"
-          >
-            <Avatar className="h-20 w-20">
-              <AvatarImage
-                src="/Anushka.jpg"
-                alt="Anushka Samaranayake"
-                className="rounded-md"
-              />
-              <AvatarFallback>KR</AvatarFallback>
-            </Avatar>
-            <div className="grid gap-1 text-center">
-              <h3 className="text-xl font-bold">Anushka Samaranayake</h3>
-              <p className="font-medium">Marketing Manager</p>
-              <p className="text-muted-foreground">
-                Electronic and Telecommunications Engineering Undergraduate
-              </p>
-            </div>
-          </a>
-
           {/* Team Member 4 */}
           <a
             href="https://www.linkedin.com/in/lasith-haputhanthri-b2919a265/"
@@ -109,32 +85,33 @@ export default function TeamSection() {
               </p>
             </div>
           </a>
-        </div>
 
-        <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-4 md:px-6 mt-8">
-          {/* Team Member 5 */}
+          {/* Team Member 3 */}
           <a
-            href="https://www.linkedin.com/in/tashin-kavishan-09908126a/"
+            href="https://www.linkedin.com/in/anushka-sandeepa-samaranayake-70536a227/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:border-2 hover:border-black"
           >
             <Avatar className="h-20 w-20">
               <AvatarImage
-                src="/tashin.jpg"
-                alt="Tashin Kavishan"
+                src="/Anushka.jpg"
+                alt="Anushka Samaranayake"
                 className="rounded-md"
               />
-              <AvatarFallback>HW</AvatarFallback>
+              <AvatarFallback>KR</AvatarFallback>
             </Avatar>
             <div className="grid gap-1 text-center">
-              <h3 className="text-xl font-bold">Tashin Kavishan</h3>
-              <p className="font-medium">Project Manager</p>
+              <h3 className="text-xl font-bold">Anushka Samaranayake</h3>
+              <p className="font-medium">Marketing Manager</p>
               <p className="text-muted-foreground">
-                Bio Medical Engineering Undergraduate
+                Electronic and Telecommunications Engineering Undergraduate
               </p>
             </div>
           </a>
+        </div>
+
+        <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-4 md:px-6 mt-8">
 
           {/* Team Member 6 */}
           <a
@@ -204,6 +181,30 @@ export default function TeamSection() {
               <p className="font-medium">Project Manager</p>
               <p className="text-muted-foreground">
                 Electronic and Telecommunications Engineering Undergraduate
+              </p>
+            </div>
+          </a>
+          
+          {/* Team Member 5 */}
+          <a
+            href="https://www.linkedin.com/in/tashin-kavishan-09908126a/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:border-2 hover:border-black"
+          >
+            <Avatar className="h-20 w-20">
+              <AvatarImage
+                src="/tashin.jpg"
+                alt="Tashin Kavishan"
+                className="rounded-md"
+              />
+              <AvatarFallback>HW</AvatarFallback>
+            </Avatar>
+            <div className="grid gap-1 text-center">
+              <h3 className="text-xl font-bold">Tashin Kavishan</h3>
+              <p className="font-medium">Project Manager</p>
+              <p className="text-muted-foreground">
+                Bio Medical Engineering Undergraduate
               </p>
             </div>
           </a>
