@@ -45,13 +45,13 @@ As of February 26, 2025, Majorana 1 operates with 8 qubits, cooled near absolute
 #### Future Implications and Applications
 The future of Majorana 1 hinges on its ability to deliver on scalability and error correction. Microsoft's roadmap includes developing hardware-protected topological qubits and arrays for quantum error correction, essential for fault-tolerant computing ([Microsoft Unveils Quantum Chip Majorana 1 for Future Advances](https://www.techtarget.com/searchdatacenter/news/366619479/Microsoft-unveils-quantum-chip-Majorana-1-for-future-advances)). Potential applications include:
 
-| **Field**            | **Potential Application**                          |
-|-----------------------|---------------------------------------------------|
-| Material Science      | Designing self-healing materials, optimizing battery chemistries |
-| Pharmaceuticals       | Simulating molecular interactions for drug discovery |
-| Cryptography          | Breaking or enhancing encryption methods            |
-| Logistics             | Optimizing supply chains and resource allocation    |
-| Artificial Intelligence | Accelerating machine learning algorithms            |
+**Field: Potential Application**
+
+- **Material Science**: Designing self-healing materials, optimizing battery chemistries  
+- **Pharmaceuticals**: Simulating molecular interactions for drug discovery  
+- **Cryptography**: Breaking or enhancing encryption methods  
+- **Logistics**: Optimizing supply chains and resource allocation  
+- **Artificial Intelligence**: Accelerating machine learning algorithms  
 
 These applications could transform industries, but experts caution that more data is needed to assess the chip's real-world impact, with some viewing it as potentially overhyped ([Microsoft’s Majorana 1: A Quantum Leap or Just Hype?](https://arbisoft.com/blogs/microsoft-s-majorana-1-a-quantum-leap-or-just-hype)). The scientific community, including universities researching Majorana particles, will closely monitor its performance ([The Scientific Community Will Closely Watch How Microsoft’s Quantum Computing Processors Operate](https://www.wired.com/story/microsoft-just-claimed-a-quantum-breakthrough-a-quantum-physicist-explains-what-it-means/)).
 
