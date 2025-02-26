@@ -1,6 +1,6 @@
 ---
 title: "Self-Driving Car Accident Highlights Ongoing Challenges in AI Safety"
-excerpt: "# Self-Driving Car Accident Highlights Ongoing Challenges in AI Safety  A recent self-driving car accident has once again thrust the complexities and "
+excerpt: "Self-Driving Car Accident Highlights Ongoing Challenges in AI Safety  A recent self-driving car accident has once again thrust the complexities and "
 coverImage: "/assets/blog/self-driving-car-accident-highlights-ongoing-challenges-in-ai-safety.jpg"
 date: "2024-12-24T11:32:32.812131"
 author:

@@ -1,6 +1,6 @@
 ---
 title: "ROS Gazebo Simulation Robot Modeling"
-excerpt: "# ROS Gazebo Simulation: Building Your Robot's Virtual World  Robotics is a field brimming with exciting possibilities, but building and testing real "
+excerpt: "ROS Gazebo Simulation: Building Your Robot's Virtual World  Robotics is a field brimming with exciting possibilities, but building and testing real "
 coverImage: "/assets/blog/ros-gazebo-simulation-robot-modeling.jpg"
 date: "2024-12-24T12:19:30.675010"
 author:

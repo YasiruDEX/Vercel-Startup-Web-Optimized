@@ -1,6 +1,6 @@
 ---
 title: "Luxury Car Sales Remain Strong Despite Economic Uncertainty"
-excerpt: "# Luxury Car Sales Remain Strong Despite Economic Uncertainty  The global economy is a rollercoaster.  Inflation spikes, interest rates fluctuate, and"
+excerpt: "Luxury Car Sales Remain Strong Despite Economic Uncertainty  The global economy is a rollercoaster.  Inflation spikes, interest rates fluctuate, and"
 coverImage: "/assets/blog/luxury-car-sales-remain-strong-despite-economic-uncertainty.jpg"
 date: "2024-12-24T12:00:21.526217"
 author:

@@ -1,6 +1,6 @@
 ---
 title: "ROS Topics Publishing & Subscribing"
-excerpt: "# ROS Topics: The Heartbeat of Robotic Communication  ROS (Robot Operating System) is the de facto standard for robot software development.  At the co"
+excerpt: "ROS Topics: The Heartbeat of Robotic Communication  ROS (Robot Operating System) is the de facto standard for robot software development.  At the co"
 coverImage: "/assets/blog/ros-topics-publishing--subscribing.jpg"
 date: "2024-12-24T12:18:18.408008"
 author:

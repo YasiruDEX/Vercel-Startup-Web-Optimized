@@ -1,6 +1,6 @@
 ---
 title: "EU Parliament Approves Landmark AI Regulations Amidst Industry Debate"
-excerpt: "# EU Parliament Approves Landmark AI Regulations Amidst Industry Debate  The European Union Parliament has taken a monumental step towards regulating "
+excerpt: "EU Parliament Approves Landmark AI Regulations Amidst Industry Debate  The European Union Parliament has taken a monumental step towards regulating "
 coverImage: "/assets/blog/eu-parliament-approves-landmark-ai-regulations-amidst-industry-debate.jpg"
 date: "2024-12-24T11:32:16.964373"
 author:

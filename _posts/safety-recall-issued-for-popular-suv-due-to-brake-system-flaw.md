@@ -1,6 +1,6 @@
 ---
 title: "Safety Recall Issued for Popular SUV Due to Brake System Flaw"
-excerpt: "# Safety Recall Issued for Popular SUV Due to Brake System Flaw  **Headline:**  Brakes Failing? Your Favorite SUV Might Be Recalled!  **Introduction:*"
+excerpt: "Safety Recall Issued for Popular SUV Due to Brake System Flaw  **Headline:**  Brakes Failing? Your Favorite SUV Might Be Recalled!  **Introduction:*"
 coverImage: "/assets/blog/safety-recall-issued-for-popular-suv-due-to-brake-system-flaw.jpg"
 date: "2024-12-24T12:01:16.522946"
 author:

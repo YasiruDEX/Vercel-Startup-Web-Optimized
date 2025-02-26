@@ -1,8 +1,8 @@
 ---
 title: "AI Predicts Major Hurricane with Unprecedented Accuracy"
-excerpt: "# AI Predicts Major Hurricane with Unprecedented Accuracy: A New Era in Forecasting?  **A groundbreaking achievement in hurricane prediction has sent "
+excerpt: "AI Predicts Major Hurricane with Unprecedented Accuracy: A New Era in Forecasting?  **A groundbreaking achievement in hurricane prediction has sent "
 coverImage: "/assets/blog/ai-predicts-major-hurricane-with-unprecedented-accuracy.jpg"
-date: "2024-12-24T11:33:04.084209"
+date: "2024-12-28T11:33:04.084209"
 author:
   name: AURA Digital Labs
   picture: /assets/blog/authors/aura.png

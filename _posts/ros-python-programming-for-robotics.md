@@ -1,6 +1,6 @@
 ---
 title: "ROS Python Programming for Robotics"
-excerpt: "# ROS Python Programming for Robotics: Your Gateway to Intelligent Machines  Robotics is booming, and at the heart of many successful robotic systems "
+excerpt: "ROS Python Programming for Robotics: Your Gateway to Intelligent Machines  Robotics is booming, and at the heart of many successful robotic systems "
 coverImage: "/assets/blog/ros-python-programming-for-robotics.jpg"
 date: "2024-12-24T12:19:57.873665"
 author:

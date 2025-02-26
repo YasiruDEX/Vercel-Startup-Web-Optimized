@@ -1,8 +1,8 @@
 ---
 title: "AI-Powered Drug Discovery Accelerates Breakthrough in Cancer Treatment"
-excerpt: "# AI-Powered Drug Discovery Accelerates Breakthrough in Cancer Treatment  Cancer. The word alone evokes fear and uncertainty.  For decades, researcher"
+excerpt: "AI-Powered Drug Discovery Accelerates Breakthrough in Cancer Treatment  Cancer. The word alone evokes fear and uncertainty.  For decades, researcher"
 coverImage: "/assets/blog/ai-powered-drug-discovery-accelerates-breakthrough-in-cancer-treatment.jpg"
-date: "2024-12-24T11:32:01.825887"
+date: "2024-12-27T11:32:01.825887"
 author:
   name: AURA Digital Labs
   picture: /assets/blog/authors/aura.png

@@ -1,6 +1,6 @@
 ---
 title: "Scientists Develop AI System for Early Detection of Alzheimer's Disease"
-excerpt: "# Scientists Develop AI System for Early Detection of Alzheimer's Disease: A Hopeful Dawn  Alzheimer's disease, a progressive neurodegenerative disord"
+excerpt: "Scientists Develop AI System for Early Detection of Alzheimer's Disease: A Hopeful Dawn  Alzheimer's disease, a progressive neurodegenerative disord"
 coverImage: "/assets/blog/scientists-develop-ai-system-for-early-detection-of-alzheimer's-disease.jpg"
 date: "2024-12-24T11:33:56.329163"
 author:

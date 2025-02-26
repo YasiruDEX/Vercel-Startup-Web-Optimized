@@ -1,6 +1,6 @@
 ---
 title: "ROS MoveIt Robot Manipulation"
-excerpt: "# ROS MoveIt: Mastering Robot Manipulation  **Introduction**  In the fascinating world of robotics, enabling robots to interact skillfully with their "
+excerpt: "ROS MoveIt: Mastering Robot Manipulation  **Introduction**  In the fascinating world of robotics, enabling robots to interact skillfully with their "
 coverImage: "/assets/blog/ros-moveit-robot-manipulation.jpg"
 date: "2024-12-24T12:20:33.411269"
 author:

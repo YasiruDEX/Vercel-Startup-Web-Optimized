@@ -1,8 +1,8 @@
 ---
 title: "Chip Shortage Continues to Hamper Auto Production Analysts Warn"
-excerpt: "# Chip Shortage Continues to Hamper Auto Production: Analysts Warn  The automotive industry, a behemoth of global manufacturing, continues to grapple "
+excerpt: "Chip Shortage Continues to Hamper Auto Production: Analysts Warn  The automotive industry, a behemoth of global manufacturing, continues to grapple "
 coverImage: "/assets/blog/chip-shortage-continues-to-hamper-auto-production-analysts-warn.jpg"
-date: "2024-12-24T12:00:06.984871"
+date: "2024-12-31T12:00:06.984871"
 author:
   name: AURA Digital Labs
   picture: /assets/blog/authors/aura.png

@@ -1,6 +1,6 @@
 ---
 title: "Rivian Faces Production Challenges Delays Deliveries"
-excerpt: "# Rivian Faces Production Challenges: Delays and the Road Ahead  Rivian, the electric vehicle (EV) startup that burst onto the scene with promises of "
+excerpt: "Rivian Faces Production Challenges: Delays and the Road Ahead  Rivian, the electric vehicle (EV) startup that burst onto the scene with promises of "
 coverImage: "/assets/blog/rivian-faces-production-challenges-delays-deliveries.jpg"
 date: "2024-12-24T12:00:28.900933"
 author:

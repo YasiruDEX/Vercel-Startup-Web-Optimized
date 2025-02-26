@@ -1,8 +1,8 @@
 ---
 title: "AI Art Generator Sparks Copyright Infringement Lawsuit"
-excerpt: "# AI Art Generator Sparks Copyright Infringement Lawsuit: A New Frontier in Legal Battles  The world of art is colliding head-on with the rapidly evol"
+excerpt: "AI Art Generator Sparks Copyright Infringement Lawsuit: A New Frontier in Legal Battles  The world of art is colliding head-on with the rapidly evol"
 coverImage: "/assets/blog/ai-art-generator-sparks-copyright-infringement-lawsuit.jpg"
-date: "2024-12-24T11:32:40.649252"
+date: "2024-12-26T11:32:40.649252"
 author:
   name: AURA Digital Labs
   picture: /assets/blog/authors/aura.png

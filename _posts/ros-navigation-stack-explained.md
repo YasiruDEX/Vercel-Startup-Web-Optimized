@@ -1,6 +1,6 @@
 ---
 title: "ROS Navigation Stack Explained"
-excerpt: "# ROS Navigation Stack Explained:  Guiding Your Robot to its Destination  Navigating the world, for a robot, is far more complex than it is for us.  W"
+excerpt: "ROS Navigation Stack Explained:  Guiding Your Robot to its Destination  Navigating the world, for a robot, is far more complex than it is for us.  W"
 coverImage: "/assets/blog/ros-navigation-stack-explained.jpg"
 date: "2024-12-24T12:20:16.207831"
 author:

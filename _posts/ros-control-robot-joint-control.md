@@ -1,6 +1,6 @@
 ---
 title: "ROS Control Robot Joint Control"
-excerpt: "# ROS Control: Mastering the Art of Robot Joint Control  Robotics is a fascinating field, pushing the boundaries of engineering and artificial intelli"
+excerpt: "ROS Control: Mastering the Art of Robot Joint Control  Robotics is a fascinating field, pushing the boundaries of engineering and artificial intelli"
 coverImage: "/assets/blog/ros-control-robot-joint-control.jpg"
 date: "2024-12-24T12:20:24.809124"
 author:

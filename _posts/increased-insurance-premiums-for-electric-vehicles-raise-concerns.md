@@ -1,6 +1,6 @@
 ---
 title: "Increased Insurance Premiums for Electric Vehicles Raise Concerns"
-excerpt: "# Increased Insurance Premiums for Electric Vehicles Raise Concerns  The electric vehicle (EV) revolution is gaining momentum, promising a cleaner, qu"
+excerpt: "Increased Insurance Premiums for Electric Vehicles Raise Concerns  The electric vehicle (EV) revolution is gaining momentum, promising a cleaner, qu"
 coverImage: "/assets/blog/increased-insurance-premiums-for-electric-vehicles-raise-concerns.jpg"
 date: "2024-12-24T12:01:38.831211"
 author:

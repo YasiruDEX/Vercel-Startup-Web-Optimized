@@ -1,6 +1,6 @@
 ---
 title: "ROS Launch Files Running Multiple Nodes"
-excerpt: "# Orchestrating Your Robot: Mastering ROS Launch Files for Multi-Node Control  ROS (Robot Operating System) is the de facto standard for robotics soft"
+excerpt: "Orchestrating Your Robot: Mastering ROS Launch Files for Multi-Node Control  ROS (Robot Operating System) is the de facto standard for robotics soft"
 coverImage: "/assets/blog/ros-launch-files-running-multiple-nodes.jpg"
 date: "2024-12-24T12:19:04.114375"
 author:

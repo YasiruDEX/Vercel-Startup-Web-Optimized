@@ -1,6 +1,6 @@
 ---
 title: "New Study Shows Growing Demand for Autonomous Driving Features"
-excerpt: "# New Study Shows Growing Demand for Autonomous Driving Features: The Road Ahead is Self-Driving  The hum of the engine, the feel of the steering whee"
+excerpt: "New Study Shows Growing Demand for Autonomous Driving Features: The Road Ahead is Self-Driving  The hum of the engine, the feel of the steering whee"
 coverImage: "/assets/blog/new-study-shows-growing-demand-for-autonomous-driving-features.jpg"
 date: "2024-12-24T12:00:36.464371"
 author:

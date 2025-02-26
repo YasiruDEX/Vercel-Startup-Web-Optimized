@@ -1,6 +1,6 @@
 ---
 title: "Rise of AI-Powered Chatbots Transforms Customer Service Landscape"
-excerpt: "# The Rise of AI-Powered Chatbots: Transforming the Customer Service Landscape  The way businesses interact with customers is undergoing a seismic shi"
+excerpt: "The Rise of AI-Powered Chatbots: Transforming the Customer Service Landscape  The way businesses interact with customers is undergoing a seismic shi"
 coverImage: "/assets/blog/rise-of-ai-powered-chatbots-transforms-customer-service-landscape.jpg"
 date: "2024-12-24T11:33:41.522468"
 author:

@@ -1,6 +1,6 @@
 ---
 title: "ROS Actions Complex Task Management"
-excerpt: "# ROS Actions: Mastering Complex Task Management in Robotics  ROS (Robot Operating System) is the de facto standard for robot software development. Wh"
+excerpt: "ROS Actions: Mastering Complex Task Management in Robotics  ROS (Robot Operating System) is the de facto standard for robot software development. Wh"
 coverImage: "/assets/blog/ros-actions-complex-task-management.jpg"
 date: "2024-12-24T12:18:37.274615"
 author:

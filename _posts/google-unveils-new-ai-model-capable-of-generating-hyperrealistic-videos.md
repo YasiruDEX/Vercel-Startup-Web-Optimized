@@ -1,6 +1,6 @@
 ---
 title: "Google Unveils New AI Model Capable of Generating Hyperrealistic Videos"
-excerpt: "# Google Unveils New AI Model Capable of Generating Hyperrealistic Videos: A Leap into the Future of Visual Content  **Introduction**  The world of ar"
+excerpt: "Google Unveils New AI Model Capable of Generating Hyperrealistic Videos: A Leap into the Future of Visual Content  **Introduction**  The world of ar"
 coverImage: "/assets/blog/google-unveils-new-ai-model-capable-of-generating-hyperrealistic-videos.jpg"
 date: "2024-12-24T11:31:54.489990"
 author:

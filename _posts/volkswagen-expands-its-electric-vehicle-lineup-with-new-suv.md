@@ -1,6 +1,6 @@
 ---
 title: "Volkswagen Expands its Electric Vehicle Lineup with New SUV"
-excerpt: "# Volkswagen Expands its Electric EV Lineup with a New SUV:  The ID.4's Growing Family  Volkswagen's commitment to electrifying its fleet is undeniabl"
+excerpt: "Volkswagen Expands its Electric EV Lineup with a New SUV:  The ID.4's Growing Family  Volkswagen's commitment to electrifying its fleet is undeniabl"
 coverImage: "/assets/blog/volkswagen-expands-its-electric-vehicle-lineup-with-new-suv.jpg"
 date: "2024-12-24T12:01:07.837355"
 author:

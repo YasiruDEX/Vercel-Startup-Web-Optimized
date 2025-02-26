@@ -1,6 +1,6 @@
 ---
 title: "Ethical Concerns Surround Use of AI in Law Enforcement"
-excerpt: "# Ethical Concerns Surround the Use of AI in Law Enforcement  The integration of artificial intelligence (AI) into law enforcement is rapidly transfor"
+excerpt: "Ethical Concerns Surround the Use of AI in Law Enforcement  The integration of artificial intelligence (AI) into law enforcement is rapidly transfor"
 coverImage: "/assets/blog/ethical-concerns-surround-use-of-ai-in-law-enforcement.jpg"
 date: "2024-12-24T11:33:48.787148"
 author:

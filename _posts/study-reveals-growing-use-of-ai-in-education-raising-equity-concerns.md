@@ -1,6 +1,6 @@
 ---
 title: "Study Reveals Growing Use of AI in Education Raising Equity Concerns"
-excerpt: "# Study Reveals Growing Use of AI in Education: Raising Equity Concerns  **Introduction:**  Artificial intelligence (AI) is rapidly transforming vario"
+excerpt: "Study Reveals Growing Use of AI in Education: Raising Equity Concerns  **Introduction:**  Artificial intelligence (AI) is rapidly transforming vario"
 coverImage: "/assets/blog/study-reveals-growing-use-of-ai-in-education-raising-equity-concerns.jpg"
 date: "2024-12-24T11:32:56.815997"
 author:

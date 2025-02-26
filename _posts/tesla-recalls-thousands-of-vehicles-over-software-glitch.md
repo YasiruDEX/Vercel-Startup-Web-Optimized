@@ -1,6 +1,6 @@
 ---
 title: "Tesla Recalls Thousands of Vehicles Over Software Glitch"
-excerpt: "# Tesla Recalls Thousands of Vehicles Over Software Glitch: What You Need to Know  Tesla, the electric vehicle giant, has once again found itself in t"
+excerpt: "Tesla Recalls Thousands of Vehicles Over Software Glitch: What You Need to Know  Tesla, the electric vehicle giant, has once again found itself in t"
 coverImage: "/assets/blog/tesla-recalls-thousands-of-vehicles-over-software-glitch.jpg"
 date: "2024-12-24T11:59:51.615569"
 author:

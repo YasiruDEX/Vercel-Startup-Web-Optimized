@@ -1,6 +1,6 @@
 ---
 title: "Study Reveals Impact of Auto Industry on Climate Change"
-excerpt: "# Study Reveals the Glaring Impact of the Auto Industry on Climate Change  The hum of engines, the freedom of the open road – the automobile has revol"
+excerpt: "Study Reveals the Glaring Impact of the Auto Industry on Climate Change  The hum of engines, the freedom of the open road – the automobile has revol"
 coverImage: "/assets/blog/study-reveals-impact-of-auto-industry-on-climate-change.jpg"
 date: "2024-12-24T12:01:54.210815"
 author:

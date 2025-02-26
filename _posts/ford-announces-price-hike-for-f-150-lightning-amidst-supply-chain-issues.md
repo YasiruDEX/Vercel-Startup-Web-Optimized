@@ -1,6 +1,6 @@
 ---
 title: "Ford Announces Price Hike for F-150 Lightning Amidst Supply Chain Issues"
-excerpt: "# Ford Announces Price Hike for F-150 Lightning Amidst Supply Chain Issues:  A Bolt of Bad News for Buyers?  The electric vehicle revolution is roarin"
+excerpt: "Ford Announces Price Hike for F-150 Lightning Amidst Supply Chain Issues:  A Bolt of Bad News for Buyers?  The electric vehicle revolution is roarin"
 coverImage: "/assets/blog/ford-announces-price-hike-for-f-150-lightning-amidst-supply-chain-issues.jpg"
 date: "2024-12-24T11:59:44.172337"
 author:

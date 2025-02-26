@@ -1,6 +1,6 @@
 ---
 title: "ROS C++ Programming for Robotics"
-excerpt: "# ROS C++ Programming for Robotics: A Deep Dive  Robotics is a fascinating field, constantly pushing the boundaries of what's possible.  At the heart "
+excerpt: "ROS C++ Programming for Robotics: A Deep Dive  Robotics is a fascinating field, constantly pushing the boundaries of what's possible.  At the heart "
 coverImage: "/assets/blog/ros-c-programming-for-robotics.jpg"
 date: "2024-12-24T12:20:07.203119"
 author:

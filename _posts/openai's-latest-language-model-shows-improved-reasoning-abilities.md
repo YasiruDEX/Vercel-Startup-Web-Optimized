@@ -1,6 +1,6 @@
 ---
 title: "OpenAI's Latest Language Model Shows Improved Reasoning Abilities"
-excerpt: "# OpenAI's Latest Language Model Shows Improved Reasoning Abilities: A Giant Leap for AI?  OpenAI, the leading artificial intelligence research compan"
+excerpt: "OpenAI's Latest Language Model Shows Improved Reasoning Abilities: A Giant Leap for AI?  OpenAI, the leading artificial intelligence research compan"
 coverImage: "/assets/blog/openais-latest-language-model-shows-improved-reasoning-abilities.jpg"
 date: "2024-12-24T11:32:24.937815"
 author:

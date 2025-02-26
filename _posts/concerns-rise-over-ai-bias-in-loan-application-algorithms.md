@@ -1,8 +1,8 @@
 ---
 title: "Concerns Rise Over AI Bias in Loan Application Algorithms"
-excerpt: "# Concerns Rise Over AI Bias in Loan Application Algorithms  The promise of artificial intelligence (AI) is immense, automating tasks, optimizing proc"
+excerpt: "Concerns Rise Over AI Bias in Loan Application Algorithms  The promise of artificial intelligence (AI) is immense, automating tasks, optimizing proc"
 coverImage: "/assets/blog/concerns-rise-over-ai-bias-in-loan-application-algorithms.jpg"
-date: "2024-12-24T11:32:09.242894"
+date: "2025-01-24T11:32:09.242894"
 author:
   name: AURA Digital Labs
   picture: /assets/blog/authors/aura.png

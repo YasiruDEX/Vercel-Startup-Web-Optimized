@@ -1,6 +1,6 @@
 ---
 title: "ROS Messages Custom Data Structures"
-excerpt: "# ROS Messages: Crafting Your Custom Data Structures  ROS (Robot Operating System) relies heavily on message passing for communication between nodes. "
+excerpt: "ROS Messages: Crafting Your Custom Data Structures  ROS (Robot Operating System) relies heavily on message passing for communication between nodes. "
 coverImage: "/assets/blog/ros-messages-custom-data-structures.jpg"
 date: "2024-12-24T12:19:49.092448"
 author:

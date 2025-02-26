@@ -1,6 +1,6 @@
 ---
 title: "Electric Vehicle Sales Surge in Europe Outpacing Gas-Powered Cars"
-excerpt: "# Electric Vehicle Sales Surge in Europe Outpacing Gas-Powered Cars: A Green Revolution in Motion  Europe is witnessing a remarkable shift in the auto"
+excerpt: "Electric Vehicle Sales Surge in Europe Outpacing Gas-Powered Cars: A Green Revolution in Motion  Europe is witnessing a remarkable shift in the auto"
 coverImage: "/assets/blog/electric-vehicle-sales-surge-in-europe-outpacing-gas-powered-cars.jpg"
 date: "2024-12-24T11:59:58.858925"
 author:

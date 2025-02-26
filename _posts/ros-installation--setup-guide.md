@@ -1,6 +1,6 @@
 ---
 title: "ROS Installation & Setup Guide"
-excerpt: "# ROS Installation & Setup Guide: A Robot's Best Friend  So, you're ready to dive into the world of robotics? Congratulations!  You've chosen an excit"
+excerpt: "ROS Installation & Setup Guide: A Robot's Best Friend  So, you're ready to dive into the world of robotics? Congratulations!  You've chosen an excit"
 coverImage: "/assets/blog/ros-installation--setup-guide.jpg"
 date: "2024-12-24T12:18:00.092615"
 author:

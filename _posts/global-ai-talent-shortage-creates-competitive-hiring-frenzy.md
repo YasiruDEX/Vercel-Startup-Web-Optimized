@@ -1,6 +1,6 @@
 ---
 title: "Global AI Talent Shortage Creates Competitive Hiring Frenzy"
-excerpt: "# Global AI Talent Shortage Creates Competitive Hiring Frenzy  The world is in the midst of an AI revolution.  From self-driving cars to medical diagn"
+excerpt: "Global AI Talent Shortage Creates Competitive Hiring Frenzy  The world is in the midst of an AI revolution.  From self-driving cars to medical diagn"
 coverImage: "/assets/blog/global-ai-talent-shortage-creates-competitive-hiring-frenzy.jpg"
 date: "2024-12-24T11:34:04.476545"
 author:

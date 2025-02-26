@@ -1,6 +1,6 @@
 ---
 title: "Government Announces New Incentives for Electric Vehicle Purchases"
-excerpt: "# Government Announces New Incentives for Electric Vehicle Purchases: A Green Revolution on the Horizon?  The air crackles with anticipation.  For mon"
+excerpt: "Government Announces New Incentives for Electric Vehicle Purchases: A Green Revolution on the Horizon?  The air crackles with anticipation.  For mon"
 coverImage: "/assets/blog/government-announces-new-incentives-for-electric-vehicle-purchases.jpg"
 date: "2024-12-24T12:00:52.017597"
 author:

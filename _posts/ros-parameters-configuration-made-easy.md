@@ -1,6 +1,6 @@
 ---
 title: "ROS Parameters Configuration Made Easy"
-excerpt: "# ROS Parameters Configuration Made Easy  ROS (Robot Operating System) is a powerful framework for robotics development, but managing its parameters c"
+excerpt: "ROS Parameters Configuration Made Easy  ROS (Robot Operating System) is a powerful framework for robotics development, but managing its parameters c"
 coverImage: "/assets/blog/ros-parameters-configuration-made-easy.jpg"
 date: "2024-12-24T12:18:45.526306"
 author:

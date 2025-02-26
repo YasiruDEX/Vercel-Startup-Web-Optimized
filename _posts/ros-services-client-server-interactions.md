@@ -1,6 +1,6 @@
 ---
 title: "ROS Services Client-Server Interactions"
-excerpt: "# ROS Services: Client-Server Interactions Demystified  ROS (Robot Operating System) is a powerful framework for robotics development, and a key compo"
+excerpt: "ROS Services: Client-Server Interactions Demystified  ROS (Robot Operating System) is a powerful framework for robotics development, and a key compo"
 coverImage: "/assets/blog/ros-services-client-server-interactions.jpg"
 date: "2024-12-24T12:18:28.799428"
 author:

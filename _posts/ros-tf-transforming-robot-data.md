@@ -1,6 +1,6 @@
 ---
 title: "ROS TF Transforming Robot Data"
-excerpt: "# ROS TF: Transforming Robot Data – A Deep Dive  Navigating the complex world of robotics often involves juggling data from multiple sensors and actua"
+excerpt: "ROS TF: Transforming Robot Data – A Deep Dive  Navigating the complex world of robotics often involves juggling data from multiple sensors and actua"
 coverImage: "/assets/blog/ros-tf-transforming-robot-data.jpg"
 date: "2024-12-24T12:18:54.402618"
 author:

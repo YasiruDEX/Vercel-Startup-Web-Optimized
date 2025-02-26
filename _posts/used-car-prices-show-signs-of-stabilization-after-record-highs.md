@@ -1,6 +1,6 @@
 ---
 title: "Used Car Prices Show Signs of Stabilization After Record Highs"
-excerpt: "# Used Car Prices Show Signs of Stabilization After Record Highs  The used car market has been a wild ride over the past few years.  Remember the days"
+excerpt: "Used Car Prices Show Signs of Stabilization After Record Highs  The used car market has been a wild ride over the past few years.  Remember the days"
 coverImage: "/assets/blog/used-car-prices-show-signs-of-stabilization-after-record-highs.jpg"
 date: "2024-12-24T12:00:44.215617"
 author:

@@ -1,6 +1,6 @@
 ---
 title: "Toyota Unveils Updated Hybrid Technology for its Popular Camry Model"
-excerpt: "# Toyota Camry Hybrid Gets a Tech Boost:  Efficiency and Performance Redefined  **Headline Image:** (Insert captivating image of the updated Toyota Ca"
+excerpt: "Toyota Camry Hybrid Gets a Tech Boost:  Efficiency and Performance Redefined  **Headline Image:** (Insert captivating image of the updated Toyota Ca"
 coverImage: "/assets/blog/toyota-unveils-updated-hybrid-technology-for-its-popular-camry-model.jpg"
 date: "2024-12-24T12:01:00.239420"
 author:

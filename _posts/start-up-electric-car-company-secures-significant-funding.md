@@ -1,6 +1,6 @@
 ---
 title: "Start-up Electric Car Company Secures Significant Funding"
-excerpt: "# Start-up Electric Car Company, "VoltUp," Secures Significant Funding: A Revolution on the Road?  **The Electric Vehicle (EV) landscape is about to g"
+excerpt: "Start-up Electric Car Company, "VoltUp," Secures Significant Funding: A Revolution on the Road?  **The Electric Vehicle (EV) landscape is about to g"
 coverImage: "/assets/blog/start-up-electric-car-company-secures-significant-funding.jpg"
 date: "2024-12-24T12:01:46.951848"
 author:

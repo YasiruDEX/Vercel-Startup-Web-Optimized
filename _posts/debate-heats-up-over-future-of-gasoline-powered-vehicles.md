@@ -1,6 +1,6 @@
 ---
 title: "Debate Heats Up Over Future of Gasoline-Powered Vehicles"
-excerpt: "# Debate Heats Up Over the Future of Gasoline-Powered Vehicles  The rumble of a V8 engine, the satisfying smell of petrol, the freedom of the open roa"
+excerpt: "Debate Heats Up Over the Future of Gasoline-Powered Vehicles  The rumble of a V8 engine, the satisfying smell of petrol, the freedom of the open roa"
 coverImage: "/assets/blog/debate-heats-up-over-future-of-gasoline-powered-vehicles.jpg"
 date: "2024-12-24T12:01:31.360080"
 author:

@@ -1,8 +1,8 @@
 ---
 title: "Automakers Invest Heavily in Software Development for Connected Cars"
-excerpt: "# Automakers Invest Heavily in Software Development for Connected Cars  The automotive industry is undergoing a seismic shift.  It's no longer just ab"
+excerpt: "Automakers Invest Heavily in Software Development for Connected Cars  The automotive industry is undergoing a seismic shift.  It's no longer just ab"
 coverImage: "/assets/blog/automakers-invest-heavily-in-software-development-for-connected-cars.jpg"
-date: "2024-12-24T12:01:24.474190"
+date: "2024-12-30T12:01:24.474190"
 author:
   name: AURA Digital Labs
   picture: /assets/blog/authors/aura.png

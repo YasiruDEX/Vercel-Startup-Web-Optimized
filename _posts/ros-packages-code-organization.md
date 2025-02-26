@@ -1,6 +1,6 @@
 ---
 title: "ROS Packages Code Organization"
-excerpt: "# ROS Packages: A Deep Dive into Code Organization  ROS (Robot Operating System) is a powerful framework for robotics development, but its effectivene"
+excerpt: "ROS Packages: A Deep Dive into Code Organization  ROS (Robot Operating System) is a powerful framework for robotics development, but its effectivene"
 coverImage: "/assets/blog/ros-packages-code-organization.jpg"
 date: "2024-12-24T12:19:40.037204"
 author:

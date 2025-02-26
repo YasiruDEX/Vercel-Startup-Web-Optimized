@@ -1,6 +1,6 @@
 ---
 title: "Meta Launches New AI Tool for Content Moderation"
-excerpt: "# Meta Launches New AI Tool for Content Moderation: A Giant Leap for Online Safety?  Meta, the parent company of Facebook and Instagram, recently unve"
+excerpt: "Meta Launches New AI Tool for Content Moderation: A Giant Leap for Online Safety?  Meta, the parent company of Facebook and Instagram, recently unve"
 coverImage: "/assets/blog/meta-launches-new-ai-tool-for-content-moderation.jpg"
 date: "2024-12-24T11:33:11.369999"
 author:

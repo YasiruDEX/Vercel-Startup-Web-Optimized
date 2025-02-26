@@ -1,6 +1,6 @@
 ---
 title: "GM Invests Billions in New Battery Plant to Boost EV Production"
-excerpt: "# GM Invests Billions in New Battery Plant to Boost EV Production: A Giant Leap for Electric Vehicles  **The Electric Vehicle Revolution is Accelerati"
+excerpt: "GM Invests Billions in New Battery Plant to Boost EV Production: A Giant Leap for Electric Vehicles  **The Electric Vehicle Revolution is Accelerati"
 coverImage: "/assets/blog/gm-invests-billions-in-new-battery-plant-to-boost-ev-production.jpg"
 date: "2024-12-24T12:00:14.482905"
 author:

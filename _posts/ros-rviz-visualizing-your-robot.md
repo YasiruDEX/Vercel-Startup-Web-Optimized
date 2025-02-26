@@ -1,6 +1,6 @@
 ---
 title: "ROS RViz Visualizing Your Robot"
-excerpt: "# ROS RViz: Visualizing Your Robot's World  ROS (Robot Operating System) is a powerful framework for robotics development, but even the most sophistic"
+excerpt: "ROS RViz: Visualizing Your Robot's World  ROS (Robot Operating System) is a powerful framework for robotics development, but even the most sophistic"
 coverImage: "/assets/blog/ros-rviz-visualizing-your-robot.jpg"
 date: "2024-12-24T12:19:21.573896"
 author:

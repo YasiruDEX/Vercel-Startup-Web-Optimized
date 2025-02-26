@@ -1,6 +1,6 @@
 ---
 title: "ROS Nodes Communication Fundamentals"
-excerpt: "# ROS Nodes Communication Fundamentals:  The Heart of a Robot's Brain  ROS (Robot Operating System) is the de facto standard for robotics software dev"
+excerpt: "ROS Nodes Communication Fundamentals:  The Heart of a Robot's Brain  ROS (Robot Operating System) is the de facto standard for robotics software dev"
 coverImage: "/assets/blog/ros-nodes-communication-fundamentals.jpg"
 date: "2024-12-24T12:18:09.129596"
 author:

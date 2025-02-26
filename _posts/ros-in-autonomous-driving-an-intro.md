@@ -1,6 +1,6 @@
 ---
 title: "ROS in Autonomous Driving An Intro"
-excerpt: "# ROS in Autonomous Driving: An Introduction  Autonomous driving. The very phrase conjures images of sleek, self-navigating vehicles gliding effortles"
+excerpt: "ROS in Autonomous Driving: An Introduction  Autonomous driving. The very phrase conjures images of sleek, self-navigating vehicles gliding effortles"
 coverImage: "/assets/blog/ros-in-autonomous-driving-an-intro.jpg"
 date: "2024-12-24T12:20:43.722958"
 author:

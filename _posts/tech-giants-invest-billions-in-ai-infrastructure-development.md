@@ -1,6 +1,6 @@
 ---
 title: "Tech Giants Invest Billions in AI Infrastructure Development"
-excerpt: "# Tech Giants Pour Billions into AI: A New Infrastructure Arms Race  The world is witnessing an unprecedented surge in investment in artificial intell"
+excerpt: "Tech Giants Pour Billions into AI: A New Infrastructure Arms Race  The world is witnessing an unprecedented surge in investment in artificial intell"
 coverImage: "/assets/blog/tech-giants-invest-billions-in-ai-infrastructure-development.jpg"
 date: "2024-12-24T11:32:48.268521"
 author:

@@ -1,8 +1,8 @@
 ---
 title: "Amazon Uses AI to Optimize Supply Chain and Reduce Waste"
-excerpt: "# Amazon Uses AI to Optimize Supply Chain and Reduce Waste  Amazon, the behemoth of e-commerce, faces a monumental logistical challenge: delivering bi"
+excerpt: "Amazon Uses AI to Optimize Supply Chain and Reduce Waste  Amazon, the behemoth of e-commerce, faces a monumental logistical challenge: delivering bi"
 coverImage: "/assets/blog/amazon-uses-ai-to-optimize-supply-chain-and-reduce-waste.jpg"
-date: "2024-12-24T11:33:33.445798"
+date: "2024-12-29T11:33:33.445798"
 author:
   name: AURA Digital Labs
   picture: /assets/blog/authors/aura.png
