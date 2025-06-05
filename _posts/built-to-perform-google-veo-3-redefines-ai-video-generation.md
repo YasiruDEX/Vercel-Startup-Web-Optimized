@@ -63,8 +63,8 @@ As with any powerful AI model, VEO 3 brings up ethical considerations:
 
 ## Moving Forward: Empowering Human Creativity
 
-Google VEO 3 isn’t just a tool—it’s a leap toward democratizing video creation. With proper guidelines, thoughtful deployment, and ethical guardrails, VEO 3 can be a force multiplier for artists, educators, and innovators. 
+Google VEO 3 isn’t just a tool; it is a leap toward democratizing video creation. With proper guidelines, thoughtful deployment, and ethical guardrails, VEO 3 can be a force multiplier for artists, educators, and innovators. 
 
-By bridging the gap between imagination and visual output, it empowers creators of all backgrounds to tell their stories with cinematic quality—no camera, no crew, just a compelling idea and a line of text.
+By bridging the gap between imagination and visual output, it empowers creators of all backgrounds to tell their stories with cinematic quality: no camera, no crew, just a compelling idea and a line of text.
 
-As the line between human creativity and AI generation continues to blur, VEO 3 reminds us that the future of storytelling is not just visual—it’s intelligent, expressive, and built to perform.
+As the line between human creativity and AI generation continues to blur, VEO 3 reminds us that the future of storytelling is not just visual; it is intelligent, expressive, and built to perform.
