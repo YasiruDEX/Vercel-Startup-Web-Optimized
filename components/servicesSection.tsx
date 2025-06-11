@@ -1,19 +1,11 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button"
-import {
-  FaAccusoft,
-  FaRobot,
-  FaCamera,
-  FaCode,
-  FaWifi,
-  FaMicrochip,
-  FaProjectDiagram,
-} from "react-icons/fa";
 
-import { IconType } from "react-icons";
+import { Bot, Zap, Cloud, Layers, FlaskRound, ServerCog } from "lucide-react";
+
 
 interface ServiceCardProps {
-  icon: IconType;
+  icon: React.ComponentType<{ className?: string }>;
   title: string;
   description: string;
   technologies: string[];
@@ -23,143 +15,186 @@ const ServiceCard = ({ icon: Icon, title, description, technologies }: ServiceCa
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div
-      className="flex flex-col items-center justify-center gap-4 rounded-lg bg-background p-6 shadow-sm transition-all duration-300 ease-in-out hover:invert hover:scale-105"
+    <div 
+      className="group relative bg-card rounded-2xl border border-border p-6 transition-all duration-700 ease-in-out hover:scale-[1.025] hover:shadow-xl hover:border-primary/50 hover:bg-primary/5 cursor-pointer h-full flex flex-col hover:-translate-y-2"
+      style={{
+        objectFit: "cover",
+        borderRadius: "10px",
+    }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <Icon className="h-10 w-10" />
-      <h3 className="text-lg font-bold">{title}</h3>
-      {isHovered ? (
-        <div className="text-sm text-muted-foreground text-center">
-          <p className="font-bold">Technologies</p>
-          <ul className="mt-2 list-disc list-inside">
-            {technologies.map((tech, index) => (
-              <li key={index}>{tech}</li>
-            ))}
-          </ul>
+      {/* Overlay + Glow */}
+      <div className="absolute inset-0 bg-gradient-to-br from-transparent to-primary/5 group-hover:from-primary/5 group-hover:to-primary/10 transition-all duration-700 rounded-2xl pointer-events-none" />
+      <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-700 bg-gradient-to-r from-primary/10 via-transparent to-primary/10 blur-sm rounded-2xl pointer-events-none" />
+
+      {/* Icon */}
+      <div className="relative z-10 flex justify-center mb-6">
+        <div className="relative">
+          <div className="absolute inset-0 bg-primary/20 rounded-full blur-xl group-hover:blur-2xl transition-all duration-700 group-hover:scale-125 group-hover:bg-primary/30" />
+          <div className="relative bg-gradient-to-br from-primary to-primary/80 p-4 rounded-full transition-transform duration-500 group-hover:rotate-12 group-hover:scale-110 shadow-lg group-hover:shadow-primary/30" style={{
+                  objectFit: "cover",
+                  borderRadius: "50px",
+              }}>
+            <Icon className="h-8 w-8 text-white" />
+          </div>
         </div>
-      ) : (
-        <p className="text-sm text-muted-foreground">{description}</p>
-      )}
+      </div>
+
+      {/* Title */}
+      <h3 className="text-xl font-semibold text-center mb-4 transition group-hover:text-primary group-hover:scale-105">
+        {title}
+      </h3>
+
+      {/* Description */}
+      <p className="text-muted-foreground text-center text-sm leading-relaxed mb-6 transition group-hover:text-foreground">
+        {description}
+      </p>
+
+      {/* Technologies */}
+      <div className={`transition-all duration-700 ease-in-out ${isHovered ? 'opacity-100 max-h-40 translate-y-0' : 'opacity-0 max-h-0 translate-y-4'} overflow-hidden`}>
+        <div className="border-t border-border pt-4">
+          <p className="text-xs font-semibold text-primary text-center mb-3">Core Technologies</p>
+          <div className="flex flex-wrap justify-center gap-2">
+            {technologies.map((tech, index) => (
+              <span
+                key={index}
+                className="inline-block px-3 py-1 text-xs bg-secondary text-secondary-foreground rounded-full border border-secondary/30 transition-all duration-300 hover:bg-primary/10 hover:border-primary/50 hover:scale-110"
+                style={{ transitionDelay: `${index * 100}ms`,objectFit: "cover",
+                  borderRadius: "30px", }}
+              >
+                {tech}
+              </span>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* CTA */}
+      <div className="flex justify-center mt-6">
+        <Button 
+          variant="outline" 
+          size="sm"
+          className="text-xs transition-all duration-500 hover:bg-primary hover:text-primary-foreground hover:scale-105 hover:shadow-md border-primary/30 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 translate-y-3"
+        >
+          Learn More
+        </Button>
+      </div>
     </div>
   );
 };
 
+
 export default function ServicesSection() {
   const services = [
     {
-      icon: FaAccusoft,
-      title: "AI Automation",
-      description:
-        "AI-powered automation solutions that streamline operations and enhance efficiency.",
+      icon: Bot,
+      title: "AI-Powered Solutions",
+      description: "Custom ML models, LLMs, real-time pipelines, and computer vision systems.",
+      technologies: ["PyTorch", "TensorFlow", "OpenCV", "Transformers"],
+    },
+    {
+      icon: Zap,
+      title: "Embedded Systems & IoT",
+      description: "Smart sensors, LoRa, ESP32 systems, and real-time wireless solutions.",
+      technologies: ["ESP32", "LoRa", "MQTT", "Arduino"],
+    },
+    {
+      icon: Layers,
+      title: "Robotics & Autonomous Systems",
+      description: "SLAM, path planning, ROS2-based robots for automation and navigation.",
+      technologies: ["ROS2", "SLAM", "OpenCV", "Gazebo"],
+    },
+    {
+      icon: Cloud,
+      title: "Cloud & App Development",
+      description: "Design and development of scalable web and mobile applications with cloud integration.",
       technologies: [
-        "Role automation",
-        "Chatbots",
-        "Model Training",
-        "Fine-tuning",
+        "Node.js",
+        "React",
+        "Flutter",
+        "Next.js",
+        "Express.js",
+        "MongoDB",
+        "MySQL",
+        "React Native",
+        "Flask",
+        "Spring Boot",
+      ],
+    }, 
+    {
+      icon: ServerCog,
+      title: "DevOps & Infrastructure",
+      description: "CI/CD automation, containerization, cloud infrastructure, and monitoring solutions for modern development workflows.",
+      technologies: [
+        "Docker",
+        "GitHub Actions",
+        "Jenkins",
+        "AWS",
+        "GCP",
       ],
     },
     {
-      icon: FaRobot,
-      title: "Robotics Solution",
-      description:
-        "Advanced robotic solutions that automate tasks and enhance productivity.",
-      technologies: [
-        "Industrial Robots",
-        "Autonomous Navigation",
-        "Kinematics",
-        "Path Planning",
-      ],
-    },
-    {
-      icon: FaCamera,
-      title: "Machine Vision Solutions",
-      description:
-        "Precision vision systems for automated inspection, identification, and control.",
-      technologies: ["Object Detection", "Image Processing", "Camera Calibration"],
-    },
-    {
-      icon: FaCode,
-      title: "Software Development",
-      description:
-        "Custom software solutions designed to optimize performance and scalability.",
-      technologies: ["Web Development", "API Integration", "Mobile Apps"],
-    },
-    {
-      icon: FaWifi,
-      title: "IoT Solutions",
-      description:
-        "Connected devices and systems that streamline operations and enhance user experiences.",
-      technologies: ["Embedded Systems", "MQTT", "LoRaWAN", "Cloud Integration"],
-    },
-    {
-      icon: FaProjectDiagram,
-      title: "FPGA Solutions",
-      description:
-        "Specialized FPGA solutions for high-performance computing and custom hardware design.",
-      technologies: [
-        "VHDL/Verilog Programming",
-        "RTL Design",
-        "Simulation and Debugging",
-        "High-Speed Data Processing",
-      ],
-    },
-    {
-      icon: FaMicrochip,
-      title: "Machine Learning & AI",
-      description:
-        "Intelligent algorithms that drive data-driven decisions and automation.",
-      technologies: [
-        "Neural Networks",
-        "NLP",
-        "Model Deployment",
-        "Data Preprocessing",
-      ],
+      icon: FlaskRound,
+      title: "AI/ML Research & Consulting",
+      description: "Model fine-tuning, system design, research support, ethical AI strategies.",
+      technologies: ["Research", "Consulting", "Ethics", "Strategy"],
     },
   ];
 
   return (
-    <section id="services" className="pt-20 pb-10 bg-muted flex justify-center">
-      <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
-        <div className="space-y-3 mx-auto max-w-[800px]">
-          <h2 className="text-3xl font-bold font-sans tracking-tighter md:text-4xl/tight">
-            What We Offer
-          </h2>
-          <p className="mx-auto max-w-[600px] text-muted-foreground md:text-md/relaxed lg:text-base/relaxed xl:text-md/relaxed pb-5">
-            We offer a comprehensive suite of advanced technology solutions to
-            help your business stay ahead in a rapidly evolving digital
-            landscape.
-          </p>
+    <div className="min-h-screen bg-background">
+      <section id="services" className="py-20 bg-gradient-to-br from-background via-muted/10 to-background relative overflow-hidden">
+        
+        {/* Background blur circles */}
+        <div className="absolute inset-0">
+          <div className="absolute top-1/4 left-1/3 w-64 h-64 bg-primary/10 rounded-full blur-3xl animate-pulse" />
+          <div className="absolute bottom-1/4 right-1/3 w-72 h-72 bg-primary/10 rounded-full blur-3xl animate-pulse delay-500" />
+          <div className="absolute top-1/2 left-1/2 w-60 h-60 bg-secondary/10 rounded-full blur-2xl animate-pulse delay-700 transform -translate-x-1/2 -translate-y-1/2" />
         </div>
-        <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          {services.map((service, index) => (
-            <ServiceCard
-              key={index}
-              icon={service.icon}
-              title={service.title}
-              description={service.description}
-              technologies={service.technologies}
-            />
-          ))}
+
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold tracking-tight mb-4">Our Services</h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
+              Explore a suite of cutting-edge solutions designed to drive innovation and digital transformation.
+            </p>
+          </div>
+
+          {/* Services Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {services.map((service, index) => (
+              <div
+                key={index}
+                className="animate-fade-in"
+                style={{ animationDelay: `${index * 200}ms` }}
+              >
+                <ServiceCard {...service} />
+              </div>
+            ))}
+          </div>
+
+          {/* CTA Button */}
+          <div className="text-center mt-16">
+            <a
+              href="https://api.whatsapp.com/send?phone=94754745359&text=Hi!%20I%27d%20like%20to%20connect%20with%20the%20Aura%20Digital%20Labs%20team%20for%20a%20discussion."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button 
+                size="lg"
+                className="bg-gradient-to-r from-gray-700 to-black hover:from-gray-600 hover:to-gray-800 text-white font-semibold px-8 py-3 rounded-full tracking-wide shadow-md hover:shadow-lg transition"
+                style={{
+                  objectFit: "cover",
+                  borderRadius: "30px",
+              }}
+              >
+                Book a Free Call
+              </Button>
+            </a>
+          </div>
         </div>
-        <a
-          href="https://api.whatsapp.com/send?phone=94754745359&text=Hi!%20I%27d%20like%20to%20connect%20with%20the%20Aura%20Digital%20Labs%20team%20for%20a%20discussion."
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        <Button 
-          size="lg"
-          className="bg-gradient-to-r from-gray-600 to-black hover:from-gray-500 hover:to-gray-800 text-white text-md font-semibold px-8 mt-10 mb-10 rounded-lg tracking-wide"          
-          style={{
-              objectFit: "cover",
-              borderRadius: "30px",
-          }}
-        >
-          Book a Free Call
-        </Button>
-        </a>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 }
