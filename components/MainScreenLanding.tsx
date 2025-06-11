@@ -37,7 +37,7 @@ export function MainScreenLanding() {
   }, []);
 
   return (
-    <div className={`flex flex-col min-h-dvh`}>
+    <div className={`flex flex-col min-h-dv custom-cursor`}>
       <HeaderSection />
       {isMobile ? <LandingIntro /> : <BannerSlideshow />}
       {isMobile ? <></> : <AboutSection />}

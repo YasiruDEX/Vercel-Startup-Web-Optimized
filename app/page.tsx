@@ -23,7 +23,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen custom-cursor">
       <DarkModeProvider>
         {/* {showSplash ? <SplashScreen /> : <MainScreenLanding />} */}
         <MainScreenLanding />
