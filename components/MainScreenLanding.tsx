@@ -44,7 +44,7 @@ export function MainScreenLanding() {
       <ServicesSection />
       <ProjectsSection />
       <AwardsSection />
-      <TeamSection />
+      {/* <TeamSection /> */}
       <EmailingSection />
       <BottomBanner />
       <ScrollToTop />
