@@ -2,13 +2,13 @@
 
 title: "Starlink Lands in Sri Lanka: High-Speed Satellite Internet is Here"
 excerpt: "Elon Musk’s Starlink now offers high-speed satellite internet in Sri Lanka, promising rural connectivity, fast installation, and new possibilities for homes and businesses across the island."
-coverImage: "/assets/blog/Starlink.jpg"
+coverImage: "/assets/blog/Starlink2.jpg"
 date: "2025-07-09T10:00:00.000000"
 author:
   name: LankaTech Insights
   picture: /assets/blog/authors/aura.png
 ogImage:
-  url: "/assets/blog/Starlink.jpg"
+  url: "/assets/blog/Starlink2.jpg"
 
 ---
 
