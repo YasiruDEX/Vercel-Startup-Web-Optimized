@@ -26,15 +26,13 @@ Early adopters note that Starlink’s performance is consistent and ideal for st
 
 ## 💸 Pricing & Packages
 
-Here’s a breakdown of what it costs to get Starlink in Sri Lanka:
+The Standard Plan requires a one-time payment of around LKR 118,000 for the hardware kit. This includes the satellite dish, router, cables, and mounting equipment, and delivers speeds between 100–300 Mbps.
 
-| Plan            | Cost (LKR)           | Speed (Mbps)           | Notes                             |
-| --------------- | -------------------- | ---------------------- | --------------------------------- |
-| Standard        | \~118,000 (one-time) | 100–300                | Hardware kit                      |
-| Premium Monthly | \~15,000/month       | Up to 300              | Unlimited data                    |
-| Basic Monthly   | \~9,200/month        | 30–100 (deprioritized) | Unlimited, but slower during peak |
+The Premium Monthly Plan costs approximately LKR 15,000 per month. It offers speeds of up to 300 Mbps with unlimited data, suitable for households with heavy internet usage.
 
-> All packages include unlimited data with **Fair Use Policy** in effect—heavy users may see speed reductions.
+The Basic Monthly Plan, priced around LKR 9,200 per month, provides speeds between 30–100 Mbps. This plan is deprioritized during peak hours but still includes unlimited data.
+
+All packages include unlimited data with Fair Use Policy in effect—heavy users may see speed reductions.
 
 ## 📦 Delivery Times
 
