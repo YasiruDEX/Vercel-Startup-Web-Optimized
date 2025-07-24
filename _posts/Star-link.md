@@ -5,7 +5,7 @@ excerpt: "Elon Musk’s Starlink now offers high-speed satellite internet in Sri
 coverImage: "/assets/blog/Starlink2.jpg"
 date: "2025-07-09T10:00:00.000000"
 author:
-  name: LankaTech Insights
+  name: AURA Digital Labs
   picture: /assets/blog/authors/aura.png
 ogImage:
   url: "/assets/blog/Starlink2.jpg"
