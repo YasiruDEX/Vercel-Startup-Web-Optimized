@@ -1,13 +1,13 @@
 ---
 title: "Uber, Lucid, and Nuro Unveil Global Robotaxi Partnership"
 excerpt: "Uber partners with Lucid and Nuro to deploy over 20,000 fully autonomous robotaxis worldwide, powered by Level 4 self-driving technology and next-generation electric vehicles."
-coverImage: "/assets/blog/lucid-nuro-uber.jpg"
+coverImage: "/assets/blog/lucid-nuro-uber2.jpg"
 date: "2025-07-24T10:00:00.000000"
 author:
   name: AURA Digital Labs
   picture: /assets/blog/authors/aura.png
 ogImage:
-  url: "/assets/blog/lucid-nuro-uber.jpg"
+  url: "/assets/blog/lucid-nuro-uber2.jpg"
 ---
 
 # Uber, Lucid, and Nuro Unveil Global Robotaxi Partnership
