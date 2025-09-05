@@ -156,7 +156,7 @@ export default function DevelopmentShowcaseSection() {
                     </div>
                     <div className="text-center">
                       <div className={`text-2xl md:text-3xl font-bold ${darkMode ? "text-white" : "text-gray-900"}`}>
-                        5+
+                        3+
                       </div>
                       <div className={`text-xs md:text-sm font-medium mt-1 ${darkMode ? "text-gray-400" : "text-gray-600"}`}>
                         Years

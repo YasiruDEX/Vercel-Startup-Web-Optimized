@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import AboutSection from "@/components/aboutSection";
 import HeaderSection from "@/components/header";
@@ -21,15 +21,11 @@ import { BannerSlideshow } from "./bannerShow";
 
 export function MainScreenLanding() {
   const [isMobile, setIsMobile] = useState(false);
-  const [scrollY, setScrollY] = useState(0);
-  const [windowHeight, setWindowHeight] = useState(0);
-  const bannerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    // Function to check screen size and set window height
+    // Function to check screen size
     const checkScreenSize = () => {
       setIsMobile(window.matchMedia('(max-width: 768px)').matches);
-      setWindowHeight(window.innerHeight);
     };
 
     // Initial check
@@ -42,49 +38,20 @@ export function MainScreenLanding() {
     return () => window.removeEventListener('resize', checkScreenSize);
   }, []);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrollY(window.scrollY);
-    };
-
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
-  // Calculate banner transform for parallax effect
-  const bannerTransform = windowHeight > 0 ? Math.min(scrollY * 0.5, windowHeight) : 0;
-
   return (
-    <div className={`relative min-h-screen custom-cursor overflow-x-hidden`}>
+    <div className={`relative min-h-screen custom-cursor`}>
       <HeaderSection />
       
-      {/* Fixed Banner Background */}
-      <div 
-        ref={bannerRef}
-        className="fixed top-0 left-0 w-full h-screen z-0"
-        style={{
-          transform: `translateY(${bannerTransform}px)`,
-          willChange: 'transform'
-        }}
-      >
+      {/* Hero Section - Full Height */}
+      <section className="relative h-screen w-full overflow-hidden">
         {isMobile ? <LandingIntro /> : <BannerSlideshow />}
-      </div>
+      </section>
 
-      {/* Content that stacks on top */}
-      <div className="relative z-10">
-        {/* Spacer to push content below viewport initially */}
-        <div 
-          className="w-full"
-          style={{ height: `${windowHeight}px` }}
-        />
-        
-        {/* Stacking Content Sections with rounded top corners */}
-        <div className="bg-background relative rounded-t-3xl shadow-2xl">
-          {!isMobile && (
-            <div className="pt-8">
-              <AboutSection />
-            </div>
-          )}
+      {/* Content Sections with Stacking Effect */}
+      <div className="relative z-10 bg-background">
+        {/* Subtle overlap effect with negative margin */}
+        <div className="-mt-16 pt-16 bg-background rounded-t-3xl shadow-2xl">
+          {!isMobile && <AboutSection />}
           <ServicesSection />
           <DevelopmentShowcaseSection />
           <TestimonialSection />
