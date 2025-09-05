@@ -1,6 +1,8 @@
-import { useState } from "react";
-import { Button } from "@/components/ui/button"
+"use client";
 
+import { useState, useRef } from "react";
+import { Button } from "@/components/ui/button";
+import { motion, useInView } from "framer-motion";
 import { Bot, Zap, Cloud, Layers, FlaskRound, ServerCog } from "lucide-react";
 
 
@@ -11,81 +13,172 @@ interface ServiceCardProps {
   technologies: string[];
 }
 
-const ServiceCard = ({ icon: Icon, title, description, technologies }: ServiceCardProps) => {
+const ServiceCard = ({ icon: Icon, title, description, technologies, index }: ServiceCardProps & { index: number }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div 
-      className="group relative bg-card rounded-2xl border border-border p-6 transition-all duration-700 ease-in-out hover:scale-[1.025] hover:shadow-xl hover:border-primary/50 hover:bg-primary/5 cursor-pointer h-full flex flex-col hover:-translate-y-2"
-      style={{
-        objectFit: "cover",
-        borderRadius: "10px",
-    }}
+    <motion.div
+      initial={{ opacity: 0, y: 50, scale: 0.9 }}
+      whileInView={{ 
+        opacity: 1, 
+        y: 0, 
+        scale: 1,
+        transition: {
+          duration: 0.8,
+          delay: index * 0.15,
+          ease: [0.25, 0.46, 0.45, 0.94], // Custom bezier for smooth animation
+        }
+      }}
+      whileHover={{ 
+        y: -8, 
+        scale: 1.02,
+        transition: { duration: 0.3, ease: "easeOut" }
+      }}
+      viewport={{ once: true, margin: "-100px" }}
+      className="group relative bg-card/80 backdrop-blur-sm rounded-3xl border border-border/50 p-8 cursor-pointer h-full flex flex-col hover:border-primary/30 hover:bg-card/90 transition-all duration-500"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      {/* Overlay + Glow */}
-      <div className="absolute inset-0 bg-gradient-to-br from-transparent to-primary/5 group-hover:from-primary/5 group-hover:to-primary/10 transition-all duration-700 rounded-2xl pointer-events-none" />
-      <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-700 bg-gradient-to-r from-primary/10 via-transparent to-primary/10 blur-sm rounded-2xl pointer-events-none" />
+      {/* Enhanced glow effect */}
+      <motion.div 
+        className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-primary/10 rounded-3xl opacity-0 group-hover:opacity-100 transition-all duration-500"
+        initial={false}
+        animate={isHovered ? { scale: 1.02, opacity: 1 } : { scale: 1, opacity: 0 }}
+        transition={{ duration: 0.3 }}
+      />
+      
+      {/* Subtle glow border */}
+      <motion.div 
+        className="absolute inset-0 bg-gradient-to-r from-primary/20 via-transparent to-primary/20 rounded-3xl blur-sm opacity-0 group-hover:opacity-100 transition-all duration-700"
+        animate={isHovered ? { scale: 1.05 } : { scale: 1 }}
+        transition={{ duration: 0.5 }}
+      />
 
-      {/* Icon */}
-      <div className="relative z-10 flex justify-center mb-6">
-        <div className="relative">
-          <div className="absolute inset-0 bg-primary/20 rounded-full blur-xl group-hover:blur-2xl transition-all duration-700 group-hover:scale-125 group-hover:bg-primary/30" />
-          <div className="relative bg-gradient-to-br from-primary to-primary/80 p-4 rounded-full transition-transform duration-500 group-hover:rotate-12 group-hover:scale-110 shadow-lg group-hover:shadow-primary/30" style={{
-                  objectFit: "cover",
-                  borderRadius: "50px",
-              }}>
-            <Icon className="h-8 w-8 text-white" />
-          </div>
-        </div>
+      {/* Icon with enhanced animations */}
+      <div className="relative z-10 flex justify-center mb-8">
+        <motion.div 
+          className="relative"
+          whileHover={{ rotate: [0, -5, 5, 0] }}
+          transition={{ duration: 0.6, ease: "easeInOut" }}
+        >
+          <motion.div 
+            className="absolute inset-0 bg-primary/20 rounded-2xl blur-xl"
+            animate={isHovered ? 
+              { scale: 1.4, opacity: 0.8, rotate: 180 } : 
+              { scale: 1, opacity: 0.3, rotate: 0 }
+            }
+            transition={{ duration: 0.8, ease: "easeOut" }}
+          />
+          <motion.div 
+            className="relative bg-gradient-to-br from-primary via-primary/90 to-primary/70 p-5 rounded-2xl shadow-xl"
+            whileHover={{ scale: 1.1 }}
+            transition={{ duration: 0.3, ease: "easeOut" }}
+          >
+            <motion.div
+              animate={isHovered ? { rotate: 360 } : { rotate: 0 }}
+              transition={{ duration: 1.2, ease: "easeInOut" }}
+            >
+              <Icon className="h-8 w-8 text-white" />
+            </motion.div>
+          </motion.div>
+        </motion.div>
       </div>
 
-      {/* Title */}
-      <h3 className="text-xl font-semibold text-center mb-4 transition group-hover:text-primary group-hover:scale-105">
+      {/* Title with smooth animation */}
+      <motion.h3 
+        className="text-xl font-semibold text-center mb-4 transition-colors duration-300"
+        whileHover={{ scale: 1.05 }}
+        transition={{ duration: 0.2 }}
+      >
         {title}
-      </h3>
+      </motion.h3>
 
       {/* Description */}
-      <p className="text-muted-foreground text-center text-sm leading-relaxed mb-6 transition group-hover:text-foreground">
+      <motion.p 
+        className="text-muted-foreground text-center text-sm leading-relaxed mb-6 flex-grow"
+        initial={{ opacity: 0.8 }}
+        whileHover={{ opacity: 1 }}
+        transition={{ duration: 0.3 }}
+      >
         {description}
-      </p>
+      </motion.p>
 
-      {/* Technologies */}
-      <div className={`transition-all duration-700 ease-in-out ${isHovered ? 'opacity-100 max-h-40 translate-y-0' : 'opacity-0 max-h-0 translate-y-4'} overflow-hidden`}>
-        <div className="border-t border-border pt-4">
-          <p className="text-xs font-semibold text-primary text-center mb-3">Core Technologies</p>
+      {/* Technologies with stagger animation */}
+      <motion.div 
+        className="overflow-hidden"
+        initial={{ height: 0, opacity: 0 }}
+        animate={isHovered ? 
+          { height: "auto", opacity: 1 } : 
+          { height: 0, opacity: 0 }
+        }
+        transition={{ 
+          duration: 0.5, 
+          ease: [0.25, 0.46, 0.45, 0.94],
+          staggerChildren: 0.1
+        }}
+      >
+        <div className="border-t border-border/50 pt-6">
+          <motion.p 
+            className="text-xs font-semibold text-primary text-center mb-4"
+            initial={{ y: 10, opacity: 0 }}
+            animate={isHovered ? { y: 0, opacity: 1 } : { y: 10, opacity: 0 }}
+            transition={{ duration: 0.3, delay: 0.1 }}
+          >
+            Core Technologies
+          </motion.p>
           <div className="flex flex-wrap justify-center gap-2">
-            {technologies.map((tech, index) => (
-              <span
-                key={index}
-                className="inline-block px-3 py-1 text-xs bg-secondary text-secondary-foreground rounded-full border border-secondary/30 transition-all duration-300 hover:bg-primary/10 hover:border-primary/50 hover:scale-110"
-                style={{ transitionDelay: `${index * 100}ms`,objectFit: "cover",
-                  borderRadius: "30px", }}
+            {technologies.map((tech, techIndex) => (
+              <motion.span
+                key={techIndex}
+                className="inline-block px-3 py-1.5 text-xs bg-secondary/80 text-secondary-foreground rounded-full border border-secondary/30 backdrop-blur-sm hover:bg-primary/10 hover:border-primary/50 transition-all duration-300"
+                initial={{ scale: 0, opacity: 0 }}
+                animate={isHovered ? 
+                  { scale: 1, opacity: 1 } : 
+                  { scale: 0, opacity: 0 }
+                }
+                transition={{ 
+                  duration: 0.3, 
+                  delay: techIndex * 0.05,
+                  ease: "easeOut"
+                }}
+                whileHover={{ scale: 1.1, y: -2 }}
               >
                 {tech}
-              </span>
+              </motion.span>
             ))}
           </div>
         </div>
-      </div>
+      </motion.div>
 
-      {/* CTA */}
-      <div className="flex justify-center mt-6">
-        <Button 
-          variant="outline" 
-          size="sm"
-          className="text-xs transition-all duration-500 hover:bg-primary hover:text-primary-foreground hover:scale-105 hover:shadow-md border-primary/30 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 translate-y-3"
+      {/* CTA Button with smooth reveal */}
+      <motion.div 
+        className="flex justify-center mt-6"
+        initial={{ y: 20, opacity: 0 }}
+        animate={isHovered ? { y: 0, opacity: 1 } : { y: 20, opacity: 0 }}
+        transition={{ duration: 0.4, delay: 0.2 }}
+      >
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
         >
-          Learn More
-        </Button>
-      </div>
-    </div>
+          <Button 
+            variant="outline" 
+            size="sm"
+            className="text-xs bg-background/50 backdrop-blur-sm border-primary/30 hover:bg-primary hover:text-primary-foreground hover:shadow-lg transition-all duration-300"
+          >
+            Learn More
+          </Button>
+        </motion.div>
+      </motion.div>
+    </motion.div>
   );
 };
 
 
 export default function ServicesSection() {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, margin: "-100px" });
+
   const services = [
     {
       icon: Bot,
@@ -144,55 +237,135 @@ export default function ServicesSection() {
 
   return (
     <div className="min-h-screen bg-background">
-      <section id="services" className="py-20 bg-gradient-to-br from-background via-muted/10 to-background relative overflow-hidden">
+      <section ref={ref} id="services" className="py-24 bg-gradient-to-br from-background via-muted/5 to-background relative overflow-hidden">
         
-        {/* Background blur circles */}
+        {/* Enhanced background effects */}
         <div className="absolute inset-0">
-          <div className="absolute top-1/4 left-1/3 w-64 h-64 bg-primary/10 rounded-full blur-3xl animate-pulse" />
-          <div className="absolute bottom-1/4 right-1/3 w-72 h-72 bg-primary/10 rounded-full blur-3xl animate-pulse delay-500" />
-          <div className="absolute top-1/2 left-1/2 w-60 h-60 bg-secondary/10 rounded-full blur-2xl animate-pulse delay-700 transform -translate-x-1/2 -translate-y-1/2" />
+          <motion.div 
+            className="absolute top-1/4 left-1/3 w-96 h-96 bg-primary/5 rounded-full blur-3xl"
+            animate={{ 
+              scale: [1, 1.2, 1],
+              opacity: [0.3, 0.5, 0.3],
+            }}
+            transition={{ 
+              duration: 8,
+              repeat: Infinity,
+              ease: "easeInOut"
+            }}
+          />
+          <motion.div 
+            className="absolute bottom-1/4 right-1/3 w-80 h-80 bg-secondary/5 rounded-full blur-3xl"
+            animate={{ 
+              scale: [1.2, 1, 1.2],
+              opacity: [0.2, 0.4, 0.2],
+            }}
+            transition={{ 
+              duration: 10,
+              repeat: Infinity,
+              ease: "easeInOut",
+              delay: 2
+            }}
+          />
+          <motion.div 
+            className="absolute top-1/2 left-1/2 w-64 h-64 bg-primary/3 rounded-full blur-2xl transform -translate-x-1/2 -translate-y-1/2"
+            animate={{ 
+              rotate: [0, 360],
+              scale: [1, 1.3, 1],
+            }}
+            transition={{ 
+              duration: 15,
+              repeat: Infinity,
+              ease: "linear"
+            }}
+          />
         </div>
 
         <div className="container mx-auto px-4 relative z-10">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold tracking-tight mb-4">Our Services</h2>
-            <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-              Explore a suite of cutting-edge solutions designed to drive innovation and digital transformation.
-            </p>
-          </div>
+          {/* Header with stagger animation */}
+          <motion.div 
+            className="text-center mb-20"
+            initial={{ opacity: 0, y: 30 }}
+            animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
+            transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}
+          >
+            <motion.h2 
+              className="text-5xl md:text-6xl font-bold tracking-tight mb-6 bg-gradient-to-r from-foreground via-foreground to-foreground/80 bg-clip-text text-transparent"
+              initial={{ opacity: 0, y: 20 }}
+              animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+            >
+              Our Services
+            </motion.h2>
+            <motion.p 
+              className="text-muted-foreground max-w-3xl mx-auto text-lg leading-relaxed"
+              initial={{ opacity: 0, y: 20 }}
+              animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+              transition={{ duration: 0.8, delay: 0.4 }}
+            >
+              Explore a comprehensive suite of cutting-edge solutions meticulously designed to drive innovation and accelerate digital transformation across industries.
+            </motion.p>
+          </motion.div>
 
-          {/* Services Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          {/* Services Grid with enhanced container */}
+          <motion.div 
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto"
+            variants={{
+              hidden: { opacity: 0 },
+              show: {
+                opacity: 1,
+                transition: {
+                  staggerChildren: 0.15,
+                  delayChildren: 0.3,
+                }
+              }
+            }}
+            initial="hidden"
+            animate={isInView ? "show" : "hidden"}
+          >
             {services.map((service, index) => (
-              <div
+              <motion.div
                 key={index}
-                className="animate-fade-in"
-                style={{ animationDelay: `${index * 200}ms` }}
+                variants={{
+                  hidden: { opacity: 0, y: 50, scale: 0.9 },
+                  show: { 
+                    opacity: 1, 
+                    y: 0, 
+                    scale: 1,
+                    transition: {
+                      duration: 0.8,
+                      ease: [0.25, 0.46, 0.45, 0.94]
+                    }
+                  }
+                }}
               >
-                <ServiceCard {...service} />
-              </div>
+                <ServiceCard {...service} index={index} />
+              </motion.div>
             ))}
-          </div>
+          </motion.div>
 
-          {/* CTA Button */}
-          <div className="text-center mt-16">
-            <a
+          {/* Enhanced CTA Button */}
+          <motion.div 
+            className="text-center mt-20"
+            initial={{ opacity: 0, y: 30 }}
+            animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
+            transition={{ duration: 0.8, delay: 1.2 }}
+          >
+            <motion.a
               href="https://api.whatsapp.com/send?phone=94754745359&text=Hi!%20I%27d%20like%20to%20connect%20with%20the%20Aura%20Digital%20Labs%20team%20for%20a%20discussion."
               target="_blank"
               rel="noopener noreferrer"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              transition={{ duration: 0.2 }}
             >
               <Button 
                 size="lg"
-                className="bg-gradient-to-r from-gray-700 to-black hover:from-gray-600 hover:to-gray-800 text-white font-semibold px-8 py-3 rounded-full tracking-wide shadow-md hover:shadow-lg transition"
-                style={{
-                  objectFit: "cover",
-                  borderRadius: "30px",
-              }}
+                className="bg-gradient-to-r from-primary via-primary/90 to-primary/80 hover:from-primary/90 hover:to-primary text-primary-foreground font-semibold px-10 py-4 rounded-full tracking-wide shadow-xl hover:shadow-2xl transition-all duration-300 backdrop-blur-sm border border-primary/20"
               >
-                Book a Free Call
+                Book a Free Consultation
               </Button>
-            </a>
-          </div>
+            </motion.a>
+          </motion.div>
         </div>
       </section>
     </div>

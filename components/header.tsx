@@ -56,10 +56,15 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
 
 export default function HeaderSection() {
   const { darkMode, setDarkMode } = useDarkMode();
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     document.documentElement.classList.toggle("dark", darkMode);
   }, [darkMode]);
+
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!mobileMenuOpen);
+  };
 
   return (
     <header className="fixed top-0 left-0 right-0 px-4 lg:px-6 h-16 flex items-center justify-between backdrop-blur-lg bg-white/5 shadow-sm z-50">
@@ -101,13 +106,6 @@ export default function HeaderSection() {
           prefetch={false}
         >
           Projects
-        </Link>
-        <Link
-          href="#team"
-          className="text-sm font-semibold hover:underline underline-offset-4"
-          prefetch={false}
-        >
-          Team
         </Link>
         <Link
           href="/blog"
@@ -152,7 +150,7 @@ export default function HeaderSection() {
 
       <div className="md:hidden flex items-center ml-4">
         <button
-          id="menu-toggle"
+          onClick={toggleMobileMenu}
           className="text-primary-foreground hover:text-primary-600 focus:outline-none"
         >
           <svg
@@ -172,13 +170,15 @@ export default function HeaderSection() {
         </button>
       </div>
       <div
-        id="mobile-menu"
-        className="absolute top-16 left-0 right-0 bg-white/80 shadow-lg rounded-lg p-4 flex flex-col items-center gap-4 z-40 hidden"
+        className={`absolute top-16 left-0 right-0 bg-white/80 shadow-lg rounded-lg p-4 z-40 transition-all duration-300 ${
+          mobileMenuOpen ? 'flex flex-col items-center gap-4' : 'hidden'
+        }`}
       >
         <Link
           href="#home"
           className="text-sm font-semibold hover:underline underline-offset-4"
           prefetch={false}
+          onClick={() => setMobileMenuOpen(false)}
         >
           Home
         </Link>
@@ -186,6 +186,7 @@ export default function HeaderSection() {
           href="#about"
           className="text-sm font-semibold hover:underline underline-offset-4"
           prefetch={false}
+          onClick={() => setMobileMenuOpen(false)}
         >
           About
         </Link>
@@ -193,6 +194,7 @@ export default function HeaderSection() {
           href="#services"
           className="text-sm font-semibold hover:underline underline-offset-4"
           prefetch={false}
+          onClick={() => setMobileMenuOpen(false)}
         >
           Services
         </Link>
@@ -200,20 +202,23 @@ export default function HeaderSection() {
           href="#projects"
           className="text-sm font-semibold hover:underline underline-offset-4"
           prefetch={false}
+          onClick={() => setMobileMenuOpen(false)}
         >
           Projects
         </Link>
         <Link
-          href="#team"
+          href="/blog"
           className="text-sm font-semibold hover:underline underline-offset-4"
           prefetch={false}
+          onClick={() => setMobileMenuOpen(false)}
         >
-          Team
+          Blog
         </Link>
         <Link
           href="#contact"
           className="text-sm font-semibold hover:underline underline-offset-4"
           prefetch={false}
+          onClick={() => setMobileMenuOpen(false)}
         >
           Contact
         </Link>
