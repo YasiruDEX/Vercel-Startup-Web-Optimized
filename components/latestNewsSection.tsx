@@ -67,7 +67,7 @@ export default function LatestNewsSection() {
           }`}
         >
           <div className="flex items-center justify-center mb-4">
-            <span className="text-orange-500 text-sm font-semibold tracking-wider uppercase">
+            <span className="text-blue-500 text-sm font-semibold tracking-wider uppercase">
               OUR BLOGS
             </span>
           </div>
@@ -146,7 +146,7 @@ export default function LatestNewsSection() {
                     </div>
 
                     {/* Title */}
-                    <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-orange-500 transition-colors duration-300 h-14 overflow-hidden" style={{
+                    <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-500 transition-colors duration-300 h-14 overflow-hidden" style={{
                       display: '-webkit-box',
                       WebkitLineClamp: 2,
                       WebkitBoxOrient: 'vertical'
@@ -165,7 +165,7 @@ export default function LatestNewsSection() {
 
                     {/* Read More Arrow */}
                     <div className="mt-4 flex items-center justify-end">
-                      <div className="w-8 h-8 rounded-full border border-gray-300 flex items-center justify-center group-hover:border-orange-500 group-hover:bg-orange-500 transition-all duration-300">
+                      <div className="w-8 h-8 rounded-full border border-gray-300 flex items-center justify-center group-hover:border-blue-500 group-hover:bg-blue-500 transition-all duration-300">
                         <ArrowUpRight className="w-4 h-4 text-gray-600 group-hover:text-white transition-colors duration-300" />
                       </div>
                     </div>
