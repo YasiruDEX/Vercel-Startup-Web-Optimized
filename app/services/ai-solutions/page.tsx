@@ -291,7 +291,7 @@ export default function AISolutionsPage() {
               Ready to Transform Your Business with AI?
             </h2>
             <p className="text-xl text-muted-foreground mb-8">
-              Let's discuss how our AI-powered solutions can drive innovation and growth for your organization.
+              Let&apos;s discuss how our AI-powered solutions can drive innovation and growth for your organization.
             </p>
             <Button 
               size="lg"

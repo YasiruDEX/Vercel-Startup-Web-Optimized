@@ -36,8 +36,8 @@ export default function EmbeddedIoTPage() {
   ];
 
   const technologies = [
-    "ESP32", "ESP8266", "LoRa", "MQTT", "Arduino", "Raspberry Pi",
-    "FreeRTOS", "Modbus", "CoAP", "Zigbee", "Thread", "Matter"
+    "ESP32", "LoRa", "MQTT", "Zigbee", "Thread",
+    "FreeRTOS", "Docker", "AWS IoT Core", "Azure IoT Hub", "Edge Computing"
   ];
 
   const solutions = [
@@ -60,6 +60,7 @@ export default function EmbeddedIoTPage() {
       image: "/services/smart-building.png"
     }
   ];
+  const useCases = solutions; // reuse solutions array as useCases
 
   return (
     <div className="min-h-screen bg-background">
@@ -197,37 +198,13 @@ export default function EmbeddedIoTPage() {
       {/* Technologies Section */}
       <section className="py-24 bg-muted/30">
         <div className="container mx-auto px-4">
-          <motion.div 
-            className="text-center mb-16"
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-          >
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Technologies & Protocols
-            </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Industry-standard hardware and communication protocols for reliable IoT solutions.
-            </p>
+          <motion.div className="text-center mb-16" initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} viewport={{ once: true }}>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">Protocols & Tools</h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">Key hardware platforms and communication protocols we implement.</p>
           </motion.div>
-
-          <motion.div 
-            className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.8, staggerChildren: 0.1 }}
-            viewport={{ once: true }}
-          >
-            {technologies.map((tech, index) => (
-              <motion.span
-                key={index}
-                initial={{ scale: 0, opacity: 0 }}
-                whileInView={{ scale: 1, opacity: 1 }}
-                transition={{ duration: 0.5, delay: index * 0.05 }}
-                viewport={{ once: true }}
-                className="inline-block px-4 py-2 bg-background border border-border/50 rounded-full text-sm font-medium hover:border-orange-500/50 hover:bg-orange-500/5 transition-all duration-300"
-              >
+          <motion.div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8, staggerChildren: 0.1 }} viewport={{ once: true }}>
+            {technologies.map((tech, idx) => (
+              <motion.span key={idx} initial={{ scale: 0, opacity: 0 }} whileInView={{ scale: 1, opacity: 1 }} transition={{ duration: 0.5, delay: idx * 0.05 }} viewport={{ once: true }} className="inline-block px-4 py-2 bg-background border border-border/50 rounded-full text-sm font-medium hover:border-orange-500/50 hover:bg-orange-500/5 transition-all duration-300">
                 {tech}
               </motion.span>
             ))}
@@ -320,33 +297,15 @@ export default function EmbeddedIoTPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-24 bg-muted/30">
+      <section className="py-24 bg-gradient-to-br from-orange-500/5 via-background to-yellow-500/5">
         <div className="container mx-auto px-4 text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-            className="max-w-3xl mx-auto"
-          >
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Ready to Connect Your World?
-            </h2>
-            <p className="text-xl text-muted-foreground mb-8">
-              Let's build intelligent embedded systems and IoT solutions that transform your operations.
-            </p>
-            <Button 
-              size="lg"
-              className="bg-gradient-to-r from-orange-500 via-orange-600 to-yellow-500 hover:from-orange-600 hover:to-yellow-600 text-white font-semibold px-10 py-4 rounded-full"
-            >
-              <a 
-                href="https://api.whatsapp.com/send?phone=94754745359&text=Hi!%20I%27m%20interested%20in%20Embedded%20Systems%20%26%20IoT%20Solutions.%20Let%27s%20schedule%20a%20consultation!"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2"
-              >
+          <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} viewport={{ once: true }} className="max-w-3xl mx-auto">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready for Smart IoT Solutions?</h2>
+            <p className="text-xl text-muted-foreground mb-8">Let&apos;s build connected systems that drive efficiency and insights.</p>
+            <Button size="lg" className="bg-gradient-to-r from-orange-500 via-orange-600 to-yellow-500 hover:from-orange-600 hover:to-yellow-600 text-white font-semibold px-10 py-4 rounded-full">
+              <a href="https://api.whatsapp.com/send?phone=94754745359&text=Hi!%20I%27m%20interested%20in%20Embedded%20Systems%20%26%20IoT.%20Let%27s%20discuss!" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                 Start Your IoT Project
-                <Radio className="w-4 h-4" />
+                <Wifi className="w-4 h-4" />
               </a>
             </Button>
           </motion.div>
