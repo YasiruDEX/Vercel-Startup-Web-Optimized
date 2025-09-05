@@ -223,7 +223,7 @@ export default function AwardsSection() {
           
           {/* Additional Info */}
           <p className="mt-4 text-sm text-gray-500 max-w-2xl mx-auto">
-            These achievements reflect our team's dedication to pushing boundaries in technology, 
+            These achievements reflect our team&apos;s dedication to pushing boundaries in technology, 
             innovation, and creating solutions that make a real impact.
           </p>
         </div>
