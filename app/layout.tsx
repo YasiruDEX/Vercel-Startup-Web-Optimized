@@ -15,6 +15,7 @@ export const metadata = {
 
 import React, { ReactNode } from "react";
 import ClickEffect from "@/components/ClickEffect";
+import { DarkModeProvider } from "@/components/darkModeProvider";
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
@@ -54,13 +55,13 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <SmoothScroll />
       
       <body className={inter.className}>
-      <ClickEffect />
-
-        <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js" defer></script>
-        <script src="https://files.bpcontent.cloud/2024/12/26/07/20241226071135-Q1L2LKIY.js" defer></script>
-        {children}
-        
-        </body>
+        <DarkModeProvider>
+          <ClickEffect />
+          <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js" defer></script>
+          <script src="https://files.bpcontent.cloud/2024/12/26/07/20241226071135-Q1L2LKIY.js" defer></script>
+          {children}
+        </DarkModeProvider>
+      </body>
     </html>
   );
 }

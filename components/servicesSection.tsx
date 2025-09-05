@@ -4,6 +4,7 @@ import { useState, useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { motion, useInView } from "framer-motion";
 import { Bot, Zap, Cloud, Layers, FlaskRound, ServerCog } from "lucide-react";
+import Link from "next/link";
 
 
 interface ServiceCardProps {
@@ -11,9 +12,10 @@ interface ServiceCardProps {
   title: string;
   description: string;
   technologies: string[];
+  link: string;
 }
 
-const ServiceCard = ({ icon: Icon, title, description, technologies, index }: ServiceCardProps & { index: number }) => {
+const ServiceCard = ({ icon: Icon, title, description, technologies, link, index }: ServiceCardProps & { index: number }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
@@ -161,13 +163,15 @@ const ServiceCard = ({ icon: Icon, title, description, technologies, index }: Se
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          <Button 
-            variant="outline" 
-            size="sm"
-            className="text-xs bg-background/50 backdrop-blur-sm border-primary/30 hover:bg-primary hover:text-primary-foreground hover:shadow-lg transition-all duration-300"
-          >
-            Learn More
-          </Button>
+          <Link href={link}>
+            <Button 
+              variant="outline" 
+              size="sm"
+              className="text-xs bg-background/50 backdrop-blur-sm border-primary/30 hover:bg-primary hover:text-primary-foreground hover:shadow-lg transition-all duration-300"
+            >
+              Learn More
+            </Button>
+          </Link>
         </motion.div>
       </motion.div>
     </motion.div>
@@ -185,18 +189,21 @@ export default function ServicesSection() {
       title: "AI-Powered Solutions",
       description: "Custom ML models, LLMs, real-time pipelines, and computer vision systems.",
       technologies: ["PyTorch", "TensorFlow", "OpenCV", "Transformers"],
+      link: "/services/ai-solutions",
     },
     {
       icon: Zap,
       title: "Embedded Systems & IoT",
       description: "Smart sensors, LoRa, ESP32 systems, and real-time wireless solutions.",
       technologies: ["ESP32", "LoRa", "MQTT", "Arduino"],
+      link: "/services/embedded-iot",
     },
     {
       icon: Layers,
       title: "Robotics & Autonomous Systems",
       description: "SLAM, path planning, ROS2-based robots for automation and navigation.",
       technologies: ["ROS2", "SLAM", "OpenCV", "Gazebo"],
+      link: "/services/robotics",
     },
     {
       icon: Cloud,
@@ -214,6 +221,7 @@ export default function ServicesSection() {
         "Flask",
         "Spring Boot",
       ],
+      link: "/services/cloud-development",
     }, 
     {
       icon: ServerCog,
@@ -226,12 +234,14 @@ export default function ServicesSection() {
         "AWS",
         "GCP",
       ],
+      link: "/services/devops",
     },
     {
       icon: FlaskRound,
       title: "AI/ML Research & Consulting",
       description: "Model fine-tuning, system design, research support, ethical AI strategies.",
       technologies: ["Research", "Consulting", "Ethics", "Strategy"],
+      link: "/services/ai-research",
     },
   ];
 
