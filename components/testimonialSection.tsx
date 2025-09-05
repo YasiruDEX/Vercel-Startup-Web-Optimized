@@ -45,9 +45,9 @@ export default function TestimonialSection() {
               
               {/* Large quote mark overlay */}
               <div className="absolute top-8 right-8 md:top-12 md:right-12">
-                <div className="text-6xl md:text-8xl font-serif text-white opacity-20">
-                  "
-                </div>
+          <div className="text-6xl md:text-8xl font-serif text-white opacity-20">
+            &ldquo;
+          </div>
               </div>
             </div>
           </div>
@@ -63,7 +63,7 @@ export default function TestimonialSection() {
                 }`}
               >
                 <div className="text-6xl md:text-8xl font-serif text-orange-400 leading-none">
-                  "
+                  &ldquo;
                 </div>
               </div>
 
