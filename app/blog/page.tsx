@@ -12,8 +12,7 @@ export default function Index() {
   const morePosts = allPosts.slice(1);
 
   return (
-    // bigger screen mx is 20 and in smaller screen mx is 4 medium screen mx is 8
-    <main className="mx-4 sm:mx-20 md:mx-8">
+    <main className="min-h-screen">
       <Container>
         <Intro />
         <HeroPost
