@@ -10,6 +10,9 @@ import ProjectsSection from "./projectsSection";
 import AwardsSection from "./awardsSection";
 import TeamSection from "./teamSection";
 import FooterSection from "./footerSection";
+import DevelopmentShowcaseSection from "./developmentShowcaseSection";
+import TestimonialSection from "./testimonialSection";
+import LatestNewsSection from "./latestNewsSection";
 import { ArrowUpIcon } from "@/components/Icons/icons";
 import { Inter } from "next/font/google";
 import { useEffect } from "react";
@@ -42,8 +45,11 @@ export function MainScreenLanding() {
       {isMobile ? <LandingIntro /> : <BannerSlideshow />}
       {isMobile ? <></> : <AboutSection />}
       <ServicesSection />
+      <DevelopmentShowcaseSection />
+      <TestimonialSection />
       <ProjectsSection />
       <AwardsSection />
+      <LatestNewsSection />
       {/* <TeamSection /> */}
       <EmailingSection />
       <BottomBanner />
