@@ -1,10 +1,38 @@
 "use client";
 import { useDarkMode } from "@/components/darkModeProvider";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 export default function DevelopmentShowcaseSection() {
   const { darkMode } = useDarkMode();
   const [isInView, setIsInView] = useState(false);
+
+  // Terminal commands for typewriter animation
+  const commands = [
+    "$ ros2 launch turtlebot3_bringup robot.launch.py",
+    "[INFO] [launch]: Robot bringup successful",
+    "$ ros2 run teleop_twist_keyboard teleop_twist_keyboard",
+  ];
+  const [displayedText, setDisplayedText] = useState("");
+  const typedRef = useRef(false);
+  const timeoutRef = useRef<number>();
+  useEffect(() => {
+    if (isInView && !typedRef.current) {
+      typedRef.current = true;
+      const fullText = commands.join("\n");
+      let idx = 0;
+      const typeNext = () => {
+        setDisplayedText(fullText.slice(0, idx + 1));
+        idx++;
+        if (idx < fullText.length) {
+          timeoutRef.current = window.setTimeout(typeNext, 50);
+        }
+      };
+      typeNext();
+    }
+    return () => {
+      if (timeoutRef.current) clearTimeout(timeoutRef.current);
+    };
+  }, [isInView]);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -33,7 +61,6 @@ export default function DevelopmentShowcaseSection() {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-          
           {/* Left side - Image/Video */}
           <div className="relative order-2 lg:order-1">
             <div className="relative overflow-hidden rounded-2xl shadow-2xl bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900">
@@ -54,9 +81,8 @@ export default function DevelopmentShowcaseSection() {
                     <div className="h-2 bg-gray-500 rounded w-1/3"></div>
                     <div className="h-2 bg-gray-400 rounded w-4/5"></div>
                   </div>
-                  <div className="mt-6 text-gray-400 text-xs font-mono">
-                    $ npm run build<br/>
-                    ✓ Build successful
+                  <div className="mt-6 text-gray-400 text-xs font-mono whitespace-pre-wrap">
+                    {displayedText}
                   </div>
                 </div>
               </div>
@@ -66,7 +92,6 @@ export default function DevelopmentShowcaseSection() {
           {/* Right side - Content */}
           <div className="order-1 lg:order-2">
             <div className="space-y-8">
-              
               {/* Main content */}
               <div className="space-y-6">
                 <div className="space-y-4">
