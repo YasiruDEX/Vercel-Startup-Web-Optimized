@@ -2,12 +2,14 @@
 title: "Google's Mysterious Nano Banana Project Unveiled"
 excerpt: "Google's secretive Nano Banana initiative represents a paradigm shift in quantum computing architecture, utilizing bio-inspired nanotechnology to create processing units with unprecedented computational density and efficiency."
 coverImage: "/assets/blog/googles-nano-banana-project.png"
-date: "2025-09-13T14:30:00.000000"
+date: "2025-09-13T14:30:00.000Z"
 author:
   name: AURA Digital Labs
-  picture: /assets/blog/authors/aura.png
+  picture: "/assets/blog/authors/aura.png"
 ogImage:
   url: "/assets/blog/googles-nano-banana-project.png"
+tags: ["Google", "Quantum Computing", "Nanotechnology", "AI", "Innovation"]
+category: "Technology"
 ---
 
 # Google's Mysterious Nano Banana Project Unveiled
